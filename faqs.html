@@ -1,66 +1,64 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BookVerse</title>
-    <link rel="stylesheet" href="./styles/faqs.css">
-    <link rel="stylesheet" href="./styles/header-footer.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/faqs.css" />
+    <link rel="stylesheet" href="./styles/header-footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header-container">
-        <div class="logo">
-          <img src="./assets/Logo.png" alt="Logo Bookverse" />
+      <div class="logo">
+        <img src="./assets/Logo.png" alt="Logo Bookverse" />
+      </div>
+
+      <div class="list-navbar">
+        <a style="text-decoration: none" href="#">Home</a>
+        <a style="text-decoration: none" href="about-us.html">About Us</a>
+        <a style="text-decoration: none" href="#">Books</a>
+        <a style="text-decoration: none" href="#">Articles</a>
+        <a style="text-decoration: none" href="faqs.html">FAQs</a>
+      </div>
+
+      <div class="button-header-container">
+        <button class="btn-signup">Sign Up</button>
+        <button class="btn-login">Login</button>
+      </div>
+      <div class="toggle-button">
+        <i class="fa fa-bars"></i>
+      </div>
+      <div class="dropdown_menu open">
+        <a style="text-decoration: none" href="#">Home</a>
+        <a style="text-decoration: none" href="#">About Us</a>
+        <a style="text-decoration: none" href="#">Books</a>
+        <a style="text-decoration: none" href="#">Articles</a>
+        <a style="text-decoration: none" href="#">FAQs</a>
+        <div class="button-dropdown">
+          <button class="btn-signup-dropdown">Sign Up</button>
+          <button class="btn-login-dropdown">Login</button>
         </div>
-  
-        <div class="list-navbar">
-          <a style="text-decoration: none" href="#">Home</a>
-          <a style="text-decoration: none" href="#">About Us</a>
-          <a style="text-decoration: none" href="#">Books</a>
-          <a style="text-decoration: none" href="#">Articles</a>
-          <a style="text-decoration: none" href="#">FAQs</a>
-        </div>
-  
-        <div class="button-header-container">
-          <button class="btn-signup">Sign Up</button>
-          <button class="btn-login">Login</button>
-        </div>
-        <div class="toggle-button">
-          <i class="fa fa-bars"></i>
-        </div>
-        <div class="dropdown_menu open">
-          <a style="text-decoration: none" href="#">Home</a>
-          <a style="text-decoration: none" href="#">About Us</a>
-          <a style="text-decoration: none" href="#">Books</a>
-          <a style="text-decoration: none" href="#">Articles</a>
-          <a style="text-decoration: none" href="#">FAQs</a>
-          <div class="button-dropdown">
-            <button class="btn-signup-dropdown">Sign Up</button>
-            <button class="btn-login-dropdown">Login</button>
-          </div>
-        </div>
-      </header>
-      <script>
-        const toggleButton = document.querySelector(".toggle-button");
-        const toggleButtonIcon = document.querySelector(".toggle-button i");
-        const dropDownMenu = document.querySelector(".dropdown_menu");
-        toggleButton.onclick = function () {
-          toggleButtonIcon.classList.toggle("fa-times");
-          dropDownMenu.classList.toggle("open");
-        };
-      </script>
-    <div class="faq">
+      </div>
+    </header>
+    <script>
+      const toggleButton = document.querySelector(".toggle-button");
+      const toggleButtonIcon = document.querySelector(".toggle-button i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+      toggleButton.onclick = function () {
+        toggleButtonIcon.classList.toggle("fa-times");
+        dropDownMenu.classList.toggle("open");
+      };
+    </script>
+    <main>
+      <div class="faq">
         <h2 class="title-1">Frequent Ask Question</h2>
         <h4 class="text-1">Bookverse FAQ is a quick, user-friendly resource for understanding the platform and getting answers to common questions, such as renting, subscriptions, finding books, and technical issues. It's regularly updated to provide current information.</h4>
-    </div>
-    <div>
-        <p class="d-inline-flex gap-1">
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Link with href
-            </a>
-    </div>
-
-</body>
+      </div>
+    </main>
+  </body>
 </html>
