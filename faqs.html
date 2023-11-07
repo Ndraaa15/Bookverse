@@ -3,6 +3,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BookVerse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./styles/faqs.css" />
     <link rel="stylesheet" href="./styles/header-footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +26,7 @@
       </div>
 
       <div class="list-navbar">
-        <a style="text-decoration: none" href="#">Home</a>
+        <a style="text-decoration: none" href="index.html">Home</a>
         <a style="text-decoration: none" href="about-us.html">About Us</a>
         <a style="text-decoration: none" href="#">Books</a>
         <a style="text-decoration: none" href="#">Articles</a>
@@ -34,11 +41,11 @@
         <i class="fa fa-bars"></i>
       </div>
       <div class="dropdown_menu open">
-        <a style="text-decoration: none" href="#">Home</a>
-        <a style="text-decoration: none" href="#">About Us</a>
+        <a style="text-decoration: none" href="index.html">Home</a>
+        <a style="text-decoration: none" href="about-us.html">About Us</a>
         <a style="text-decoration: none" href="#">Books</a>
         <a style="text-decoration: none" href="#">Articles</a>
-        <a style="text-decoration: none" href="#">FAQs</a>
+        <a style="text-decoration: none" href="faqs.html">FAQs</a>
         <div class="button-dropdown">
           <button class="btn-signup-dropdown">Sign Up</button>
           <button class="btn-login-dropdown">Login</button>
@@ -57,8 +64,110 @@
     <main>
       <div class="faq">
         <h2 class="title-1">Frequent Ask Question</h2>
-        <h4 class="text-1">Bookverse FAQ is a quick, user-friendly resource for understanding the platform and getting answers to common questions, such as renting, subscriptions, finding books, and technical issues. It's regularly updated to provide current information.</h4>
+        <h4 class="text-1">
+          Bookverse FAQ is a quick, user-friendly resource for understanding the
+          platform and getting answers to common questions, such as renting,
+          subscriptions, finding books, and technical issues. It's regularly
+          updated to provide current information.
+        </h4>
       </div>
+      <ul class="accordion">
+        <li>
+          <input type="radio" name="accordion" id="first" />
+          <label class="text-4" for="first"
+            >How do I create an account on the library website?</label
+          >
+          <div class="content">
+            <h4 class="text-3">
+              Click on 'Sign Up' and fill in all the information needed to
+              create a new account.
+            </h4>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="second" />
+          <label class="text-4" for="second"
+            >How do I search for books on the library website?</label
+          >
+          <div class="content">
+            <h4 class="text-3">
+              Go to navigation bar 'Books' and search book what you want.
+            </h4>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="third" />
+          <label class="text-4" for="third">How to rent book?</label>
+          <div class="content">
+            <h4 class="text-3">
+              Click on the book that you want to rent and click 'Add to cart'.
+              After that, go to cart and click check out.
+            </h4>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="fourth" />
+          <label class="text-4" for="fourth">How to update profile?</label>
+          <div class="content">
+            <h4 class="text-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              sed dapibus lacus. In placerat risus ut tempus dignissim. Donec
+              feugiat sed arcu in venenatis. Pellentesque porta varius mauris,
+              vitae accumsan urna. Proin ac gravida enim. Nulla a orci iaculis,
+              facilisis elit sed, luctus ligula. Nam at tristique neque. Donec
+              sit amet malesuada orci, nec aliquet justo. Praesent lacinia, diam
+              eu ultrices iaculis, urna velit commodo diam, quis tincidunt odio
+              justo sed ipsum. Donec quis molestie eros. In non ante eleifend,
+              placerat risus sit amet, sollicitudin dui. Donec eget fringilla
+              nunc, eget rutrum libero. Morbi nec nisi in eros varius feugiat ac
+              id urna. Ut tempus molestie massa et porta.
+            </h4>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordion" id="fifth" />
+          <label class="text-4" for="fifth">How to track my loan status?</label>
+          <div class="content">
+            <h4 class="text-3">
+              Go to 'Profile' and click on 'History' to check your loan status.
+            </h4>
+          </div>
+        </li>
+      </ul>
+      <div class="search-container">
+        <img class="search-icon" src="assets/search.png" alt="">
+        <input class="search-input" type="search" placeholder="Search...">
+      </div>
+      <div class="prev-questions">
+        <a class="prev-question" style="text-decoration: none;" href="maintenance.html" target="_blank">
+            <div class="prev-question-id">
+              <h5 class="text-6">Joni Iskandar</h5>
+              <h5 class="text-7">How to update profile?</h5>
+            </div>
+            <div class="prev-question-date">
+              <h5 class="text-8">22 August 2023</h5>
+            </div>
+        </a>
+        <a class="prev-question" style="text-decoration: none;" href="maintenance.html" target="_blank">
+            <div class="prev-question-id">
+              <h5 class="text-6">Simon Santoso</h5>
+              <h5 class="text-7">How to log out from website?</h5>
+            </div>
+            <div class="prev-question-date">
+              <h5 class="text-8">23 August 2023</h5>
+            </div>
+        </a>
+        <a class="prev-question" style="text-decoration: none;" href="maintenance.html" target="_blank">
+            <div class="prev-question-id">
+              <h5 class="text-6">Ridho Rahman</h5>
+              <h5 class="text-7">How to see my notification?</h5>
+            </div>
+            <div class="prev-question-date">
+              <h5 class="text-8">24 August 2023</h5>
+            </div>
+        </a>
+      </div>
+      
     </main>
   </body>
 </html>

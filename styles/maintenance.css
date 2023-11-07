@@ -1,0 +1,75 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text{
+    font-weight: 600;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    color: rgba(33, 33, 33, 1);
+}
+
+.maintenance-img{
+    width: 250px;
+}
+
+.maintenance{
+    margin: 5%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  
+  @media (max-width: 972px) {
+    .mission-image1 {
+      visibility: visible;
+      width: 229px;
+      height: 200px;
+      padding-bottom: 15px;
+    }
+    .mission-image2 {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+    .mission {
+      flex-direction: column;
+    }
+    .mission2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .our-team {
+      display: flex;
+      flex-direction: column;
+    }
+    .our-team-desc1 {
+      visibility: visible;
+      height: auto;
+      width: auto;
+      text-align: center;
+    }
+    .our-team-desc2 {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+    .social-medias {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+    }
+  }
+  

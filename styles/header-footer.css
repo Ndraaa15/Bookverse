@@ -127,7 +127,7 @@
 }
 
 
-@media (width <= 972px) {
+@media (max-width: 972px) {
   .list-navbar {
     display: none;
   }
