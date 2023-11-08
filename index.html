@@ -11,56 +11,121 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./styles/header-footer.css" />
+    <link rel="stylesheet" href="./styles/homepage.css" />
   </head>
 
   <body>
     <header class="header-container">
-      <div class="logo">
-        <img src="./assets/Logo.png" alt="Logo Bookverse" />
-      </div>
+      <img src="./assets/Logo.png" alt="Logo Bookverse" />
 
       <div class="list-navbar">
-        <a style="text-decoration: none" href="index.html">Home</a>
-        <a style="text-decoration: none" href="about-us.html">About Us</a>
-        <a style="text-decoration: none" href="#">Books</a>
-        <a style="text-decoration: none" href="#">Articles</a>
-        <a style="text-decoration: none" href="faqs.html">FAQs</a>
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="#">Books</a>
+        <a href="#">Articles</a>
+        <a href="faqs.html">FAQs</a>
       </div>
 
-      <div class="button-header-container">
+      <div class="button-header">
         <button class="btn-signup">Sign Up</button>
         <button class="btn-login">Login</button>
       </div>
+
       <div class="toggle-button">
         <i class="fa fa-bars"></i>
       </div>
-      <div class="dropdown_menu open">
-        <a style="text-decoration: none" href="index.html">Home</a>
-        <a style="text-decoration: none" href="about-us.html">About Us</a>
-        <a style="text-decoration: none" href="#">Books</a>
-        <a style="text-decoration: none" href="#">Articles</a>
-        <a style="text-decoration: none" href="faqs.html">FAQs</a>
-        <div class="button-dropdown">
-          <button class="btn-signup-dropdown">Sign Up</button>
-          <button class="btn-login-dropdown">Login</button>
+
+      <div class="dropdown-menu">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="#">Books</a>
+        <a href="#">Articles</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="" class="btn-signup-dropdown">Sign Up</a>
+        <a href="" class="btn-login-dropdown">Login</a>
+      </div>
+      <script src="./scripts/header-footer.js"></script>
+    </header>
+
+    <section class="section-1">
+      <img src="./assets/Rectangle 2.png" alt="" class="rectangle" />
+      <div class="container-section-1">
+        <div class="text">
+          <h1>Explore your book through BookVerse.</h1>
+          <div class="button">
+            <button class="btn-explore-section1">Explore</button>
+            <button class="btn-login-section1">Login</button>
+          </div>
+        </div>
+        <div class="image-study">
+          <img src="./assets/Learning-cuate 1.png" alt="" />
         </div>
       </div>
-    </header>
-    <script>
-      const toggleButton = document.querySelector(".toggle-button");
-      const toggleButtonIcon = document.querySelector(".toggle-button i");
-      const dropDownMenu = document.querySelector(".dropdown_menu");
-      toggleButton.onclick = function () {
-        toggleButtonIcon.classList.toggle("fa-times");
-        dropDownMenu.classList.toggle("open");
-      };
-    </script>
+    </section>
+
+    <section class="section-2">
+      <div class="title-section-2">
+        <h1>We Offer Many Values</h1>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <div class="content-card">
+            <img src="./assets/physics book.png" alt="" />
+            <h3>Easy Rent</h3>
+            <p>
+              Promote the ease of the book borrowing and return process. Provide
+              information about borrowing periods, renewal options, and the
+              convenience of reservations.
+            </p>
+          </div>
+          <div class="more">
+            <a href="">More</a>
+            <img src="./assets/Button.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="content-card">
+            <img src="./assets/physics book.png" alt="" />
+            <h3>Easy Rent</h3>
+            <p>
+              Promote the ease of the book borrowing and return process. Provide
+              information about borrowing periods, renewal options, and the
+              convenience of reservations.
+            </p>
+          </div>
+          <div class="more">
+            <a href="">More</a>
+            <img src="./assets/Button.png" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="content-card">
+            <img src="./assets/physics book.png" alt="" />
+            <h3>Easy Rent</h3>
+            <p>
+              Promote the ease of the book borrowing and return process. Provide
+              information about borrowing periods, renewal options, and the
+              convenience of reservations.
+            </p>
+          </div>
+          <div class="more">
+            <a href="">More</a>
+            <img src="./assets/Button.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
