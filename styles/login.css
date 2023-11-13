@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.login-container .login-image {
+  width: 50%;
+  height: 100vh;
+  
+}
+
+.login-container .login-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0% 10%;
+  gap: 15px;
+}
+
+.login-container .login-input img {
+  margin-bottom: 10px;
+  width: 307px;
+}
+
+.login-container .login-input .input{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login-container .login-input .input input{
+  border-radius: 5px;
+  width: 513px;
+  border: 2px solid #C2C2C2;
+  padding: 6px 12px;
+}
+
+.login-container .login-input .input .desc-password{
+  font-size: 12px;
+}
+
+.login-container .login-input .login-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.login-container .login-input .login-button button{
+  color: white;
+  border-radius: 5px;
+  padding: 2% 6%;
+  background-color: #3563E9;
+  border: none;
+}
+
+.login-container .login-input .login-button p{
+  color: #2851E3;
+}
+
+.login-container .login-input .dont-have-acc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.login-container .login-input .dont-have-acc a {
+  text-decoration: none;
+  color: #2851E3;
+}
+

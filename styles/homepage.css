@@ -8,14 +8,14 @@ html {
 
 .rectangle {
   width: 100%;
-  height: 820px;
+  height: 830px;
   position: absolute;
   z-index: -1;
 }
 
 .container-section-1 {
   width: 100%;
-  padding-top: 4%;
+  padding-top: 6%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -65,7 +65,7 @@ html {
 .section-2{
   display: flex;
   flex-direction: column;
-  padding: 20% 0;
+  padding: 15% 0;
 }
 
 .section-2 .title-section-2{
@@ -78,29 +78,74 @@ html {
 .section-2 .card-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 100px;
   padding: 0 5%;
-  gap: 80px;
+  gap: 100px;
 }
 
 .section-2 .card{
   display: flex;
   flex-direction: column;
-
-  padding: 5%;
   background-color: #EBEEFF;
-  width: 490px;
-  padding: 10px 50px;
-  height: 334px;
+  padding: 2% 3%;
+  width: 15%;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
 }
 
 .section-2 .card .more{
+  margin-top: 30%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  margin-right: -20px ;
+
 }
+
+.section-3 .background-section-3{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.section-3 .section-3-container{
+  display: flex;
+  flex-direction: row;
+  padding: 25% 15%;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.section-3 .section-3-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #EBEEFF;
+}
+
+.section-3 .section-3-text h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.section-3 .section-3-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 .section-3-image .background-book{
+  background-color: #fff;
+}
+
+
+
+
+
 
 @media (width <= 1460px) {
   .section-1 .text {

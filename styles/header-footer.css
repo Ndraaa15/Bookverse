@@ -101,6 +101,106 @@ html{
   display: none ;
 }
 
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5% 15%;
+  background-color: #2851e3;
+  color: #fff;
+  gap: 50px;
+}
+
+.footer-container .footer-container-up{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 180px;
+  padding-bottom: 47px;
+}
+
+.footer-container .footer-container-up .product{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-container .footer-container-up .product p{
+  color: var(--white, #ffffff91);
+}
+
+.footer-container .footer-container-up .information{
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.footer-container .footer-container-up .information a{
+  text-decoration: none;
+  color: var(--white, #ffffff91);
+}
+
+.footer-container .footer-container-up .company{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-container .footer-container-up .company p{
+  text-decoration: none;
+  color: var(--white, #ffffff91);
+}
+
+.footer-container .footer-container-up .subscribe{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+
+
+.footer-container .footer-container-up .subscribe .subscribe-input{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-container .footer-container-up .subscribe .subscribe-input input{
+  text-decoration: none;
+  border-radius: 6px 0px 0px 6px;
+  border: none;
+  outline: none;
+}
+
+.footer-container .footer-container-up .subscribe .subscribe-input img{
+  padding: 13px 13px;
+  background-color: #3563E9;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.footer-container .footer-container-up .subscribe p{
+  color: var(--white, #ffffff91);
+}
+
+
+
+.footer-container .footer-container-bottom{
+  padding-top: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-container .terms-privacy-cookies{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
 
 @media (max-width: 972px) {
   .list-navbar {
