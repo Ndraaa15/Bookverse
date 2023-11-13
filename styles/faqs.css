@@ -231,7 +231,6 @@ label::before {
 }
 .ask-question-container-3 {
   width: 60%;
-  background-color: antiquewhite;
   margin: 15px 15px;
   text-align: right;
 }
@@ -251,7 +250,6 @@ label::before {
 }
 .search-container-2 {
   width: 100%;
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   align-items: left;
