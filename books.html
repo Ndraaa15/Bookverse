@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/header-footer-logged.css" />
+    <link rel="stylesheet" href="./styles/books.css" />
+
+    <script src="./scripts/filter-books.js"></script>
+  </head>
+  <body>
+    <header class="header-container">
+      <img src="./assets/Logo.png" alt="Logo Bookverse" />
+
+      <div class="list-navbar">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
+      </div>
+
+      <div class="icon-header">
+        <img src="./assets/cart-icon.png" alt="" />
+        <img src="./assets/bell-icon.png" alt="" />
+        <img class="profile" src="./assets/profile-icon.png" alt="" />
+      </div>
+
+      <div class="toggle-button">
+        <i class="fa fa-bars"></i>
+      </div>
+
+      <div class="dropdown-menu">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="#">Books</a>
+        <a href="#">Articles</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="">Cart</a>
+        <a href="">Notification</a>
+        <a href="">Profile</a>
+      </div>
+      <script src="./scripts/header-footer.js"></script>
+    </header>
+
+    <section class="section-1">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <div class="slide first">
+              <img src="./assets/banner-book1.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./assets/banner-book2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./assets/banner-book3.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./assets/banner-book4.png" alt="" />
+            </div>
+            <div class="navigation-auto">
+              <div class="auto-btn-1"></div>
+              <div class="auto-btn-2"></div>
+              <div class="auto-btn-3"></div>
+              <div class="auto-btn-4"></div>
+            </div>
+          </div>
+          <div class="navigation-mannual">
+            <label for="radio1" class="mannual-btn"></label>
+            <label for="radio2" class="mannual-btn"></label>
+            <label for="radio3" class="mannual-btn"></label>
+            <label for="radio4" class="mannual-btn"></label>
+          </div>
+        </div>
+        <script src="./scripts/slider.js"></script>
+      </div>
+      
+      <div class="search-bar">
+        <img src="./assets/search.png" alt="">
+        <input type="text" name="" id="" placeholder="Search..." />
+      </div>
+
+      <div class="filter">
+        <div class="filter-type">
+          <p>Category</p>
+          <select id="categoryFilter">
+            <option value="All">All</option>
+            <option value="Biography">Biography</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Business">Business</option>
+          </select>
+        </div>
+        <div class="filter-type">
+          <p>Genre</p>
+          <select id="genreFilter">
+            <option value="All">All</option>
+            <option value="Action">Action</option>
+            <option value="Biography">Biography</option>
+            <option value="Cartoon">Cartoon</option>
+            <option value="Psychology">Psychology</option>
+          </select>
+        </div>
+        <div class="filter-type">
+          <p>Rating</p>
+          <select id="ratingFilter">
+            <option value="All">All</option>
+            <option value="4.5">4.5</option>
+            <option value="4.0">4.0</option>
+          </select>
+        </div>
+        <div class="filter-type">
+          <p>Sort By</p>
+          <select id="sortFilter">
+            <option value="All">All</option>
+            <option value="Title">Title</option>
+            <option value="Rating">Rating</option>
+          </select>
+        </div>
+      </div>
+      <div class="book-container" id="bookContainer">
+        <script src="./scripts/books.js"></script>
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <div class="footer-container-up">
+        <div class="product">
+          <h3>Product</h3>
+          <p>Rent Books</p>
+          <p>Articles</p>
+          <p>Online Library</p>
+        </div>
+        <div class="information">
+          <h3>Information</h3>
+          <a href="">About Us</a>
+          <a href="">Books</a>
+          <a href="">Articles</a>
+        </div>
+        <div class="company">
+          <h3>Company</h3>
+          <p>BookVerse</p>
+        </div>
+        <div class="subscribe">
+          <div class="subscribe-input">
+            <input
+              class="subscribe-input-box"
+              type="text"
+              placeholder=" Email Address"
+            />
+            <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
+          </div>
+
+          <p>
+            Subscribe to BookVerse and stay in the know! Rest assured, your
+            inbox will remain spam-free.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-container-bottom">
+        <div class="logo-footer">
+          <img src="./assets/Logo-Footer.png" alt="" />
+        </div>
+
+        <div class="terms-privacy-cookies">
+          <p>Terms</p>
+          <p>Privacy</p>
+          <p>Cookies</p>
+        </div>
+
+        <div class="social-media">
+          <img src="./assets/linkedin-footer.png" alt="" />
+          <img src="./assets/facebook-footer.png" alt="" />
+          <img src="./assets/github-footer.png" alt="" />
+          <img src="./assets/email-footer.png" alt="" />
+          <img src="./assets/instagram-footer.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
