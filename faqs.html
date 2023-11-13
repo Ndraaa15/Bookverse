@@ -15,52 +15,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header class="header-container">
-      <div class="logo">
-        <img src="./assets/Logo.png" alt="Logo Bookverse" />
-      </div>
+      <img src="./assets/Logo.png" alt="Logo Bookverse" />
 
       <div class="list-navbar">
-        <a style="text-decoration: none" href="index.html">Home</a>
-        <a style="text-decoration: none" href="about-us.html">About Us</a>
-        <a style="text-decoration: none" href="#">Books</a>
-        <a style="text-decoration: none" href="#">Articles</a>
-        <a style="text-decoration: none" href="faqs.html">FAQs</a>
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="#">Books</a>
+        <a href="#">Articles</a>
+        <a href="faqs.html">FAQs</a>
       </div>
 
-      <div class="button-header-container">
+      <div class="button-header">
         <button class="btn-signup">Sign Up</button>
         <button class="btn-login">Login</button>
       </div>
+
       <div class="toggle-button">
         <i class="fa fa-bars"></i>
       </div>
-      <div class="dropdown_menu open">
-        <a style="text-decoration: none" href="index.html">Home</a>
-        <a style="text-decoration: none" href="about-us.html">About Us</a>
-        <a style="text-decoration: none" href="#">Books</a>
-        <a style="text-decoration: none" href="#">Articles</a>
-        <a style="text-decoration: none" href="faqs.html">FAQs</a>
-        <div class="button-dropdown">
-          <button class="btn-signup-dropdown">Sign Up</button>
-          <button class="btn-login-dropdown">Login</button>
-        </div>
+
+      <div class="dropdown-menu">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="#">Books</a>
+        <a href="#">Articles</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="" class="btn-signup-dropdown">Sign Up</a>
+        <a href="" class="btn-login-dropdown">Login</a>
       </div>
+      <script src="./scripts/header-footer.js"></script>
     </header>
-    <script>
-      const toggleButton = document.querySelector(".toggle-button");
-      const toggleButtonIcon = document.querySelector(".toggle-button i");
-      const dropDownMenu = document.querySelector(".dropdown_menu");
-      toggleButton.onclick = function () {
-        toggleButtonIcon.classList.toggle("fa-times");
-        dropDownMenu.classList.toggle("open");
-      };
-    </script>
     <main>
       <div class="faq">
         <h2 class="title-1">Frequent Ask Question</h2>
@@ -135,39 +125,138 @@
         </li>
       </ul>
       <div class="search-container">
-        <img class="search-icon" src="assets/search.png" alt="">
-        <input class="search-input" type="search" placeholder="Search...">
+        <img class="search-icon" src="assets/search.png" alt="" />
+        <input class="search-input" type="search" placeholder="Search..." />
       </div>
       <div class="prev-questions">
-        <a class="prev-question" style="text-decoration: none;" href="maintenance.html" target="_blank">
-            <div class="prev-question-id">
-              <h5 class="text-6">Joni Iskandar</h5>
-              <h5 class="text-7">How to update profile?</h5>
-            </div>
-            <div class="prev-question-date">
-              <h5 class="text-8">22 August 2023</h5>
-            </div>
+        <a
+          class="prev-question"
+          style="text-decoration: none"
+          href="maintenance.html"
+          target="_blank"
+        >
+          <div class="prev-question-id">
+            <h5 class="text-6">Joni Iskandar</h5>
+            <h5 class="text-7">How to update profile?</h5>
+          </div>
+          <div class="prev-question-date">
+            <h5 class="text-8">22 August 2023</h5>
+          </div>
         </a>
-        <a class="prev-question" style="text-decoration: none;" href="maintenance.html" target="_blank">
-            <div class="prev-question-id">
-              <h5 class="text-6">Simon Santoso</h5>
-              <h5 class="text-7">How to log out from website?</h5>
-            </div>
-            <div class="prev-question-date">
-              <h5 class="text-8">23 August 2023</h5>
-            </div>
+        <a
+          class="prev-question"
+          style="text-decoration: none"
+          href="maintenance.html"
+          target="_blank"
+        >
+          <div class="prev-question-id">
+            <h5 class="text-6">Simon Santoso</h5>
+            <h5 class="text-7">How to log out from website?</h5>
+          </div>
+          <div class="prev-question-date">
+            <h5 class="text-8">23 August 2023</h5>
+          </div>
         </a>
-        <a class="prev-question" style="text-decoration: none;" href="maintenance.html" target="_blank">
-            <div class="prev-question-id">
-              <h5 class="text-6">Ridho Rahman</h5>
-              <h5 class="text-7">How to see my notification?</h5>
-            </div>
-            <div class="prev-question-date">
-              <h5 class="text-8">24 August 2023</h5>
-            </div>
+        <a
+          class="prev-question"
+          style="text-decoration: none"
+          href="maintenance.html"
+          target="_blank"
+        >
+          <div class="prev-question-id">
+            <h5 class="text-6">Ridho Rahman</h5>
+            <h5 class="text-7">How to see my notification?</h5>
+          </div>
+          <div class="prev-question-date">
+            <h5 class="text-8">24 August 2023</h5>
+          </div>
         </a>
+        <a class="text-10" style="text-decoration: none" href="maintenance.html">See more...</a>
       </div>
-      
+      <div class="ask-question-container-1">
+        <div class="ask-question-container-2">
+          <h1 class="title-4">Ask Question</h1>
+          <img src="assets/ask-question-img.png" alt="" class="ask-question-img">
+        </div>
+        <div class="ask-question-container-3">
+          <div class="search-container-2">
+            <h4 class="text-9">Name</h4>
+            <div class="search-box">
+              <input class="search-input-2" type="search" placeholder="Name" />
+            </div>
+          </div>
+          <div class="search-container-2">
+            <h4 class="text-9">Email</h4>
+            <div class="search-box">
+              <input class="search-input-2" type="search" placeholder="Email" />
+            </div>
+          </div>
+          <div class="search-container-2">
+            <h4 class="text-9">Subject</h4>
+            <div class="search-box">
+              <input class="search-input-2" type="search" placeholder="Subject" />
+            </div>
+          </div>
+          <div class="search-container-2">
+            <h4 class="text-9">Description</h4>
+            <div class="search-box">
+              <textarea class="textarea" name="" id="" cols="30" rows="5" placeholder="Description"></textarea>
+            </div>
+          </div>
+          <button>Send</button>
+        </div>
+      </div>
     </main>
+    <footer class="footer-container">
+      <div class="footer-container-up">
+  
+          <div class="product">
+          <h3>Product</h3>
+          <p>Rent Books</p>
+          <p>Articles</p>
+          <p>Online Library</p>
+          </div>
+          <div class="information">
+          <h3>Information</h3>
+          <a href="">About Us</a>
+          <a href="">Books</a>
+          <a href="">Articles</a>
+          </div>
+          <div class="company">
+          <h3>Company</h3>
+          <p>BookVerse</p>
+          </div>
+          <div class="subscribe">
+          <div class="subscribe-input">
+              <input class="subscribe-input-box" type="text" placeholder=" Email Address">
+              <img src="./assets/Lucide Icon-Arrow Right.png" alt="">
+          </div>
+          
+          <p>Subscribe to BookVerse and stay in the know! Rest assured, your inbox will remain spam-free.</p>
+          </div>
+      </div>
+  
+      <div class="footer-container-bottom">
+          <div class="logo-footer">
+          <img src="./assets/Logo-Footer.png" alt="">
+          </div>
+  
+          <div class="terms-privacy-cookies">
+          <p>Terms</p>
+          <p>Privacy</p>
+          <p>Cookies</p>
+          </div>
+  
+          <div class="social-media">
+          <img src="./assets/linkedin-footer.png" alt="">
+          <img src="./assets/facebook-footer.png" alt="">
+          <img src="./assets/github-footer.png" alt="">
+          <img src="./assets/email-footer.png" alt="">
+          <img src="./assets/instagram-footer.png" alt="">
+          </div>
+  
+      </div>
+  
+      </footer>
   </body>
 </html>

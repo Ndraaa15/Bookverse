@@ -4,6 +4,8 @@ html{
 
 
 * {
+  margin: 0px;
+  padding: 0px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -137,6 +139,7 @@ main {
 
 .contact {
   width: 70%;
+  padding: 30px 0px;
 }
 
 .social-media {
