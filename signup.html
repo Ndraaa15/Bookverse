@@ -56,28 +56,47 @@
             required
           />
         </div>
+
         <div class="input">
           <p class="command-input">Enter password</p>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="password"
-            required
-          />
-          <p class="desc-password">Minimal 8 Character</p>
+          <div class="password-input-container">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password"
+              required
+            />
+            <img
+              src="./assets/closed-password.png"
+              alt="Toggle Password"
+              class="toggle-password"
+              onclick="togglePasswordVisibility()"
+            />
+          </div>
+          <p class="desc-password">Minimal 8 Characters</p>
         </div>
+        <script src="./scripts/toggle-password.js"></script>
         <div class="input">
           <p class="command-input">Enter confirm password</p>
-          <input
-            type="password"
-            name="confirmPassword"
-            id="confirmPassword"
-            placeholder="confirm password"
-            required
-          />
-          <p class="desc-password">Minimal 8 Character</p>
+          <div class="password-input-container">
+            <input
+              type="password"
+              name="password"
+              id="confirm-password"
+              placeholder="confirm password"
+              required
+            />
+            <img
+              src="./assets/closed-password.png"
+              alt="Toggle Password"
+              class="toggle-confirm-password"
+              onclick="toggleConfirmPasswordVisibility()"
+            />
+          </div>
+          <p class="desc-password">Minimal 8 Characters</p>
         </div>
+        <script src="./scripts/toggle-password.js"></script>
         <div class="signup-button">
           <input type="submit" value="Sign-up" />
         </div>
