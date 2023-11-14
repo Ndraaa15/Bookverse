@@ -1,0 +1,1208 @@
+.notification,
+.notification * {
+  box-sizing: border-box;
+}
+.notification {
+  background: #ffffff;
+  width: 1440px;
+  height: 3403px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation {
+  background: #2851e3;
+  padding: 15px 120px 15px 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: inset 0px -1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+._1 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 50px;
+  position: relative;
+}
+.wepik-cute-purple-publisher-logo-20231015062459-nl-77-1-1 {
+  flex-shrink: 0;
+  width: 45px;
+  height: 34px;
+  position: relative;
+}
+.group-3594 {
+  flex-shrink: 0;
+  width: 121.17px;
+  height: 35px;
+  position: static;
+}
+.book-verse {
+  color: #ffffff;
+  text-align: left;
+  font: 800 20px "Poppins-ExtraBold", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 7.5px;
+  width: 113px;
+  height: 35px;
+}
+.ellipse-31 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 8.17px;
+  height: 8.17px;
+  position: absolute;
+  left: 163px;
+  top: 14px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 433px;
+  position: relative;
+}
+.item-link {
+  flex-shrink: 0;
+  width: 58px;
+  height: 18px;
+  position: relative;
+}
+.home {
+  color: #dbdbdb;
+  text-align: center;
+  font: 700 14px "Poppins-Bold", sans-serif;
+  position: absolute;
+  right: -3.7%;
+  left: 0%;
+  width: 103.7%;
+  bottom: -11.11%;
+  top: -5.56%;
+  height: 116.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-link2 {
+  flex-shrink: 0;
+  width: 67px;
+  height: 18px;
+  position: relative;
+}
+.home2 {
+  color: #dbdbdb;
+  text-align: center;
+  font: 500 14px "Poppins-Medium", sans-serif;
+  position: absolute;
+  right: -3.7%;
+  left: 0%;
+  width: 103.7%;
+  bottom: -11.11%;
+  top: -5.56%;
+  height: 116.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-link3 {
+  flex-shrink: 0;
+  width: 65px;
+  height: 18px;
+  position: relative;
+}
+.home3 {
+  color: #dbdbdb;
+  text-align: center;
+  font: 500 14px "Poppins-Medium", sans-serif;
+  position: absolute;
+  right: 15.52%;
+  left: 20.69%;
+  width: 63.79%;
+  bottom: -11.11%;
+  top: -5.56%;
+  height: 116.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-feather-icon {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.icon-lucide-icon {
+  flex-shrink: 0;
+  width: 27px;
+  height: 27px;
+  position: relative;
+  overflow: visible;
+}
+.avatar {
+  background: var(--system-grey-100, #f5f5f5);
+  border-radius: 30px;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.icon-feather-icon2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  overflow: visible;
+}
+.notification2 {
+  color: #000000;
+  text-align: left;
+  font: var(--h-3-bold, 700 34px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 118px;
+  top: 174px;
+  width: 305px;
+  height: 31px;
+}
+.loan-status-3-items {
+  color: #000000;
+  text-align: left;
+  font: var(--h-3-bold, 700 34px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 123px;
+  top: 293px;
+  width: 404px;
+  height: 31px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 1200px;
+  height: 0px;
+  position: absolute;
+  left: 120px;
+  top: 233px;
+  transform-origin: 0 0;
+  transform: rotate(-0.048deg) scale(1, 1);
+}
+.coming-soon {
+  color: #000000;
+  text-align: left;
+  font: var(--h-3-bold, 700 34px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 126px;
+  top: 1249px;
+  width: 404px;
+  height: 31px;
+}
+.line-2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 1194px;
+  height: 0px;
+  position: absolute;
+  left: 123px;
+  top: 1325px;
+  transform-origin: 0 0;
+  transform: rotate(-0.096deg) scale(1, 1);
+}
+.articles {
+  color: #000000;
+  text-align: left;
+  font: var(--h-3-bold, 700 34px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 126px;
+  top: 1947px;
+  width: 404px;
+  height: 31px;
+}
+.line-3 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 1194px;
+  height: 0px;
+  position: absolute;
+  left: 123px;
+  top: 2023px;
+  transform-origin: 0 0;
+  transform: rotate(-0.096deg) scale(1, 1);
+}
+.frame-1194 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 285px;
+  height: 374px;
+  position: absolute;
+  left: 120px;
+  top: 1443px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.mugglenet {
+  color: #9e9e9e;
+  text-align: left;
+  font: var(--paragraph-14-px-bold, 700 14px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 30px;
+  top: 237px;
+  width: 95px;
+}
+.tuesdays-with-morrie-4 {
+  width: 132.04px;
+  height: 200px;
+  position: absolute;
+  left: 69px;
+  top: 17px;
+}
+.unofficial-harry-potter-reference-library-the-unofficial {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 30px;
+  top: 257px;
+  width: 233px;
+}
+.fantasy-action {
+  color: var(--neutral-70, #757575);
+  text-align: left;
+  font: 400 10px "Poppins-Regular", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 297px;
+  width: 91px;
+}
+.coming-soon2 {
+  color: #ff0202;
+  text-align: left;
+  font: var(--paragraph-16-px-bold, 700 16px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 166px;
+  top: 333px;
+  width: 114px;
+}
+.frame-512240 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 285px;
+  height: 374px;
+  position: absolute;
+  left: 425px;
+  top: 1443px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.james-clear {
+  color: #9e9e9e;
+  text-align: left;
+  font: var(--paragraph-14-px-bold, 700 14px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 30px;
+  top: 237px;
+  width: 95px;
+}
+.atomic-habits {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 30px;
+  top: 257px;
+  width: 233px;
+}
+.self-improvement {
+  color: var(--neutral-70, #757575);
+  text-align: left;
+  font: 400 10px "Poppins-Regular", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 297px;
+  width: 91px;
+}
+.frame-512241 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 285px;
+  height: 374px;
+  position: absolute;
+  left: 730px;
+  top: 1443px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.addin-jauharudin {
+  color: #9e9e9e;
+  text-align: left;
+  font: var(--paragraph-14-px-bold, 700 14px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 30px;
+  top: 237px;
+  width: 166px;
+}
+.beware-worn-down-by-time {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 30px;
+  top: 257px;
+  width: 233px;
+}
+.literature {
+  color: var(--neutral-70, #757575);
+  text-align: left;
+  font: 400 10px "Poppins-Regular", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 297px;
+  width: 91px;
+}
+.frame-512242 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 285px;
+  height: 374px;
+  position: absolute;
+  left: 1035px;
+  top: 1443px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.edgar-allan-poe {
+  color: #9e9e9e;
+  text-align: left;
+  font: var(--paragraph-14-px-bold, 700 14px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 30px;
+  top: 237px;
+  width: 166px;
+}
+.english-classics-the-tell-tale-heart-and-other-stories {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 30px;
+  top: 257px;
+  width: 233px;
+}
+.mystery {
+  color: var(--neutral-70, #757575);
+  text-align: left;
+  font: 400 10px "Poppins-Regular", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 297px;
+  width: 91px;
+}
+.frame-512243 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 285px;
+  height: 457px;
+  position: absolute;
+  left: 123px;
+  top: 2088px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.building-a-reading-culture-in-the-digital-age {
+  color: #000000;
+  text-align: left;
+  font: var(
+    --paragraph-14-px-semi-bold,
+    600 14px "Poppins-SemiBold",
+    sans-serif
+  );
+  position: absolute;
+  left: 23px;
+  top: 243px;
+  width: 240px;
+}
+.tuesdays-with-morrie-42 {
+  width: 240.9px;
+  height: 220px;
+  position: absolute;
+  left: 23px;
+  top: 9px;
+}
+.in-the-digital-age-information-is-abundant-but-often-superficial-this-article-discusses-strategies-to-foster-a-deep-reading-habit-amidst-digitization {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 23px;
+  top: 297px;
+  width: 233px;
+}
+.more {
+  color: var(--neutral-80, #616161);
+  text-align: left;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 207px;
+  top: 424px;
+}
+.button {
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 239px;
+  top: 416px;
+}
+.phosphor-icons-caret-circle-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame-512244 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 285px;
+  height: 457px;
+  position: absolute;
+  left: 429px;
+  top: 2088px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.the-role-of-libraries-in-supporting-information-literacy {
+  color: #000000;
+  text-align: left;
+  font: var(
+    --paragraph-14-px-semi-bold,
+    600 14px "Poppins-SemiBold",
+    sans-serif
+  );
+  position: absolute;
+  left: 23px;
+  top: 243px;
+  width: 240px;
+}
+.in-a-world-filled-with-information-libraries-stand-as-centers-for-information-literacy-education-this-description-highlights-how-libraries-guide-the-public-in-discerning-credible-information {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 23px;
+  top: 297px;
+  width: 233px;
+}
+.more2 {
+  color: var(--neutral-80, #616161);
+  text-align: left;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 207px;
+  top: 425px;
+}
+.button2 {
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 239px;
+  top: 417px;
+}
+.phosphor-icons-caret-circle-right2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame-512245 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 285px;
+  height: 457px;
+  position: absolute;
+  left: 735px;
+  top: 2088px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.getting-to-know-various-types-of-books-and-the-best-reading-choices {
+  color: #000000;
+  text-align: left;
+  font: var(
+    --paragraph-14-px-semi-bold,
+    600 14px "Poppins-SemiBold",
+    sans-serif
+  );
+  position: absolute;
+  left: 23px;
+  top: 243px;
+  width: 240px;
+}
+.this-article-provides-a-guide-on-the-different-genres-of-books-and-recommends-enriching-reads-to-enhance-the-reading-experience {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 23px;
+  top: 302px;
+  width: 233px;
+}
+.more3 {
+  color: var(--neutral-80, #616161);
+  text-align: left;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 204px;
+  top: 425px;
+}
+.button3 {
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 236px;
+  top: 417px;
+}
+.phosphor-icons-caret-circle-right3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame-512246 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 285px;
+  height: 457px;
+  position: absolute;
+  left: 1041px;
+  top: 2088px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.the-importance-of-digital-resources-in-modern-libraries {
+  color: #000000;
+  text-align: left;
+  font: var(
+    --paragraph-14-px-semi-bold,
+    600 14px "Poppins-SemiBold",
+    sans-serif
+  );
+  position: absolute;
+  left: 23px;
+  top: 243px;
+  width: 240px;
+}
+.modern-libraries-now-emphasize-digital-assets-like-e-books-and-online-journals-ensuring-relevance-and-broadening-access-in-today-s-digital-era {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 23px;
+  top: 297px;
+  width: 233px;
+}
+.phosphor-icons-caret-circle-right4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame-1174 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 1200px;
+  height: 181px;
+  position: absolute;
+  left: 120px;
+  top: 439px;
+  box-shadow: var(--shadow-4-box-shadow, 0px 8px 16px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.tuesdays-with-morrie-2 {
+  width: 72px;
+  height: 120px;
+  position: absolute;
+  left: 66px;
+  top: 31px;
+}
+.tuesdays-with-morie {
+  color: var(--neutral-100, #0a0a0a);
+  text-align: left;
+  font: var(--paragraph-16-px-bold, 700 16px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 41px;
+}
+.author-m-itch-albom {
+  color: var(--neutral-100, #0a0a0a);
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 73px;
+}
+.genre-biography {
+  color: var(--neutral-100, #0a0a0a);
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 96px;
+}
+._7-days-left {
+  color: var(--neutral-50, #c2c2c2);
+  text-align: center;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 1080px;
+  top: 19px;
+  width: 95px;
+  height: 23px;
+}
+.frame-1175 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 1200px;
+  height: 181px;
+  position: absolute;
+  left: 121px;
+  top: 667px;
+  box-shadow: var(--shadow-4-box-shadow, 0px 8px 16px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.the-odd-1-s-out-the-first-sequel {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-16-px-bold, 700 16px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 41px;
+}
+.author-james-rallison {
+  color: var(--neutral-100, #0a0a0a);
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 73px;
+}
+.genre-humor {
+  color: var(--neutral-100, #0a0a0a);
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 96px;
+}
+._5-days-left {
+  color: var(--neutral-50, #c2c2c2);
+  text-align: center;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 1089px;
+  top: 14px;
+  width: 95px;
+  height: 23px;
+}
+.frame-1176 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 1200px;
+  height: 181px;
+  position: absolute;
+  left: 126px;
+  top: 895px;
+  box-shadow: var(--shadow-4-box-shadow, 0px 8px 16px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.how-innovation-works {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-16-px-bold, 700 16px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 41px;
+}
+.author-matt-ridley {
+  color: var(--neutral-100, #0a0a0a);
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 73px;
+}
+.genre-business {
+  color: var(--neutral-100, #0a0a0a);
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 160px;
+  top: 96px;
+}
+._3-days-left {
+  color: var(--neutral-50, #c2c2c2);
+  text-align: center;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 1085px;
+  top: 18px;
+  width: 95px;
+  height: 23px;
+}
+.button-contained {
+  background: var(--light-primary-origin, #3563e9);
+  border-radius: 5px;
+  padding: 8px 22px 8px 22px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1166px;
+  top: 1132px;
+}
+.button4 {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: 500 16px "Inter-Medium", sans-serif;
+  position: relative;
+}
+.icon-feather-icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.button-contained2 {
+  background: var(--light-primary-origin, #3563e9);
+  padding: 8px 22px 8px 22px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1166px;
+  top: 1874px;
+}
+.icon-feather-icon4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.button-contained3 {
+  background: var(--light-primary-origin, #3563e9);
+  padding: 8px 22px 8px 22px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1161px;
+  top: 2652px;
+}
+.icon-feather-icon5 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon-feather-icon6 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.footer {
+  background: var(--primary-10, #2851e3);
+  padding: 100px 120px 100px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 604px;
+  position: absolute;
+  left: 0px;
+  top: 2799px;
+}
+.frame-1157 {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1200px;
+  position: relative;
+}
+.frame-1156 {
+  display: flex;
+  flex-direction: row;
+  gap: 61px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1155 {
+  padding: 49px 0px 49px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 138px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1145 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 700 16px/28px "Poppins-Bold", sans-serif;
+  position: relative;
+}
+.frame-1141 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.employee-database {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.payroll {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.time-tracking {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Inter-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.frame-1146 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.information {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 700 16px/28px "Poppins-Bold", sans-serif;
+  position: relative;
+}
+.frame-1143 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.faq {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.blog {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.support {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.frame-1147 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.company {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 700 16px/28px "Poppins-Bold", sans-serif;
+  position: relative;
+  width: 159px;
+}
+.frame-1144 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 159px;
+  height: 115px;
+  position: relative;
+}
+.about-us {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+  align-self: stretch;
+}
+.frame-1154 {
+  background: var(--light-primary-darker, #2851e3);
+  padding: 30px 42px 30px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1153 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.learn-more {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 700 16px/28px "Poppins-Bold", sans-serif;
+  position: relative;
+  width: 149px;
+}
+.frame-1149 {
+  background: var(--white, #ffffff);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: var(--system-grey-350, #d6d6d6);
+  border-width: 1px;
+  padding: 0px 0px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 248px;
+  position: relative;
+}
+.label {
+  color: var(--system-grey-800, #424242);
+  text-align: left;
+  font: 400 14px "Poppins-Regular", sans-serif;
+  opacity: 0.6000000238418579;
+  position: relative;
+  flex: 1;
+}
+.frame-1148 {
+  background: var(--light-primary-origin, #3563e9);
+  border-radius: 0px 6px 6px 0px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-lucide-icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.hello-we-are-flair {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 12px/20.4px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+  width: 254px;
+  height: 82px;
+}
+.divider {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 1px;
+  opacity: 0.05999999865889549;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1px;
+  position: relative;
+}
+.frame-1152 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._12 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 171.17px;
+  height: 50px;
+  position: relative;
+}
+.frame-1150 {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.pricing {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 14px "Poppins-Medium", sans-serif;
+  position: relative;
+}
+.frame-1151 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-3592 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.group-3591 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.group-3589 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.group-3593 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.group-35942 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
