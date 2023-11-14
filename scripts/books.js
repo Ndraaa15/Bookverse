@@ -148,7 +148,6 @@ function createBookCard(book) {
 // Reference to the container where content will be added
 const searchInput = document.querySelector('.section-1 input[type="text"]');
 
-// Function to render books based on filters and search
 function renderBooks() {
   const categoryFilter = document.getElementById('categoryFilter').value;
   const genreFilter = document.getElementById('genreFilter').value;

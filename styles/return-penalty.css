@@ -1,0 +1,193 @@
+.detail-container .detail-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin: 3% 3%;
+  border: 2px solid red;
+}
+
+.detail-container .detail-body {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin: 3% 3%;
+  border: 2px solid red;
+}
+
+.detail-container .detail-body .detail-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+
+.detail-container .detail-body .detail-image {
+  border: 2px solid red;
+  padding: 1%;
+  width: 447px;
+  height: 608px;
+  border-radius: 20px;
+  background: var(--neutral-10, #fff);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 11%;
+}
+
+.detail-container .detail-body .detail-book {
+  width: 50%;
+}
+
+.detail-container .detail-body .detail-book .detail-book-header {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-container
+  .detail-body
+  .detail-book
+  .detail-book-header
+  .detail-book-text {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.detail-container
+  .detail-body
+  .detail-book
+  .detail-book-header
+  .detail-book-text
+  .detail-loan {
+  width: 25%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  color: red;
+}
+
+.detail-container .detail-body .detail-book-description {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.detail-container .detail-body .detail-book-description .see-more {
+  border: 2px solid red;
+  text-align: right;
+  color: #2851e3;
+}
+
+.detail-container .detail-body .detail-book-specify-wrapper {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.detail-container .detail-body .detail-book-footer {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.detail-container .detail-body .detail-book-footer .detail-book-penalty {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  color: red;
+}
+
+.detail-container .detail-body .detail-book-footer .detail-book-button {
+  width: 40%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10%;
+}
+
+.detail-container .detail-body .detail-book-footer .detail-book-button .return {
+  border-radius: 5px;
+  background: var(--system-grey-200, #eee);
+  padding: 3% 10%;
+  color: var(--system-grey-500, #9E9E9E);
+}
+
+.detail-container
+  .detail-body
+  .detail-book-footer
+  .detail-book-button
+  .penalty{
+  border-radius: 5px;
+  background: var(--danger-10, #A82525);
+  padding: 3% 10%;
+  color: var(--white, #FFF);
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
