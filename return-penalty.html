@@ -3,26 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Books-Detail</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="./styles/header-footer-logged.css" />
-    <link rel="stylesheet" href="./styles/book-detail.css" />
+    <title>Return-Loan</title>
+    <link rel="stylesheet" href="./styles/header-footer.css" />
+    <link rel="stylesheet" href="./styles/return-penalty.css" />
   </head>
   <body>
     <header class="header-container">
@@ -35,9 +18,9 @@
         <a href="faqs.html">FAQs</a>
       </div>
       <div class="icon-header">
-        <img src="./assets/cart-icon.png" alt="">
-        <img src="./assets/bell-icon.png" alt="">
-        <img class="profile" src="./assets/profile-icon.png" alt="">
+        <img src="./assets/cart-icon.png" alt="" />
+        <img src="./assets/bell-icon.png" alt="" />
+        <img class="profile" src="./assets/profile-icon.png" alt="" />
       </div>
       <div class="toggle-button">
         <i class="fa fa-bars"></i>
@@ -55,35 +38,29 @@
       <script src="./scripts/header-footer.js"></script>
     </header>
 
-
-
     <div class="detail-container">
       <div class="detail-title">
         <img src="./assets/back-icon.png" alt="">
         <h1>Book Detail</h1>
         <div></div>
       </div>
-
       <div class="detail-body">
         <img class="detail-image" src="./assets/book-image-1.png" alt="">
         <div class="detail-book">
           <div class="detail-book-header">
             <div class="detail-book-text">
               <h1>Tere Liye</h1>
-              <div class="detail-star">
-                <img src="./assets/star-icon.png" alt="">
-                <p>4.5</p>
+              <div class="detail-loan">
+                <p>Past 3 days</p>
               </div>
             </div>
               <h2>Yang telah lama pergi</h2>
           </div>
-        
         <div class="detail-book-description">
           <h3>Description</h3>
           <p>KAMU sudah gila!” Itulah kalimat yang terakhir kali Al Mas'ud ingat sebelum día pingsan beberapa saat lalu. Sekarang, matanya terbuka, mengerjap-ngerjap. Terang? Seberkas cahaya matahari menembus celah kecil di dinding. Sudah siang? Berapa lama dia pingsan? Beringsut hendak duduk. Mengeluh pelan, tubuhnya terasa sakit. Ada memar di lengan, juga lebam di paha, punggung. Mas'ud menoleh ke kiri, ke kanan, gerakannya terhenti oleh sekat. Dia berada di dalam ruangan kecil, seperti kerangkeng. Lembap, bau amis tercium. Lantai tempat dia duduk terasa bergoyang. </p>
           <p class="see-more">See more</p>
-        </div>  
-
+        </div> 
         <div class="detail-book-specify">
           <h3>Detail</h3>
           <div class="detail-book-specify-wrapper">
@@ -92,39 +69,32 @@
                 <p class="specicy-subtitle">Pages</p>
                 <p class="specicy-value">444</p>
               </div>
-  
               <div class="detail-book-speficy">
                 <p class="specicy-subtitle">Published Date</p>
                 <p class="specicy-value">11 Agt 2023</p>
               </div>
-  
               <div class="detail-book-speficy">
                 <p class="specicy-subtitle">ISBN</p>
                 <p class="specicy-value">9786238829606</p>
               </div>
-  
               <div class="detail-book-speficy">
                 <p class="specicy-subtitle">Languages</p>
                 <p class="specicy-value">Indonesia</p>
               </div>
             </div>
-  
             <div class="detail-book-specify-right">
               <div class="detail-book-speficy">
                 <p class="specicy-subtitle">Pages</p>
                 <p class="specicy-value">444</p>
               </div>
-  
               <div class="detail-book-speficy">
                 <p class="specicy-subtitle">Published Date</p>
                 <p class="specicy-value">11 Agt 2023</p>
               </div>
-  
               <div class="detail-book-speficy">
                 <p class="specicy-subtitle">ISBN</p>
                 <p class="specicy-value">9786238829606</p>
               </div>
-  
               <div class="detail-book-speficy">
                 <p class="specicy-subtitle">Languages</p>
                 <p class="specicy-value">Indonesia</p>
@@ -134,29 +104,54 @@
         </div>
 
         <div class="detail-book-footer">
-          <div class="detail-book-stock">
-            <h3>Stock</h3>
-            <p>5 Books</p>
+          <div class="detail-book-penalty">
+            <h3>Penalty</h3>
+            <p>Rp. 15.000</p>
           </div>
-
           <div class="detail-book-button">
-            <button class="cart">Add to cart</button>
-            <button class="reservation">Reservation</button>
+            <button class="penalty" onclick="openPaymentModal()">Penalty</button>
+            <button class="return">Return</button>
           </div>
           </div>
         </div>
-
         </div>
       </div>
     </div>
 
-    <div class="recomendation">
+    <!-- Payment Modal -->
+  <div id="paymentModal" class="overlay">
+    <div class="modal">
+      <span class="close-btn" onclick="closePaymentModal()">&times;</span>
+      <h2>Payment Information</h2>
+      <form id="paymentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="faculty">Faculty:</label>
+        <input type="text" id="faculty" name="faculty" required>
+
+        <label for="major">Major:</label>
+        <input type="text" id="major" name="major" required>
+
+        <label>Payment Method:</label>
+        <div>
+          <input type="radio" id="creditCard" name="paymentMethod" value="creditCard" checked>
+          <label for="creditCard">Credit Card</label>
+
+          <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+          <label for="paypal">PayPal</label>
+        </div>
+
+        <button type="button" onclick="submitPayment()">Pay</button>
+      </form>
     </div>
+  </div>
+</div>
 
-
-
-
+<script src="./scripts/return-penalty.js"></script>
 
 
     <footer class="footer-container">
@@ -186,25 +181,21 @@
             />
             <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
           </div>
-
           <p>
             Subscribe to BookVerse and stay in the know! Rest assured, your
             inbox will remain spam-free.
           </p>
         </div>
       </div>
-
       <div class="footer-container-bottom">
         <div class="logo-footer">
           <img src="./assets/Logo-Footer.png" alt="" />
         </div>
-
         <div class="terms-privacy-cookies">
           <p>Terms</p>
           <p>Privacy</p>
           <p>Cookies</p>
         </div>
-
         <div class="social-media">
           <img src="./assets/linkedin-footer.png" alt="" />
           <img src="./assets/facebook-footer.png" alt="" />

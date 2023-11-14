@@ -1,0 +1,132 @@
+.detail-container .detail-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin: 3% 3%;
+  border: 2px solid red;
+}
+
+.detail-container .detail-body {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin: 3% 3%;
+  border: 2px solid red;
+}
+
+.detail-container .detail-body .detail-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+
+.detail-container .detail-body .detail-image {
+  border: 2px solid red;
+  padding: 1%;
+  width: 447px;
+  height: 608px;
+  border-radius: 20px;
+  background: var(--neutral-10, #fff);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 11%;
+}
+
+.detail-container .detail-body .detail-book {
+  width: 50%;
+}
+
+.detail-container .detail-body .detail-book .detail-book-header {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-container
+  .detail-body
+  .detail-book
+  .detail-book-header
+  .detail-book-text {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.detail-container
+  .detail-body
+  .detail-book
+  .detail-book-header
+  .detail-book-text
+  .detail-star {
+  width: 7%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.detail-container .detail-body .detail-book-description {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.detail-container .detail-body .detail-book-description .see-more {
+  border: 2px solid red;
+  text-align: right;
+  color: #2851e3;
+}
+
+.detail-container .detail-body .detail-book-specify-wrapper {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.detail-container .detail-body .detail-book-footer {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+
+
+.detail-container .detail-body .detail-book-footer .detail-book-button {
+  width: 40%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10%;
+}
+
+.detail-container .detail-body .detail-book-footer .detail-book-button .cart {
+  border-radius: 5px;
+  background: var(--light-primary-origin, #3563e9);
+  padding: 3% 10%;
+  color: var(--neutral-10, #fff);
+}
+
+.detail-container
+  .detail-body
+  .detail-book-footer
+  .detail-book-button
+  .reservation {
+  border-radius: 5px;
+  background: var(--system-grey-200, #eee);
+  padding: 3% 10%;
+  color: var(--system-grey-500, #9e9e9e);
+}
