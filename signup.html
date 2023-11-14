@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="signup-container">
-      <form class="signup-input" onsubmit="return saveAndRedirect()">
+      <form class="signup-input" onsubmit="return saveAndRedirect()" action="login.html">
         <img src="./assets/logo-auth.png" alt="logo-auth" />
         <div class="input">
           <p class="command-input">Enter name</p>
@@ -56,7 +56,6 @@
             required
           />
         </div>
-
         <div class="input">
           <p class="command-input">Enter password</p>
           <div class="password-input-container">
@@ -83,7 +82,7 @@
             <input
               type="password"
               name="password"
-              id="confirm-password"
+              id="confirmPassword"
               placeholder="confirm password"
               required
             />

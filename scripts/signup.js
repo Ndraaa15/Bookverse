@@ -1,4 +1,4 @@
-function saveAndRedirect() {
+function saveAndRedirect(event) {
     var name = document.getElementById("name").value;
     var nim = document.getElementById("nim").value;
     var email = document.getElementById("email").value;
@@ -8,28 +8,27 @@ function saveAndRedirect() {
     var confirmPassword = document.getElementById("confirmPassword").value;
 
     if (password.length < 8) {
+        event.preventDefault();
         alert("Password must be at least 8 characters long.");
         return;
     }
 
     if (password !== confirmPassword) {
+        event.preventDefault();
         alert("Passwords do not match.");
         return;
     }
 
-    var user = {
-        name: name,
-        nim: nim,
-        email: email,
-        faculty: faculty,
-        major: major,
-        password: password,
-        confirmPassword: confirmPassword,
-    };
 
-    localStorage.setItem("user", JSON.stringify(user));
+    localStorage.setItem("name", name);
+    localStorage.setItem("nim", nim);
+    localStorage.setItem("email", email);
+    localStorage.setItem("faculty", faculty);
+    localStorage.setItem("major", major);
+    localStorage.setItem("password", password);
 
     window.location.href = "login.html";
+    console.log(window.location.href);
 
     return true;
 }

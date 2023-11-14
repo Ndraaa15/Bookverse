@@ -13,7 +13,7 @@
 .login-container .login-image {
   width: 50%;
   height: 100vh;
-  
+  object-fit: cover;
 }
 
 .login-container .login-input {
@@ -42,6 +42,28 @@
   padding: 6px 12px;
 }
 
+.password-input-container {
+  position: relative;
+}
+
+.password-input-container input {
+  width: calc(100% - 30px);
+  padding-right: 30px;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+
+.password-input-container .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  max-width: 20px;
+  height: 20px;
+}
+
 .login-container .login-input .input .desc-password{
   font-size: 12px;
 }
@@ -54,7 +76,8 @@
   margin-top: 25px;
 }
 
-.login-container .login-input .login-button button{
+.login-container .login-input .login-button input{
+  cursor: pointer;
   color: white;
   border-radius: 5px;
   padding: 2% 6%;
@@ -77,5 +100,27 @@
 .login-container .login-input .dont-have-acc a {
   text-decoration: none;
   color: #2851E3;
+}
+
+
+
+@media (width <= 1470px) {
+  .login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+  }
+
+  .login-container .login-image {
+    display: none;
+  }
+}
+
+@media (width <= 700px) {
+  .login-container .login-input .input input {
+    width: 90%;
+  }
 }
 

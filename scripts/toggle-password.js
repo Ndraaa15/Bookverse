@@ -12,7 +12,7 @@ function togglePasswordVisibility() {
 }
 
 function toggleConfirmPasswordVisibility() {
-  var passwordInput = document.getElementById('confirm-password');
+  var passwordInput = document.getElementById('confirmPassword');
   var toggleIcon = document.querySelector('.toggle-confirm-password');
 
   if (passwordInput.type === 'password') {
