@@ -1,0 +1,857 @@
+.detail-articles,
+.detail-articles * {
+  box-sizing: border-box;
+}
+.detail-articles {
+  background: #ffffff;
+  width: 1440px;
+  height: 2547px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation {
+  background: #2851e3;
+  padding: 15px 120px 15px 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: inset 0px -1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+._1 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 50px;
+  position: relative;
+}
+.wepik-cute-purple-publisher-logo-20231015062459-nl-77-1-1 {
+  flex-shrink: 0;
+  width: 45px;
+  height: 34px;
+  position: relative;
+}
+.group-3594 {
+  flex-shrink: 0;
+  width: 121.17px;
+  height: 35px;
+  position: static;
+}
+.book-verse {
+  color: #ffffff;
+  text-align: left;
+  font: 800 20px "Poppins-ExtraBold", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 7.5px;
+  width: 113px;
+  height: 35px;
+}
+.ellipse-31 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 8.17px;
+  height: 8.17px;
+  position: absolute;
+  left: 163px;
+  top: 14px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 433px;
+  position: relative;
+}
+.item-link {
+  flex-shrink: 0;
+  width: 58px;
+  height: 18px;
+  position: relative;
+}
+.home {
+  color: #dbdbdb;
+  text-align: center;
+  font: 700 14px "Poppins-Bold", sans-serif;
+  position: absolute;
+  right: -3.7%;
+  left: 0%;
+  width: 103.7%;
+  bottom: -11.11%;
+  top: -5.56%;
+  height: 116.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-link2 {
+  flex-shrink: 0;
+  width: 67px;
+  height: 18px;
+  position: relative;
+}
+.home2 {
+  color: #dbdbdb;
+  text-align: center;
+  font: 500 14px "Poppins-Medium", sans-serif;
+  position: absolute;
+  right: -3.7%;
+  left: 0%;
+  width: 103.7%;
+  bottom: -11.11%;
+  top: -5.56%;
+  height: 116.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-link3 {
+  flex-shrink: 0;
+  width: 65px;
+  height: 18px;
+  position: relative;
+}
+.home3 {
+  color: #dbdbdb;
+  text-align: center;
+  font: 500 14px "Poppins-Medium", sans-serif;
+  position: absolute;
+  right: 15.52%;
+  left: 20.69%;
+  width: 63.79%;
+  bottom: -11.11%;
+  top: -5.56%;
+  height: 116.67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-feather-icon {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.icon-lucide-icon {
+  flex-shrink: 0;
+  width: 27px;
+  height: 27px;
+  position: relative;
+  overflow: visible;
+}
+.avatar {
+  background: var(--system-grey-100, #f5f5f5);
+  border-radius: 30px;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.icon-feather-icon2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  overflow: visible;
+}
+.articles {
+  color: #000000;
+  text-align: left;
+  font: var(--h-3-bold, 700 34px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 651px;
+  top: 178px;
+  width: 305px;
+  height: 31px;
+}
+.line-4 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 1194px;
+  height: 0px;
+  position: absolute;
+  left: 124px;
+  top: 240px;
+  transform-origin: 0 0;
+  transform: rotate(-0.096deg) scale(1, 1);
+}
+.frame-512251 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 283px;
+  height: 457px;
+  position: absolute;
+  left: 121px;
+  top: 1322px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.technology-and-innovation-in-contemporary-library-services {
+  color: #000000;
+  text-align: left;
+  font: var(
+    --paragraph-14-px-semi-bold,
+    600 14px "Poppins-SemiBold",
+    sans-serif
+  );
+  position: absolute;
+  left: 23px;
+  top: 243px;
+  width: 240px;
+}
+.tuesdays-with-morrie-4 {
+  width: 240.9px;
+  height: 220px;
+  position: absolute;
+  left: 23px;
+  top: 9px;
+}
+.how-cutting-edge-technologies-like-ai-and-virtual-reality-are-transforming-the-way-libraries-present-information-and-interact-with-visitors {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 23px;
+  top: 297px;
+  width: 233px;
+}
+.more {
+  color: var(--neutral-80, #616161);
+  text-align: left;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 207px;
+  top: 424px;
+}
+.button {
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 239px;
+  top: 416px;
+}
+.phosphor-icons-caret-circle-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame-512252 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 283px;
+  height: 457px;
+  position: absolute;
+  left: 425px;
+  top: 1322px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.reading-as-a-window-to-the-world-expanding-horizons-through-books {
+  color: #000000;
+  text-align: left;
+  font: var(
+    --paragraph-14-px-semi-bold,
+    600 14px "Poppins-SemiBold",
+    sans-serif
+  );
+  position: absolute;
+  left: 23px;
+  top: 243px;
+  width: 240px;
+}
+.books-broaden-horizons-offering-new-perspectives-and-in-depth-knowledge-about-the-world-making-reading-a-journey-of-exploration {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 23px;
+  top: 306px;
+  width: 233px;
+}
+.more2 {
+  color: var(--neutral-80, #616161);
+  text-align: left;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 207px;
+  top: 425px;
+}
+.button2 {
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 239px;
+  top: 417px;
+}
+.phosphor-icons-caret-circle-right2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame-512253 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 283px;
+  height: 457px;
+  position: absolute;
+  left: 728px;
+  top: 1322px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.systematic-guide-to-searching-information-in-libraries {
+  color: #000000;
+  text-align: left;
+  font: var(
+    --paragraph-14-px-semi-bold,
+    600 14px "Poppins-SemiBold",
+    sans-serif
+  );
+  position: absolute;
+  left: 23px;
+  top: 243px;
+  width: 240px;
+}
+.practical-steps-to-navigate-library-collections-utilize-catalogs-and-find-relevant-information-sources {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 23px;
+  top: 302px;
+  width: 233px;
+}
+.more3 {
+  color: var(--neutral-80, #616161);
+  text-align: left;
+  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 204px;
+  top: 425px;
+}
+.button3 {
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 236px;
+  top: 417px;
+}
+.phosphor-icons-caret-circle-right3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame-512254 {
+  background: var(--neutral-20, #f5f5f5);
+  border-radius: 20px;
+  width: 283px;
+  height: 457px;
+  position: absolute;
+  left: 1032px;
+  top: 1322px;
+  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+.rare-collections-and-the-uniqueness-behind-the-bookshelves {
+  color: #000000;
+  text-align: left;
+  font: var(
+    --paragraph-14-px-semi-bold,
+    600 14px "Poppins-SemiBold",
+    sans-serif
+  );
+  position: absolute;
+  left: 23px;
+  top: 243px;
+  width: 240px;
+}
+.highlighting-the-presence-and-value-of-rare-collections-in-libraries-and-the-unique-stories-and-history-behind-some-of-the-most-treasured-books {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
+  position: absolute;
+  left: 23px;
+  top: 306px;
+  width: 233px;
+}
+.phosphor-icons-caret-circle-right4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.footer {
+  background: var(--primary-10, #2851e3);
+  padding: 100px 120px 100px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 604px;
+  position: absolute;
+  left: 0px;
+  top: 1943px;
+}
+.frame-1157 {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1200px;
+  position: relative;
+}
+.frame-1156 {
+  display: flex;
+  flex-direction: row;
+  gap: 61px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1155 {
+  padding: 49px 0px 49px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 138px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1145 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 700 16px/28px "Poppins-Bold", sans-serif;
+  position: relative;
+}
+.frame-1141 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.employee-database {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.payroll {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.time-tracking {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Inter-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.frame-1146 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.information {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 700 16px/28px "Poppins-Bold", sans-serif;
+  position: relative;
+}
+.frame-1143 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.faq {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.blog {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.support {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+}
+.frame-1147 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.company {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 700 16px/28px "Poppins-Bold", sans-serif;
+  position: relative;
+  width: 159px;
+}
+.frame-1144 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 159px;
+  height: 115px;
+  position: relative;
+}
+.about-us {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 16px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+  align-self: stretch;
+}
+.frame-1154 {
+  background: var(--light-primary-darker, #2851e3);
+  padding: 30px 42px 30px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1153 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.learn-more {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 700 16px/28px "Poppins-Bold", sans-serif;
+  position: relative;
+  width: 149px;
+}
+.frame-1149 {
+  background: var(--white, #ffffff);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: var(--system-grey-350, #d6d6d6);
+  border-width: 1px;
+  padding: 0px 0px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 248px;
+  position: relative;
+}
+.label {
+  color: var(--system-grey-800, #424242);
+  text-align: left;
+  font: 400 14px "Poppins-Regular", sans-serif;
+  opacity: 0.6000000238418579;
+  position: relative;
+  flex: 1;
+}
+.frame-1148 {
+  background: var(--light-primary-origin, #3563e9);
+  border-radius: 0px 6px 6px 0px;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-lucide-icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.hello-we-are-flair {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 12px/20.4px "Poppins-Regular", sans-serif;
+  opacity: 0.699999988079071;
+  position: relative;
+  width: 254px;
+  height: 82px;
+}
+.divider {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 1px;
+  opacity: 0.05999999865889549;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1px;
+  position: relative;
+}
+.frame-1152 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._12 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 171.17px;
+  height: 50px;
+  position: relative;
+}
+.frame-1150 {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.pricing {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 14px "Poppins-Medium", sans-serif;
+  position: relative;
+}
+.frame-1151 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-3592 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.group-3591 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.group-3589 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.group-3593 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.group-35942 {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  overflow: visible;
+}
+.button-contained {
+  background: var(--light-primary-origin, #3563e9);
+  padding: 8px 22px 8px 22px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1161px;
+  top: 1834px;
+}
+.button4 {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: 500 16px "Inter-Medium", sans-serif;
+  position: relative;
+}
+.icon-feather-icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.arrow-1 {
+  width: 49px;
+  height: 0px;
+  position: absolute;
+  left: 124px;
+  top: 204px;
+  overflow: visible;
+}
+.continue-explore {
+  color: var(--primary-10, #2851e3);
+  text-align: left;
+  font: var(--h-6-bold, 700 18px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 188px;
+  top: 190px;
+}
+.frame-512288 {
+  width: 1196px;
+  height: 1173px;
+  position: absolute;
+  left: 124px;
+  top: 273px;
+  overflow: hidden;
+}
+.in-the-heart-of-the-digital-age-the-way-we-consume-information-has-seen-a-monumental-shift-traditional-brick-and-mortar-libraries-known-for-their-vast-aisles-of-physical-books-are-now-transitioning-into-dynamic-spaces-that-encapsulate-both-the-physical-and-digital-realms-of-knowledge-the-emphasis-on-digital-resources-like-e-books-and-online-journals-underlines-the-evolution-and-adaptability-of-modern-libraries-a-digital-shift-the-rise-of-the-internet-and-the-proliferation-of-smart-devices-have-changed-how-we-access-and-consume-information-people-increasingly-prefer-instant-access-to-information-anytime-and-anywhere-recognizing-this-shift-modern-libraries-are-adapting-by-incorporating-digital-assets-such-as-e-books-digital-magazines-online-academic-journals-multimedia-content-and-even-interactive-learning-platforms-ensuring-relevance-the-incorporation-of-digital-resources-isn-t-just-about-keeping-up-with-technological-trends-it-s-about-ensuring-the-continued-relevance-of-libraries-in-an-ever-evolving-digital-landscape-while-printed-books-have-an-irreplaceable-tactile-and-sensory-appeal-the-digital-realm-offers-a-vast-ocean-of-up-to-date-resources-some-of-which-are-not-feasible-in-print-form-think-of-vast-databases-multimedia-tutorials-and-real-time-updated-journals-these-are-assets-the-digital-realm-can-offer-seamlessly-expanding-access-the-beauty-of-digital-resources-lies-in-their-accessibility-with-a-library-s-digital-platform-patrons-can-access-resources-beyond-the-confines-of-the-library-s-walls-whether-you-re-a-student-needing-a-late-night-reference-for-an-assignment-or-a-researcher-stationed-miles-away-digital-resources-ensure-that-the-library-is-just-a-click-away-this-accessibility-breaks-down-geographical-and-time-barriers-making-knowledge-more-democratized-than-ever-the-challenges-and-the-way-forward-however-the-shift-to-digital-is-not-without-its-challenges-issues-of-digital-rights-management-ensuring-equitable-access-regardless-of-patrons-technological-familiarity-and-preserving-the-essence-of-traditional-libraries-amidst-the-digital-wave-are-areas-of-ongoing-deliberation-yet-the-way-forward-is-clear-libraries-as-bastions-of-knowledge-must-continue-to-evolve-incorporating-the-best-of-both-physical-and-digital-worlds-the-integration-of-digital-resources-not-only-ensures-the-continued-relevance-of-libraries-but-also-amplifies-their-role-in-fostering-a-knowledgeable-and-informed-society-in-conclusion-while-the-tactile-pleasure-of-flipping-through-pages-of-a-book-is-timeless-the-importance-of-digital-resources-in-modern-libraries-is-undeniable-they-ensure-libraries-remain-pivotal-in-today-s-digital-era-bridging-the-past-present-and-future-of-knowledge-dissemination {
+  color: #000000;
+  text-align: left;
+  font: var(--paragraph-14-px-medium, 500 14px "Poppins-Medium", sans-serif);
+  position: absolute;
+  left: 26px;
+  top: 345px;
+  width: 1143px;
+  height: 622px;
+}
+.the-importance-of-digital-resources-in-modern-libraries {
+  color: #000000;
+  text-align: center;
+  font: var(--h-3-semi-bold, 600 34px "Poppins-SemiBold", sans-serif);
+  position: absolute;
+  left: 264px;
+  top: 0px;
+  width: 667px;
+  height: 112px;
+}
+.tuesdays-with-morrie-42 {
+  width: 240.9px;
+  height: 220px;
+  position: absolute;
+  left: 478px;
+  top: 112px;
+}
+.recomendation {
+  color: #000000;
+  text-align: left;
+  font: var(--h-4-bold, 700 27px "Poppins-Bold", sans-serif);
+  position: absolute;
+  left: 21px;
+  top: 991px;
+}
