@@ -11,21 +11,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./styles/header-footer.css" />
     <link rel="stylesheet" href="./styles/homepage.css" />
   </head>
-
   <body>
     <header class="header-container">
-      <img src="./assets/Logo.png" alt="Logo Bookverse" />
+      <img
+        src="./assets/logo-header.png"
+        alt="Logo Bookverse"
+        onclick="window.location.href='index.html'"
+        class="logo-header"
+      />
       <div class="list-navbar">
         <a href="index.html">Home</a>
         <a href="about-us.html">About Us</a>
@@ -34,8 +36,24 @@
         <a href="faqs.html">FAQs</a>
       </div>
       <div class="button-header">
-        <button onclick="window.location.href = 'signup.html'" class="btn-signup">Sign Up</button>
-        <button onclick="window.location.href = 'login.html'" class="btn-login">Login</button>
+        <button
+          onclick="window.location.href = 'signup.html'"
+          class="btn-signup"
+        >
+          Sign Up
+        </button>
+        <button onclick="window.location.href = 'login.html'" class="btn-login">
+          Login
+        </button>
+      </div>
+      <div class="icon-header">
+        <img src="./assets/cart-icon.png" alt="Cart Icon" />
+        <img src="./assets/bell-icon.png" alt="Notification Icon" />
+        <img
+          class="profile"
+          src="./assets/profile-icon.png"
+          alt="Profile Icon"
+        />
       </div>
       <div class="toggle-button">
         <i class="fa fa-bars"></i>
@@ -43,31 +61,42 @@
       <div class="dropdown-menu">
         <a href="index.html">Home</a>
         <a href="about-us.html">About Us</a>
-        <a href="#">Books</a>
-        <a href="#">Articles</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
         <a href="faqs.html">FAQs</a>
-        <a href="" class="btn-signup-dropdown">Sign Up</a>
-        <a href="" class="btn-login-dropdown">Login</a>
+        <a class="logged-in" href="cart.html">Cart</a>
+        <a class="logged-in" href="nontification.html">Notification</a>
+        <a class="logged-in profile" href="profile.html">Profile</a>
+        <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
+        <a href="login.html" class="btn-login-dropdown">Login</a>
       </div>
-      <script src="./scripts/header-footer.js"></script>
     </header>
-
+    <script src="./scripts/header-footer.js"></script>
     <section class="section-1">
       <img src="./assets/Rectangle 2.png" alt="" class="rectangle" />
       <div class="container-section-1">
         <div class="text">
           <h1>Explore your book through BookVerse.</h1>
           <div class="button">
-            <button onclick="window.location.href = 'books.html'" class="btn-explore-section1">Explore</button>
-            <button onclick="window.location.href = 'login.html'" class="btn-login-section1">Login</button>
+            <button
+              onclick="window.location.href = 'books.html'"
+              class="btn-explore-section1"
+            >
+              Explore
+            </button>
+            <button
+              onclick="window.location.href = 'login.html'"
+              class="btn-login-section1"
+            >
+              Login
+            </button>
           </div>
         </div>
         <div class="image-study">
-          <img src="./assets/Learning-cuate 1.png" alt="" />
+          <img src="./assets/illustration-section-1.png" alt="" />
         </div>
       </div>
     </section>
-
     <section class="section-2">
       <div class="title-section-2">
         <h1>We Offer Many Values</h1>
@@ -75,54 +104,78 @@
       <div class="card-container">
         <div class="card">
           <div class="content-card">
-            <img src="./assets/physics book.png" alt="" />
-            <h3>Easy Rent</h3>
-            <p>
-              Promote the ease of the book borrowing and return process. Provide
-              information about borrowing periods, renewal options, and the
-              convenience of reservations.
-            </p>
+            <div class="content-card-image book">
+              <img src="./assets/book-card.png" alt="Book Card" />
+            </div>
+            <div class="content-card-text">
+              <h3>Easy Rent</h3>
+              <p>
+                Promote the ease of the book borrowing and return process.
+                Provide information about borrowing periods, renewal options,
+                and the convenience of reservations.
+              </p>
+            </div>
           </div>
           <div class="more">
             <a href="">More</a>
-            <img src="./assets/Button.png" alt="" />
+            <img
+              src="./assets/circle-right-arrow.png"
+              alt="Circle Right Arrow"
+            />
           </div>
         </div>
         <div class="card">
           <div class="content-card">
-            <img src="./assets/physics book.png" alt="" />
-            <h3>Easy Rent</h3>
-            <p>
-              Promote the ease of the book borrowing and return process. Provide
-              information about borrowing periods, renewal options, and the
-              convenience of reservations.
-            </p>
+            <div class="content-card-image">
+              <img src="./assets/coin-card.png" alt="Coin Card" />
+            </div>
+            <div class="content-card-text">
+              <h3>Gain Coins</h3>
+              <p>
+                By offering coins as rewards for accomplishing objectives or
+                reaching milestones, users are more likely to remain engaged
+                with the platform and continually seek to earn more.
+              </p>
+            </div>
           </div>
           <div class="more">
             <a href="">More</a>
-            <img src="./assets/Button.png" alt="" />
+            <img
+              src="./assets/circle-right-arrow.png"
+              alt="Circle Right Arrow"
+            />
           </div>
         </div>
         <div class="card">
           <div class="content-card">
-            <img src="./assets/physics book.png" alt="" />
-            <h3>Easy Rent</h3>
-            <p>
-              Promote the ease of the book borrowing and return process. Provide
-              information about borrowing periods, renewal options, and the
-              convenience of reservations.
-            </p>
+            <div class="content-card-image">
+              <img src="./assets/online-card.png" alt="Online Card" />
+            </div>
+            <div class="content-card-text">
+              <h3>Online Library</h3>
+              <p>
+                Our Online Library is a digital haven for book enthusiasts,
+                learners, and knowledge seekers. It provides a vast and diverse
+                collection books that can rent by users.
+              </p>
+            </div>
           </div>
           <div class="more">
             <a href="">More</a>
-            <img src="./assets/Button.png" alt="" />
+            <img
+              src="./assets/circle-right-arrow.png"
+              alt="Circle Right Arrow"
+            />
           </div>
         </div>
       </div>
     </section>
-
     <section class="section-3">
-      <img class="background-section-3" src="./assets/Group 3596.png" alt="" />
+      <img
+        class="background-section-3"
+        src="./assets/background-section-3.png"
+        alt="Background Section 3"
+      />
       <div class="section-3-container">
         <div class="section-3-text">
           <h1>BookVerse</h1>
@@ -137,21 +190,27 @@
           </p>
         </div>
         <div class="section-3-image">
-          <img src="./assets/Lucide Icon Left.png" alt="" />
-          <div class="background-book">
-            <img class="book" src="./assets/image 5.png" alt="" />
-          </div>
-          <img src="./assets/Lucide Icon Right.png" alt="" />
+          <img
+            src="./assets/circle-left-arrow-white.png"
+            alt="Circle Left Arrow White"
+            id="prevBtn"
+            class="arrow-btn"
+          />
+          <div class="background-book" id="bookContainer"></div>
+          <img
+            src="./assets/circle-right-arrow-white.png"
+            alt="Circle Right Arrow White"
+            id="nextBtn"
+            class="arrow-btn"
+          />
         </div>
       </div>
     </section>
-
+    <script src="./scripts/landing-page.js"></script>
     <section class="section-4">
       <div class="title-section-4"></div>
-
       <div></div>
     </section>
-
     <footer class="footer-container">
       <div class="footer-container-up">
         <div class="product">
@@ -162,9 +221,9 @@
         </div>
         <div class="information">
           <h3>Information</h3>
-          <a href="">About Us</a>
-          <a href="">Books</a>
-          <a href="">Articles</a>
+          <a href="index.html">About Us</a>
+          <a href="books.html">Books</a>
+          <a href="articles.html">Articles</a>
         </div>
         <div class="company">
           <h3>Company</h3>
@@ -179,31 +238,47 @@
             />
             <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
           </div>
-
           <p>
             Subscribe to BookVerse and stay in the know! Rest assured, your
             inbox will remain spam-free.
           </p>
         </div>
       </div>
-
       <div class="footer-container-bottom">
         <div class="logo-footer">
-          <img src="./assets/Logo-Footer.png" alt="" />
+          <img src="./assets/logo-footer.png" alt="Logo Footer" />
         </div>
-
         <div class="terms-privacy-cookies">
           <p>Terms</p>
           <p>Privacy</p>
           <p>Cookies</p>
         </div>
-
         <div class="social-media">
-          <img src="./assets/linkedin-footer.png" alt="" />
-          <img src="./assets/facebook-footer.png" alt="" />
-          <img src="./assets/github-footer.png" alt="" />
-          <img src="./assets/email-footer.png" alt="" />
-          <img src="./assets/instagram-footer.png" alt="" />
+          <img
+            src="./assets/linkedin-footer.png"
+            alt="Linkedin"
+            onclick="window.location.href='https:/www.linkedin.com/'"
+          />
+          <img
+            src="./assets/facebook-footer.png"
+            alt="Facebook"
+            onclick="window.location.href='https:/www.facebook.com/'"
+          />
+          <img
+            src="./assets/github-footer.png"
+            alt="Github"
+            onclick="window.location.href='https:/www.github.com/'"
+          />
+          <img
+            src="./assets/email-footer.png"
+            alt="Email"
+            onclick="window.location.href='https:/www.email.com/'"
+          />
+          <img
+            src="./assets/instagram-footer.png"
+            alt="Instagram"
+            onclick="window.location.href='https:/www.instagram.com/'"
+          />
         </div>
       </div>
     </footer>

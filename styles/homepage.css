@@ -1,4 +1,6 @@
 html {
+  margin: 0px;
+  padding: 0px;
   scroll-behavior: smooth;
 }
 
@@ -14,7 +16,7 @@ html {
 }
 
 .container-section-1 {
-  width: 100%;
+  width: 100vw;
   padding-top: 6%;
   display: flex;
   flex-direction: row;
@@ -35,6 +37,7 @@ html {
 }
 
 .container-section-1 .button {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -47,7 +50,7 @@ html {
   border-radius: 5px;
   padding: 10px 28px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 200;
   cursor: pointer;
 }
 
@@ -58,94 +61,141 @@ html {
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 200;
   cursor: pointer;
 }
 
-.section-2{
+.section-2 {
   display: flex;
   flex-direction: column;
-  padding: 15% 0;
+  margin: 15% 0;
 }
 
-.section-2 .title-section-2{
+.section-2 .title-section-2 {
   font-size: 40px;
   font-weight: 600;
   color: #212121;
   text-align: center;
 }
 
-.section-2 .card-container{
+.section-2 .card-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 100px;
-  padding: 0 5%;
-  gap: 100px;
+  padding: 0 5px;
+  gap: 150px;
 }
 
-.section-2 .card{
+.section-2 .card {
   display: flex;
   flex-direction: column;
-  background-color: #EBEEFF;
-  padding: 2% 3%;
-  width: 15%;
+  justify-content: space-between;
+  background-color: #ebeeff;
+  padding: 50px 55px;
+  width: 230px;
   border-radius: 20px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
-.section-2 .card .more{
+.section-2 .card .content-card-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.section-2 .card .book {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.section-2 .card .content-card-text {
+  padding-top: 30px;
+}
+
+.section-2 .card .more {
   margin-top: 30%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  margin-right: -20px ;
-
+  margin-right: -20px;
 }
 
-.section-3 .background-section-3{
+.section-2 .card .more a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.section-3 {
+  margin: 15% 0;
+}
+
+.section-3 .background-section-3 {
+  object-fit: cover;
   width: 100%;
   position: absolute;
   z-index: -1;
 }
 
-.section-3 .section-3-container{
+.section-3 .section-3-container {
   display: flex;
   flex-direction: row;
-  padding: 25% 15%;
+  padding: 20% 15%;
   justify-content: center;
   align-items: center;
-  gap: 200px;
+  gap: 150px;
 }
 
-.section-3 .section-3-text{
+.section-3 .section-3-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  color: #EBEEFF;
+  color: #ebeeff;
 }
 
-.section-3 .section-3-text h1{
+.section-3 .section-3-text h1 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
-.section-3 .section-3-image{
+.section-3 .section-3-image {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
-.section-3 .section-3-image .background-book{
+.section-3 .section-3-image img {
+  padding: 15px 15px;
+}
+
+.section-3 .section-3-image .background-book {
   background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
+.section-3 .section-3-image .background-book .book {
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  display: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
 
+.section-3 .section-3-image .background-book .book.active {
+  display: block;
+}
 
-
-
+.section-3 .section-3-image .arrow-btn {
+  cursor: pointer;
+}
 
 @media (width <= 1460px) {
   .section-1 .text {
@@ -161,8 +211,74 @@ html {
     padding-right: 13%;
   }
 
-  .image-study{
+  .image-study {
     display: none;
+  }
+
+  .section-2 {
+    margin-top: 40%;
+  }
+
+  .section-3 .section-3-container {
+    padding: 15% 15%;
+  }
+
+  .section-3 .section-3-image {
+    display: none;
+  }
+
+  .section-3 {
+    margin-top: 15%;
+    margin-bottom: 50%;
+  }
+
+  .section-3 .section-3-text {
+    padding: 10% 0;
+  }
+
+  .rectangle {
+    object-fit: cover;
+  }
+
+  .container-section-1 .text h1 {
+    font-size: 60px;
+  }
+
+  .container-section-1 .text {
+    padding-left: 6%;
   }
 }
 
+@media (width <= 1080px) {
+  .section-2 {
+    margin-top: 60%;
+  }
+
+  .section-3 .background-section-3 {
+    object-fit: cover;
+  }
+
+  .section-3 .section-3-text {
+    padding: 5% 0;
+  }
+}
+
+@media (width <= 786px) {
+  .section-3 .section-3-text {
+    padding: 20% 0;
+  }
+
+  .section-3 .background-section-3 {
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@media (width <= 430px) {
+  .section-2 {
+    margin: 80% 0;
+  }
+}

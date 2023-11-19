@@ -201,4 +201,3 @@ document.getElementById('sortFilter').addEventListener('change', renderBooks);
 
 // Add event listener for the search input
 searchInput.addEventListener('input', renderBooks);
-
