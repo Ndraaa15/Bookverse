@@ -4,23 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Return-Loan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/header-footer.css" />
     <link rel="stylesheet" href="./styles/return-loan.css" />
   </head>
   <body>
     <header class="header-container">
-      <img src="./assets/Logo.png" alt="Logo Bookverse" />
+      <img
+        src="./assets/logo-header.png"
+        alt="Logo Bookverse"
+        onclick="window.location.href='index.html'"
+        class="logo-header"
+      />
       <div class="list-navbar">
         <a href="index.html">Home</a>
         <a href="about-us.html">About Us</a>
         <a href="books.html">Books</a>
-        <a href="#">Articles</a>
+        <a href="articles.html">Articles</a>
         <a href="faqs.html">FAQs</a>
       </div>
+      <div class="button-header">
+        <button
+          onclick="window.location.href = 'signup.html'"
+          class="btn-signup"
+        >
+          Sign Up
+        </button>
+        <button onclick="window.location.href = 'login.html'" class="btn-login">
+          Login
+        </button>
+      </div>
       <div class="icon-header">
-        <img src="./assets/cart-icon.png" alt="" />
-        <img src="./assets/bell-icon.png" alt="" />
-        <img class="profile" src="./assets/profile-icon.png" alt="" />
+        <img src="./assets/cart-icon.png" alt="Cart Icon" />
+        <img src="./assets/bell-icon.png" alt="Notification Icon" />
+        <img
+          class="profile"
+          src="./assets/profile-icon.png"
+          alt="Profile Icon"
+        />
       </div>
       <div class="toggle-button">
         <i class="fa fa-bars"></i>
@@ -28,24 +61,25 @@
       <div class="dropdown-menu">
         <a href="index.html">Home</a>
         <a href="about-us.html">About Us</a>
-        <a href="#">Books</a>
-        <a href="#">Articles</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
         <a href="faqs.html">FAQs</a>
-        <a href="">Cart</a>
-        <a href="">Notification</a>
-        <a href="">Profile</a>
+        <a class="logged-in" href="cart.html">Cart</a>
+        <a class="logged-in" href="nontification.html">Notification</a>
+        <a class="logged-in profile" href="profile.html">Profile</a>
+        <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
+        <a href="login.html" class="btn-login-dropdown">Login</a>
       </div>
-      <script src="./scripts/header-footer.js"></script>
     </header>
-
+    <script src="./scripts/header-footer.js"></script>
     <div class="detail-container">
       <div class="detail-title">
-        <img src="./assets/back-icon.png" alt="">
+        <img src="./assets/left-arrow.png" alt="left-arrow">
         <h1>Book Detail</h1>
         <div></div>
       </div>
       <div class="detail-body">
-        <img class="detail-image" src="./assets/book-image-1.png" alt="">
+        <img class="detail-image" src="./assets/book-image-2.png" alt="Return Loan Book">
         <div class="detail-book">
           <div class="detail-book-header">
             <div class="detail-book-text">
@@ -58,9 +92,10 @@
           </div>
         <div class="detail-book-description">
           <h3>Description</h3>
-          <p>KAMU sudah gila!” Itulah kalimat yang terakhir kali Al Mas'ud ingat sebelum día pingsan beberapa saat lalu. Sekarang, matanya terbuka, mengerjap-ngerjap. Terang? Seberkas cahaya matahari menembus celah kecil di dinding. Sudah siang? Berapa lama dia pingsan? Beringsut hendak duduk. Mengeluh pelan, tubuhnya terasa sakit. Ada memar di lengan, juga lebam di paha, punggung. Mas'ud menoleh ke kiri, ke kanan, gerakannya terhenti oleh sekat. Dia berada di dalam ruangan kecil, seperti kerangkeng. Lembap, bau amis tercium. Lantai tempat dia duduk terasa bergoyang. </p>
-          <p class="see-more">See more</p>
-        </div> 
+          <p class="additional-content">KAMU sudah gila!” Itulah kalimat yang terakhir kali Al Mas'ud ingat sebelum día pingsan beberapa saat lalu. Sekarang, matanya terbuka, mengerjap-ngerjap. Terang? Seberkas cahaya matahari menembus celah kecil di dinding. Sudah siang? Berapa lama dia pingsan? Beringsut hendak duduk. Mengeluh pelan, tubuhnya terasa sakit. Ada memar di lengan, juga lebam di paha, punggung. Mas'ud menoleh ke kiri, ke kanan, gerakannya terhenti oleh sekat. Dia berada di dalam ruangan kecil, seperti kerangkeng. Lembap, bau amis tercium. Lantai tempat dia duduk terasa bergoyang</p>
+        </div>
+        <p class="see-more" onclick="toggleSeeMore()">See more</p> 
+        <script src="./scripts/see-more.js"></script>
         <div class="detail-book-specify">
           <h3>Detail</h3>
           <div class="detail-book-specify-wrapper">
@@ -112,7 +147,6 @@
         </div>
       </div>
     </div>
-
     <div id="returnConfirmationModal" class="overlay">
       <div class="modal">
         <span class="close-btn" onclick="closeReturnConfirmationModal()">&times;</span>
@@ -123,7 +157,6 @@
       </div>
     </div>
     <script src="./scripts/return-loan.js"></script>
-
     <footer class="footer-container">
       <div class="footer-container-up">
         <div class="product">
@@ -134,9 +167,9 @@
         </div>
         <div class="information">
           <h3>Information</h3>
-          <a href="">About Us</a>
-          <a href="">Books</a>
-          <a href="">Articles</a>
+          <a href="index.html">About Us</a>
+          <a href="books.html">Books</a>
+          <a href="articles.html">Articles</a>
         </div>
         <div class="company">
           <h3>Company</h3>
@@ -159,7 +192,7 @@
       </div>
       <div class="footer-container-bottom">
         <div class="logo-footer">
-          <img src="./assets/Logo-Footer.png" alt="" />
+          <img src="./assets/logo-footer.png" alt="Logo Footer" />
         </div>
         <div class="terms-privacy-cookies">
           <p>Terms</p>
@@ -167,11 +200,31 @@
           <p>Cookies</p>
         </div>
         <div class="social-media">
-          <img src="./assets/linkedin-footer.png" alt="" />
-          <img src="./assets/facebook-footer.png" alt="" />
-          <img src="./assets/github-footer.png" alt="" />
-          <img src="./assets/email-footer.png" alt="" />
-          <img src="./assets/instagram-footer.png" alt="" />
+          <img
+            src="./assets/linkedin-footer.png"
+            alt="Linkedin"
+            onclick="window.location.href='https:/www.linkedin.com/'"
+          />
+          <img
+            src="./assets/facebook-footer.png"
+            alt="Facebook"
+            onclick="window.location.href='https:/www.facebook.com/'"
+          />
+          <img
+            src="./assets/github-footer.png"
+            alt="Github"
+            onclick="window.location.href='https:/www.github.com/'"
+          />
+          <img
+            src="./assets/email-footer.png"
+            alt="Email"
+            onclick="window.location.href='https:/www.email.com/'"
+          />
+          <img
+            src="./assets/instagram-footer.png"
+            alt="Instagram"
+            onclick="window.location.href='https:/www.instagram.com/'"
+          />
         </div>
       </div>
     </footer>

@@ -7,16 +7,20 @@ function saveAndRedirect(event) {
     var password = document.getElementById("password").value;
     var confirmPassword = document.getElementById("confirmPassword").value;
 
+    console.log(name);
+    console.log(nim);
+    console.log(email);
+    console.log(faculty);
+    console.log(major);
+
     if (password.length < 8) {
-        event.preventDefault();
         alert("Password must be at least 8 characters long.");
-        return;
+        return false;
     }
 
     if (password !== confirmPassword) {
-        event.preventDefault();
         alert("Passwords do not match.");
-        return;
+        return false;
     }
 
 
@@ -26,9 +30,6 @@ function saveAndRedirect(event) {
     localStorage.setItem("faculty", faculty);
     localStorage.setItem("major", major);
     localStorage.setItem("password", password);
-
-    window.location.href = "login.html";
-    console.log(window.location.href);
 
     return true;
 }
