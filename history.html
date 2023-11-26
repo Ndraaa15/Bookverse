@@ -93,10 +93,27 @@
           <a href="setting.html">
             <h3 class="text-1">SETTING</h3>
           </a>
-          <a href="maintenance.html">
+          <div onclick="openReturnConfirmationModal()">
             <h3 class="text-3">LOG OUT</h3>
-          </a>
+          </div>
         </div>
+        <div id="logOutConfirmationModal" class="overlay">
+          <div class="modal">
+            <img src="./assets/info-icon.png" alt="Info Icon" />
+            <h2>Bookverse</h2>
+            <p>Are you sure you want to log out?</p>
+            <div class="modal-button">
+              <button class="modal-yes" onclick="confirmReturn()">Yes</button>
+              <button
+                class="modal-cancel"
+                onclick="closeReturnConfirmationModal()"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+        <script src="./scripts/log-out.js"></script>
         <div class="profile-content">
             <div class="all">
                 <select class="dropdown" name="All" id="">
@@ -107,14 +124,14 @@
                 </select>
             </div>
           <div class="history-container">
-            <div class="prev-question">
-                <div class="book-img">
-                    <img src="assets/book-image-12.png" alt="">
+            <div class="history-container-2">
+                <div class="book-img-container">
+                    <img class="book-img" src="assets/book-image-12.png" alt="">
                 </div>
                   <div class="book-details">
                     <h3 class="text-6">Beware Worn Down by Time</h3>
                     <h5 class="text-7">Author: Addin Jauharudin</h5>
-                    <h5 class="text-7">Genre : Literature</h5>
+                    <h5 class="text-7">Genre: Literature</h5>
                     <h5 class="text-11">Earn 10 Coins</h5>
                   </div>
                   <div class="history-status">
@@ -124,17 +141,17 @@
           </div>
           <div class="history-container">
             <a
-              class="prev-question"
+              class="history-container-2"
               style="text-decoration: none"
               href="return-penalty.html"
             >
-            <div class="book-img">
-                <img src="assets/book-image-2.png" alt="">
+            <div class="book-img-container">
+                <img class="book-img" src="assets/book-image-2.png" alt="">
             </div>
               <div class="book-details">
                 <h3 class="text-6">Yang Telah Lama Pergi</h3>
                 <h5 class="text-7">Author: Tere Liye</h5>
-                <h5 class="text-7">Genre : Fantasy, Action</h5>
+                <h5 class="text-7">Genre: Fantasy, Action</h5>
                 <h5 class="text-12">Penalty</h5>
               </div>
               <div class="history-status">
@@ -144,17 +161,17 @@
           </div>
           <div class="history-container">
             <a
-              class="prev-question"
+              class="history-container-2"
               style="text-decoration: none"
               href="return-loan.html"
             >
-            <div class="book-img">
-                <img src="assets/book-image-5.png" alt="">
+            <div class="book-img-container">
+                <img class="book-img" src="assets/book-image-5.png" alt="">
             </div>
               <div class="book-details">
                 <h3 class="text-6">The Intelligent Investor</h3>
                 <h5 class="text-7">Author: Benjamin Graham</h5>
-                <h5 class="text-7">Genre : Business</h5>
+                <h5 class="text-7">Genre: Business</h5>
                 <h5 class="text-13">In Loan</h5>
               </div>
               <div class="history-status">

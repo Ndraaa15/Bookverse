@@ -150,29 +150,6 @@ a {
   width: 13%;
 }
 
-/* ini buat pop upnya blm dibenerin pusingg */
-.log-out-confirmation {
-  width: 400px;
-  background: #2851e3;
-  border-radius: 5px;
-  color: white;
-  position: absolute;
-  visibility: hidden;
-  text-align: center;
-  padding: 10px 30px 30px;
-}
-
-.log-out-confirmation button {
-  width: 25%;
-  margin-top: 5px;
-  padding: 5px 0px;
-  background: white;
-  border: 0;
-  outline: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 .profile-content {
   border-left: 1px solid rgba(217, 217, 217, 1);
   width: 90%;
@@ -263,7 +240,7 @@ a {
   gap: 10px;
 }
 
-.modal .modal-return {
+.modal .modal-yes {
   padding: 10px 35px;
   background-color: #2851e3;
   color: #fff;
@@ -289,7 +266,7 @@ a {
   }
 
   .profile-nav {
-    padding-left: 15px;
+    padding-left: 0px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -306,5 +283,35 @@ a {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 200px;
+  }
+}
+
+@media (max-width: 485px) {
+  .text-1 {
+    font-weight: 500;
+    text-align: left;
+    font-size: 15px;
+    padding: 27px 0px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+  }
+  
+  .text-2 {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: left;
+    padding: 27px 0px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+  }
+  
+  .text-3 {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    padding: 27px 0px;
+    margin: 0;
+    color: rgba(168, 37, 37, 1);
+    cursor: pointer;
   }
 }

@@ -309,3 +309,38 @@ label::before {
     text-align: right;
   }
 }
+
+@media (max-width: 600px) {
+  .faq {
+    width: 80%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .accordion {
+    width: 80%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .search-container {
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px #0101013a;
+    padding: 15px 0px;
+    margin: 30px 0px;
+  }
+  .prev-questions {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin: 30px 0px;
+  }
+}

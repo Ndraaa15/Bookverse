@@ -1,9 +1,9 @@
 function openReturnConfirmationModal() {
-  document.getElementById("returnConfirmationModal").style.display = "flex";
+  document.getElementById("logOutConfirmationModal").style.display = "flex";
 }
 
 function closeReturnConfirmationModal() {
-  document.getElementById("returnConfirmationModal").style.display = "none";
+  document.getElementById("logOutConfirmationModal").style.display = "none";
 }
 
 function confirmReturn() {
