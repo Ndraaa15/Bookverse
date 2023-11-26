@@ -4,7 +4,7 @@ const books = [
     img: "./assets/book-image-1.png",
     writer : "Mitch Albom",
     title : "Tuesdays with Morrie",
-    rating : "4.5",
+    rating : "4.0",
     genre: ["Biography"],
   },
   {
@@ -44,7 +44,7 @@ const books = [
     img: "./assets/book-image-6.png",
     writer : "Junissa Bianda",
     title : "Kareem, Khaleel, and The Missing Kufi",
-    rating : "4.5",
+    rating : "4.0",
     genre: ["Cartoon"],
   },
   {
@@ -76,7 +76,7 @@ const books = [
     img: "./assets/book-image-10.png",
     writer : "Adam Grant",
     title : "Think Again: The Power Of Knowing What You Don`T Know",
-    rating : "4.5",
+    rating : "4.0",
     genre: ["Psychology"]
   },
   {
@@ -84,7 +84,7 @@ const books = [
     img: "./assets/book-image-11.png",
     writer : "James Rallison",
     title : "The Odd 1S Out: The First Sequel",
-    rating : "4.5",
+    rating : "4.0",
     genre: ["Cartoon"]
   },
   {
@@ -103,13 +103,20 @@ function createBookCard(book) {
   const card = document.createElement('div');
   card.classList.add('book-card');
 
+  // Image Container
+  const imgContainer = document.createElement('div');
+  imgContainer.classList.add('book-img-container');
+
   const img = document.createElement('img');
   img.classList.add('book-img');
   img.src = book.img;
   img.alt = book.title;
 
-  const details = document.createElement('div');
-  details.classList.add('book-details');
+  imgContainer.appendChild(img);
+
+  // Details Container
+  const detailsContainer = document.createElement('div');
+  detailsContainer.classList.add('book-details-container');
 
   const title = document.createElement('div');
   title.classList.add('book-title');
@@ -121,62 +128,97 @@ function createBookCard(book) {
 
   const genre = document.createElement('div');
   genre.classList.add('book-genre');
-  genre.textContent = `Genre: ${book.genre.join(', ')}`;
+  genre.textContent = `${book.genre.join(', ')}`;
+
+  detailsContainer.appendChild(title);
+  detailsContainer.appendChild(writer);
+  detailsContainer.appendChild(genre);
+
+  // Footer Container
+  const footerContainer = document.createElement('div');
+  footerContainer.classList.add('book-footer');
+  footerContainer.style.display = 'flex';
+  footerContainer.style.justifyContent = 'space-between';
+  footerContainer.style.alignItems = 'center';
+  footerContainer.style.alignContent = 'center';
+  
+
+  const ratingContainer = document.createElement('div');
+  ratingContainer.classList.add('book-rating-container');
+  ratingContainer.style.display = 'flex';
+  ratingContainer.style.gap = '0.5rem';
 
   const rating = document.createElement('div');
   rating.classList.add('book-rating');
-  rating.textContent = `Rating: ${book.rating}`;
+  rating.textContent = `${book.rating}`;
 
-  details.appendChild(title);
-  details.appendChild(writer);
-  details.appendChild(genre);
-  details.appendChild(rating);
+  const starImg = document.createElement('img');
+  starImg.src = './assets/star-icon.png';
+  starImg.alt = 'More';
 
-  card.appendChild(img);
-  card.appendChild(details);
+  ratingContainer.appendChild(starImg);
+  ratingContainer.appendChild(rating);
 
+  const moreContainer = document.createElement('div');
+  moreContainer.classList.add('book-more-container');
+  moreContainer.style.display = 'flex';
+  moreContainer.style.gap = '0.5rem';
+
+  const moreLink = document.createElement('a');
+  moreLink.href = '#';
+  moreLink.classList.add('book-more');
+  moreLink.textContent = 'More';
+  moreLink.style.textDecoration = 'none';
+  moreLink.style.color = '#C2C2C2';
+
+  const moreImg = document.createElement('img');
+  moreImg.src = './assets/more-icon.png';
+  moreImg.alt = 'More';
+  moreImg.style.width = '1.5rem';
+
+  moreContainer.appendChild(moreLink);
+  moreContainer.appendChild(moreImg);
+
+  footerContainer.appendChild(ratingContainer);
+  footerContainer.appendChild(moreContainer);
+
+  // Append to Card
+  card.appendChild(imgContainer);
+  card.appendChild(detailsContainer);
+  card.appendChild(footerContainer);
+
+  // Append to Container
   container.appendChild(card);
 }
 
-// Function to display books
 
-
-
-// Assuming your books array is defined in books.js
-// If not, make sure to include the books data here or import it
-
-// Reference to the container where content will be added
 const searchInput = document.querySelector('.section-1 input[type="text"]');
 
 function renderBooks() {
-  const categoryFilter = document.getElementById('categoryFilter').value;
   const genreFilter = document.getElementById('genreFilter').value;
   const ratingFilter = document.getElementById('ratingFilter').value;
   const sortFilter = document.getElementById('sortFilter').value;
   const searchTerm = searchInput.value.toLowerCase();
 
-  // Filter the books based on selected criteria and search term
   let filteredBooks = books.filter(book => {
-    const matchesCategory = categoryFilter === 'All' || book.genre.includes(categoryFilter);
     const matchesGenre = genreFilter === 'All' || book.genre.includes(genreFilter);
     const matchesRating = ratingFilter === 'All' || parseFloat(book.rating) >= parseFloat(ratingFilter);
     const matchesSearch = book.title.toLowerCase().includes(searchTerm) || book.writer.toLowerCase().includes(searchTerm);
 
-    return matchesCategory && matchesGenre && matchesRating && matchesSearch;
+    return  matchesGenre && matchesRating && matchesSearch;
   });
 
-  // Sort the filtered books
+
   if (sortFilter === 'Title') {
     filteredBooks.sort((a, b) => a.title.localeCompare(b.title));
   } else if (sortFilter === 'Rating') {
     filteredBooks.sort((a, b) => parseFloat(b.rating) - parseFloat(a.rating));
   }
 
-  // Call a function to display the filtered books
   displayBooks(filteredBooks);
 }
 
-// Function to display books
+
 function displayBooks(books) {
   container.innerHTML = '';
 
@@ -190,14 +232,11 @@ function displayBooks(books) {
   }
 }
 
-// Initial render
 renderBooks();
 
-// Add event listeners to trigger the filter when the user changes selection
-document.getElementById('categoryFilter').addEventListener('change', renderBooks);
+
 document.getElementById('genreFilter').addEventListener('change', renderBooks);
 document.getElementById('ratingFilter').addEventListener('change', renderBooks);
 document.getElementById('sortFilter').addEventListener('change', renderBooks);
 
-// Add event listener for the search input
 searchInput.addEventListener('input', renderBooks);
