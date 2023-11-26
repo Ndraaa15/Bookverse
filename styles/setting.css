@@ -72,19 +72,17 @@
   }
   
   .text-5 {
-    font-weight: 500;
-    text-align: center;
-    margin: 10px 0px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0px 15px;
     color: rgb(0, 0, 0);
   }
-  .text-6 {
-    font-weight: 400;
+  .text-6{
+    font-weight: 500;
     text-align: left;
-    padding: 10px 35px;
-    background-color: rgba(235, 238, 255, 1);
-    border-radius: 100px;
-    color: rgba(97, 97, 97, 1);
+    color: rgb(0, 0, 0);
   }
+
   .text-7 {
     font-weight: 500;
     text-align: left;
@@ -143,62 +141,54 @@
     padding-bottom: 200px;
   }
   
-  
-  .user {
+.setting-option{
     display: flex;
+    margin-bottom: 15px;
     flex-direction: column;
-    align-items: center;
-  }
-  
-  .user-img {
-    width: 150px;
-    height: 150px;
-  }
-  
-  .achievement {
+}
+.setting-detail{
+    width: 90%;
+    margin: 0 auto;
+}
+.all {
+    gap: 10px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-  }
-  
-  .coin {
-    display: flex;
-    margin: 20px 0px;
-    justify-content: center;
-    font-size: 14px;
-    color: rgba(224, 206, 44, 1);
-  }
-  
-  .ask-question-container {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .search-container-2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin: 15px 0px;
-  }
-  .search-input-2 {
-    border: 0px;
+}
+.dropdown {
+    color: #757575;
+    border-radius: 3px;
     outline: none;
+    padding: 7px 5px;
     width: 100%;
-  }
-  .search-input-2::placeholder {
-    font-weight: 500;
-    font-size: larger;
-  }
-  
-  .search-box {
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: 1px solid #757575;
+    background-color: rgba(245, 245, 245, 1);
+    border: 0;
   }
   
   @media (max-width: 972px) {
+    .container {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+      }
     
+      .profile-nav {
+        padding-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 0px auto;
+        width: 100%;
+      }
+      .profile-content {
+        border-top: 1px solid rgba(217, 217, 217, 1);
+        border-left: 0px solid rgba(217, 217, 217, 1);
+        width: 100%;
+        display: flex;
+        margin: 0pc auto;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 200px;
+      }
   }
   
