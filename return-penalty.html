@@ -74,12 +74,15 @@
     <script src="./scripts/header-footer.js"></script>
     <div class="detail-container">
       <div class="detail-title">
-        <a href="javascript:history.back()">
-          <img src="./assets/left-arrow.png" alt="left-arrow">
-      </a>
+          <img src="./assets/left-arrow.png" alt="left-arrow" onclick="goBack()">
         <h1>Book Detail</h1>
         <div></div>
       </div>
+      <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
       <div class="detail-body">
         <img class="detail-image" src="./assets/book-image-2.png" alt="Return Loan Book">
         <div class="detail-book">
@@ -163,28 +166,32 @@
         <form id="paymentForm" class="payment-form">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required placeholder="name">
-  
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required placeholder="email">
-  
           <label for="faculty">Faculty</label>
           <input type="text" id="faculty" name="faculty" required placeholder="faculty">
-  
           <label for="major">Major</label>
           <input type="text" id="major" name="major" required placeholder="major">
-  
           <label>Payment Method</label>
           <div class="payment-types">
             <div class="payment-type">
-              <input type="radio" id="creditCard" name="paymentMethod" value="creditCard" checked>
-              <label for="creditCard">Credit Card</label>
+              <input type="radio" id="online" name="paymentMethod" value="online" checked>
+              <label for="online">Online</label>
             </div>
             <div class="payment-type">
-              <input type="radio" id="paypal" name="paymentMethod" value="paypal">
-              <label for="paypal">PayPal</label>
+              <input type="radio" id="offline" name="paymentMethod" value="offline">
+              <label for="offline">Offline</label>
             </div>
           </div>
-          <button type="button" onclick="submitPayment()">Pay</button>
+          <div class="payment-proof">
+            <label>Upload Online Payment Proof</label>
+            <div class="payment-proof-image">
+              <input type="file" id="fileInput" name="fileInput" class="file-upload-trigger">
+            </div>
+          </div>
+          <div>
+            <button class="modal-button" type="button" onclick="submitPayment()">Pay</button>
+          </div>
         </form>
       </div>
     </div>

@@ -80,12 +80,15 @@
     <script src="./scripts/header-footer.js"></script>
     <div class="detail-container">
       <div class="detail-title">
-        <a href="javascript:history.back()">
-          <img src="./assets/left-arrow.png" alt="left-arrow">
-      </a>
+        <img src="./assets/left-arrow.png" alt="left-arrow" onclick="goBack()">
         <h1>Book Detail</h1>
         <div></div>
       </div>
+      <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
       <div class="detail-body">
         <img class="detail-image" src="./assets/book-image-2.png" alt="Return Loan Book">
         <div class="detail-book">
@@ -157,10 +160,11 @@
     </div>
     <div id="returnConfirmationModal" class="overlay">
       <div class="modal">
+        <img src="./assets/info-icon.png" alt="Info Icon">
         <h2>Bookverse</h2>
         <p>Are you sure you want to return the book?</p>
         <div class="modal-button">
-          <button class="modal-return" onclick="confirmReturn()">Yes, Return</button>
+          <button class="modal-return" onclick="confirmReturn()">Yes</button>
           <button class="modal-cancel" onclick="closeReturnConfirmationModal()">Cancel</button>
         </div>
       </div>

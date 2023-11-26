@@ -8,7 +8,6 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-
 .detail-container {
   padding: 2% 0;
 }
@@ -23,7 +22,7 @@ html {
   padding-right: 4%;
 }
 
-.detail-contaienr .detail-title a{
+.detail-container .detail-title img {
   text-decoration: none;
   cursor: pointer;
 }
@@ -90,8 +89,8 @@ html {
   justify-content: space-between;
   padding-top: 30px;
   max-height: 150px;
-  overflow: hidden; 
-  transition: max-height 0.5s ease-out; 
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
 }
 
 .detail-container .detail-body .see-more {
@@ -107,18 +106,24 @@ html {
   gap: 10%;
 }
 
-.detail-container .detail-body .detail-book-specify-wrapper .detail-book-specify-left {
+.detail-container
+  .detail-body
+  .detail-book-specify-wrapper
+  .detail-book-specify-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 15px
+  gap: 15px;
 }
 
-.detail-container .detail-body .detail-book-specify-wrapper .detail-book-specify-right {
+.detail-container
+  .detail-body
+  .detail-book-specify-wrapper
+  .detail-book-specify-right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 15px
+  gap: 15px;
 }
 
 .detail-container .detail-body .detail-book-specify-wrapper .specify-value {
@@ -179,24 +184,28 @@ html {
 .modal {
   margin: 2%;
   background-color: #fff;
-  width: 40%;
+  width: 800px;
   padding: 3% 3%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  display: flex ;
-  flex-direction: column ;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
-.modal .modal-button{
+.modal img {
+  width: 20px;
+}
+
+.modal .modal-button {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .modal .modal-return {
-  padding: 10px;
+  padding: 10px 35px;
   background-color: #2851e3;
   color: #fff;
   border: none;
@@ -212,7 +221,6 @@ html {
   border-radius: 5px;
   cursor: pointer;
 }
-
 
 @media (width <= 1280px) {
   .detail-container .detail-body {
@@ -233,67 +241,78 @@ html {
     width: 85%;
   }
 
-  .detail-container .detail-title img{
-    width: 6%;
-    height: 6%;
+  .detail-container .detail-title img {
+    width: 5%;
+    height: 5%;
+  }
+
+  .modal {
+    width: 500px;
   }
 }
 
 @media (width <= 768px) {
-  .detail-container .detail-title h1{
+  .detail-container .detail-title h1 {
     font-size: 30px;
   }
 
-  .detail-container .detail-body .detail-book-header .detail-book-text h1{
+  .detail-container .detail-body .detail-book-header .detail-book-text h1 {
     font-size: 30px;
   }
 
-  .detail-container .detail-body .detail-book-header .detail-book-text h2{
+  .detail-container .detail-body .detail-book-header .detail-book-text h2 {
     font-size: 1px;
+  }
+
+  .modal {
+    width: 300px;
+  }
+
+  .detail-container .detail-body .detail-book-footer {
+    margin-top: 8%;
   }
 }
 
 @media (width <= 530px) {
-  .detail-container .detail-title h1{
+  .detail-container .detail-title h1 {
     font-size: 20px;
   }
 
-  .detail-container .detail-body .detail-book-header .detail-book-text h1{
+  .detail-container .detail-body .detail-book-header .detail-book-text h1 {
     font-size: 20px;
   }
 
-  .detail-container .detail-body .detail-book-header h2{
+  .detail-container .detail-body .detail-book-header h2 {
     font-size: 15px;
   }
 
   .detail-container
-  .detail-body
-  .detail-book
-  .detail-book-header
-  .detail-book-text
-  .detail-loan {
+    .detail-body
+    .detail-book
+    .detail-book-header
+    .detail-book-text
+    .detail-loan {
     width: 40%;
     font-size: 15px;
   }
 
-  .detail-book-description h3{
+  .detail-book-description h3 {
     font-size: 20px;
   }
 
-  .detail-book-description p{
+  .detail-book-description p {
     font-size: 15px;
   }
-  
-  .detail-book-specify h3{
+
+  .detail-book-specify h3 {
     font-size: 20px;
   }
 
-  .detail-book-specify p{
+  .detail-book-specify p {
     font-size: 15px;
   }
 
-  .detail-book-footer{
+  .detail-book-footer {
     margin-top: 15%;
   }
 }
-
