@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Books-Detail</title>
+    <title>Book-Detail</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -11,33 +11,55 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="./styles/header-footer-logged.css" />
+    <link rel="stylesheet" href="./styles/header-footer.css" />
     <link rel="stylesheet" href="./styles/book-detail.css" />
   </head>
-  <body>
+  <body>  
     <header class="header-container">
-      <img src="./assets/Logo.png" alt="Logo Bookverse" />
+      <img
+        src="./assets/logo-header.png"
+        alt="Logo Bookverse"
+        onclick="window.location.href='index.html'"
+        class="logo-header"
+      />
       <div class="list-navbar">
         <a href="index.html">Home</a>
         <a href="about-us.html">About Us</a>
         <a href="books.html">Books</a>
-        <a href="#">Articles</a>
+        <a href="articles.html">Articles</a>
         <a href="faqs.html">FAQs</a>
       </div>
+      <div class="button-header">
+        <button
+          onclick="window.location.href = 'signup.html'"
+          class="btn-signup"
+        >
+          Sign Up
+        </button>
+        <button onclick="window.location.href = 'login.html'" class="btn-login">
+          Login
+        </button>
+      </div>
       <div class="icon-header">
-        <img src="./assets/cart-icon.png" alt="">
-        <img src="./assets/bell-icon.png" alt="">
-        <img class="profile" src="./assets/profile-icon.png" alt="">
+        <a href="cart.html">
+          <img src="./assets/cart-icon.png" alt="Cart Icon" />
+        </a>
+        <a href="nontification.html">
+          <img src="./assets/bell-icon.png" alt="Notification Icon" />
+        </a>
+        <a href="profile.html">
+          <img
+            class="profile"
+            src="./assets/profile-icon.png"
+            alt="Profile Icon"
+          />
+        </a>
       </div>
       <div class="toggle-button">
         <i class="fa fa-bars"></i>
@@ -45,27 +67,30 @@
       <div class="dropdown-menu">
         <a href="index.html">Home</a>
         <a href="about-us.html">About Us</a>
-        <a href="#">Books</a>
-        <a href="#">Articles</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
         <a href="faqs.html">FAQs</a>
-        <a href="">Cart</a>
-        <a href="">Notification</a>
-        <a href="">Profile</a>
+        <a class="logged-in" href="cart.html">Cart</a>
+        <a class="logged-in" href="nontification.html">Notification</a>
+        <a class="logged-in profile" href="profile.html">Profile</a>
+        <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
+        <a href="login.html" class="btn-login-dropdown">Login</a>
       </div>
-      <script src="./scripts/header-footer.js"></script>
     </header>
-
-
-
+    <script src="./scripts/header-footer.js"></script>
     <div class="detail-container">
       <div class="detail-title">
-        <img src="./assets/back-icon.png" alt="">
+        <img src="./assets/left-arrow.png" alt="left-arrow" onclick="goBack()">
         <h1>Book Detail</h1>
         <div></div>
       </div>
-
+      <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
       <div class="detail-body">
-        <img class="detail-image" src="./assets/book-image-1.png" alt="">
+        <img class="detail-image" src="./assets/book-image-2.png" alt="Return Loan Book">
         <div class="detail-book">
           <div class="detail-book-header">
             <div class="detail-book-text">
@@ -77,88 +102,167 @@
             </div>
               <h2>Yang telah lama pergi</h2>
           </div>
-        
         <div class="detail-book-description">
           <h3>Description</h3>
-          <p>KAMU sudah gila!” Itulah kalimat yang terakhir kali Al Mas'ud ingat sebelum día pingsan beberapa saat lalu. Sekarang, matanya terbuka, mengerjap-ngerjap. Terang? Seberkas cahaya matahari menembus celah kecil di dinding. Sudah siang? Berapa lama dia pingsan? Beringsut hendak duduk. Mengeluh pelan, tubuhnya terasa sakit. Ada memar di lengan, juga lebam di paha, punggung. Mas'ud menoleh ke kiri, ke kanan, gerakannya terhenti oleh sekat. Dia berada di dalam ruangan kecil, seperti kerangkeng. Lembap, bau amis tercium. Lantai tempat dia duduk terasa bergoyang. </p>
-          <p class="see-more">See more</p>
-        </div>  
-
+          <p class="additional-content">KAMU sudah gila!” Itulah kalimat yang terakhir kali Al Mas'ud ingat sebelum día pingsan beberapa saat lalu. Sekarang, matanya terbuka, mengerjap-ngerjap. Terang? Seberkas cahaya matahari menembus celah kecil di dinding. Sudah siang? Berapa lama dia pingsan? Beringsut hendak duduk. Mengeluh pelan, tubuhnya terasa sakit. Ada memar di lengan, juga lebam di paha, punggung. Mas'ud menoleh ke kiri, ke kanan, gerakannya terhenti oleh sekat. Dia berada di dalam ruangan kecil, seperti kerangkeng. Lembap, bau amis tercium. Lantai tempat dia duduk terasa bergoyang</p>
+        </div>
+        <p class="see-more" onclick="toggleSeeMore()">See more</p> 
+        <script src="./scripts/see-more.js"></script>
         <div class="detail-book-specify">
           <h3>Detail</h3>
           <div class="detail-book-specify-wrapper">
             <div class="detail-book-specify-left">
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Pages</p>
-                <p class="specicy-value">444</p>
+                <p class="specify-subtitle">Pages</p>
+                <p class="specify-value">444</p>
               </div>
-  
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Published Date</p>
-                <p class="specicy-value">11 Agt 2023</p>
+                <p class="specify-subtitle">Published Date</p>
+                <p class="specify-value">11 Agt 2023</p>
               </div>
-  
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">ISBN</p>
-                <p class="specicy-value">9786238829606</p>
+                <p class="specify-subtitle">ISBN</p>
+                <p class="specify-value">9786238829606</p>
               </div>
-  
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Languages</p>
-                <p class="specicy-value">Indonesia</p>
+                <p class="specify-subtitle">Languages</p>
+                <p class="specify-value">Indonesia</p>
               </div>
             </div>
-  
             <div class="detail-book-specify-right">
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Pages</p>
-                <p class="specicy-value">444</p>
+                <p class="specify-subtitle">Pages</p>
+                <p class="specify-value">444</p>
               </div>
-  
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Published Date</p>
-                <p class="specicy-value">11 Agt 2023</p>
+                <p class="specify-subtitle">Published Date</p>
+                <p class="specify-value">11 Agt 2023</p>
               </div>
-  
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">ISBN</p>
-                <p class="specicy-value">9786238829606</p>
+                <p class="specify-subtitle">ISBN</p>
+                <p class="specify-value">9786238829606</p>
               </div>
-  
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Languages</p>
-                <p class="specicy-value">Indonesia</p>
+                <p class="specify-subtitle">Languages</p>
+                <p class="specify-value">Indonesia</p>
               </div>
             </div>
           </div>
         </div>
-
         <div class="detail-book-footer">
-          <div class="detail-book-stock">
+          <div class="detail-book-cart">
             <h3>Stock</h3>
             <p>5 Books</p>
           </div>
-
           <div class="detail-book-button">
-            <button class="cart">Add to cart</button>
             <button class="reservation">Reservation</button>
+            <button class="add-cart" onclick="openReturnConfirmationModal()">Cart</button>
           </div>
           </div>
         </div>
-
         </div>
       </div>
     </div>
-
-    <div class="recomendation">
-
+    <div id="returnConfirmationModal" class="overlay">
+      <div class="modal">
+        <div class="icon-modal">
+          <img src="./assets/info-icon.png" alt="Info Icon">
+          <img src="./assets/close-icon.png" alt="Close Icon" onclick="closeReturnConfirmationModal()" class="close-icon">
+        </div>
+        <h2>Bookverse</h2>
+        <p>Are you sure add this book into cart</p>
+        <div class="modal-button">
+          <button class="modal-return" id="confirmAdd" onclick="confirmAddToCart()">Add to Cart</button>
+        </div>
+      </div>
     </div>
+    <div class="recomendation-container">
+      <h1>Recomendation</h1>
+      <div class="book-recomendation">
+        <div class="book-card">
+          <div class="book-img-container">
+            <img class="book-img" src="./assets/book-image-1.png" alt="Book Cover">
+          </div>
+          <div class="book-details-container">
+            <div class="book-title">Book Title</div>
+            <div class="book-writer">By Author</div>
+            <div class="book-genre">Genre</div>
+          </div>
+          <div class="book-footer">
+            <div class="book-rating-container">
+              <img src="./assets/star-icon.png" alt="Star Icon">
+              <div class="book-rating">4.5</div>
+            </div>
+            <div class="book-more-container">
+              <a href="#" class="book-more">More</a>
+              <img src="./assets/more-icon.png" alt="More Icon" style="width: 1.5rem;">
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-img-container">
+            <img class="book-img" src="./assets/book-image-1.png" alt="Book Cover">
+          </div>
+          <div class="book-details-container">
+            <div class="book-title">Book Title</div>
+            <div class="book-writer">By Author</div>
+            <div class="book-genre">Genre</div>
+          </div>
+          <div class="book-footer">
+            <div class="book-rating-container">
+              <img src="./assets/star-icon.png" alt="Star Icon">
+              <div class="book-rating">4.5</div>
+            </div>
+            <div class="book-more-container">
+              <a href="#" class="book-more">More</a>
+              <img src="./assets/more-icon.png" alt="More Icon" style="width: 1.5rem;">
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-img-container">
+            <img class="book-img" src="./assets/book-image-1.png" alt="Book Cover">
+          </div>
+          <div class="book-details-container">
+            <div class="book-title">Book Title</div>
+            <div class="book-writer">By Author</div>
+            <div class="book-genre">Genre</div>
+          </div>
+          <div class="book-footer">
+            <div class="book-rating-container">
+              <img src="./assets/star-icon.png" alt="Star Icon">
+              <div class="book-rating">4.5</div>
+            </div>
+            <div class="book-more-container">
+              <a href="#" class="book-more">More</a>
+              <img src="./assets/more-icon.png" alt="More Icon" style="width: 1.5rem;">
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-img-container">
+            <img class="book-img" src="./assets/book-image-1.png" alt="Book Cover">
+          </div>
+          <div class="book-details-container">
+            <div class="book-title">Book Title</div>
+            <div class="book-writer">By Author</div>
+            <div class="book-genre">Genre</div>
+          </div>
+          <div class="book-footer">
+            <div class="book-rating-container">
+              <img src="./assets/star-icon.png" alt="Star Icon">
+              <div class="book-rating">4.5</div>
+            </div>
+            <div class="book-more-container">
+              <a href="#" class="book-more">More</a>
+              <img src="./assets/more-icon.png" alt="More Icon" style="width: 1.5rem;">
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-
+      </div>
+    </div>
+    <script src="./scripts/add-cart.js"></script>
     <footer class="footer-container">
       <div class="footer-container-up">
         <div class="product">
@@ -169,9 +273,9 @@
         </div>
         <div class="information">
           <h3>Information</h3>
-          <a href="">About Us</a>
-          <a href="">Books</a>
-          <a href="">Articles</a>
+          <a href="index.html">About Us</a>
+          <a href="books.html">Books</a>
+          <a href="articles.html">Articles</a>
         </div>
         <div class="company">
           <h3>Company</h3>
@@ -186,31 +290,47 @@
             />
             <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
           </div>
-
           <p>
             Subscribe to BookVerse and stay in the know! Rest assured, your
             inbox will remain spam-free.
           </p>
         </div>
       </div>
-
       <div class="footer-container-bottom">
         <div class="logo-footer">
-          <img src="./assets/Logo-Footer.png" alt="" />
+          <img src="./assets/logo-footer.png" alt="Logo Footer" />
         </div>
-
         <div class="terms-privacy-cookies">
           <p>Terms</p>
           <p>Privacy</p>
           <p>Cookies</p>
         </div>
-
         <div class="social-media">
-          <img src="./assets/linkedin-footer.png" alt="" />
-          <img src="./assets/facebook-footer.png" alt="" />
-          <img src="./assets/github-footer.png" alt="" />
-          <img src="./assets/email-footer.png" alt="" />
-          <img src="./assets/instagram-footer.png" alt="" />
+          <img
+            src="./assets/linkedin-footer.png"
+            alt="Linkedin"
+            onclick="window.location.href='https:/www.linkedin.com/'"
+          />
+          <img
+            src="./assets/facebook-footer.png"
+            alt="Facebook"
+            onclick="window.location.href='https:/www.facebook.com/'"
+          />
+          <img
+            src="./assets/github-footer.png"
+            alt="Github"
+            onclick="window.location.href='https:/www.github.com/'"
+          />
+          <img
+            src="./assets/email-footer.png"
+            alt="Email"
+            onclick="window.location.href='https:/www.email.com/'"
+          />
+          <img
+            src="./assets/instagram-footer.png"
+            alt="Instagram"
+            onclick="window.location.href='https:/www.instagram.com/'"
+          />
         </div>
       </div>
     </footer>
