@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -93,15 +94,29 @@
           <a href="setting.html">
             <h3 class="text-1">SETTING</h3>
           </a>
-          <a href="maintenance.html" id="button">
+          <div onclick="openReturnConfirmationModal()">
             <h3 class="text-3">LOG OUT</h3>
-          </a>
+          </div>
           <div class="log-out-confirmation">
             <h4>Are you sure?</h4>
             <button type="button">Yes</button>
             <button type="button">Cancel</button>
           </div>
         </div>
+
+        <div id="returnConfirmationModal" class="overlay">
+          <div class="modal">
+            <img src="./assets/info-icon.png" alt="Info Icon">
+            <h2>Bookverse</h2>
+            <p>Are you sure you want to return the book?</p>
+            <div class="modal-button">
+              <button class="modal-yes" onclick="confirmReturn()">Yes</button>
+              <button class="modal-cancel" onclick="closeReturnConfirmationModal()">Cancel</button>
+            </div>
+          </div>
+        </div>
+        <script src="./scripts/log-out.js"></script>
+        
         <div class="profile-content">
           <div class="user">
             <img class="user-img" src="assets/avatar2.png" alt="" />
