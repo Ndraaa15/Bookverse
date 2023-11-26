@@ -211,7 +211,6 @@ label::before {
   margin: 30px 0px;
 }
 
-
 .ask-question-container-1 {
   width: 80%;
   display: flex;
@@ -226,8 +225,7 @@ label::before {
   width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .ask-question-container-3 {
@@ -236,13 +234,13 @@ label::before {
   text-align: right;
 }
 
-.ask-question-container-3 button{
+.ask-question-container-3 button {
   padding: 5px 15px;
   cursor: pointer;
   background-color: #2851e3;
   border: none;
   border-radius: 3px;
-  color:#ffffff;
+  color: #ffffff;
   font-weight: 400;
   font-size: medium;
 }
@@ -280,101 +278,34 @@ label::before {
 .search-box {
   padding: 10px 10px;
   border-radius: 5px;
-  border: 1px solid #757575; /* Add a horizontal line (separator) */
-}
-
-.our-team {
-  width: 70%;
-  display: flex;
-  align-items: center;
-  padding: 30px 0px;
-}
-
-.creators {
-  display: flex;
-  flex-direction: row;
-}
-
-.creator {
-  display: flex;
-  flex-direction: column;
-  padding-right: 5px;
-  align-items: center;
-}
-
-.avatar {
-  width: 50%;
-  height: auto;
-}
-.our-team-desc1 {
-  visibility: hidden;
-  width: 0px;
-  height: 0px;
-}
-.our-team-desc2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact {
-  width: 70%;
-}
-
-.social-media {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.social-medias {
-  display: flex;
-  gap: 15px;
-  flex-direction: row;
-}
-
-.icon {
-  width: 25px;
-  padding-right: 10px;
+  border: 1px solid #757575;
 }
 
 @media (max-width: 972px) {
-  .mission-image1 {
-    visibility: visible;
-    width: 229px;
-    height: 200px;
-    padding-bottom: 15px;
-  }
-  .mission-image2 {
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-  .mission {
-    flex-direction: column;
-  }
-  .mission2 {
-    display: flex;
-    flex-direction: column;
+  .ask-question-container-1 {
+    width: 80%;
     align-items: center;
-  }
-  .our-team {
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin: 30px 0px;
+    box-shadow: 0px 8px 16px 0px #0101013a;
   }
-  .our-team-desc1 {
-    visibility: visible;
-    height: auto;
-    width: auto;
-    text-align: center;
-  }
-  .our-team-desc2 {
-    visibility: hidden;
+  .ask-question-img {
     width: 0;
-    height: 0;
+    visibility: hidden;
   }
-  .social-medias {
+  .ask-question-container-2 {
+    width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: left;
+  }
+
+  .ask-question-container-3 {
+    width: 90%;
+    margin: 15px 15px;
+    text-align: right;
   }
 }

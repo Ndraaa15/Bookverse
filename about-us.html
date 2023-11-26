@@ -1,7 +1,7 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BookVerse</title>
     <link
       rel="stylesheet"
@@ -10,158 +10,256 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles/about-us.css">
-    <link rel="stylesheet" href="./styles/header-footer.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/about-us.css" />
+    <link rel="stylesheet" href="./styles/header-footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header-container">
-        <img src="./assets/Logo.png" alt="Logo Bookverse" />
-  
-        <div class="list-navbar">
-          <a href="index.html">Home</a>
-          <a href="about-us.html">About Us</a>
-          <a href="#">Books</a>
-          <a href="#">Articles</a>
-          <a href="faqs.html">FAQs</a>
+      <img
+        src="./assets/logo-header.png"
+        alt="Logo Bookverse"
+        onclick="window.location.href='index.html'"
+        class="logo-header"
+      />
+      <div class="list-navbar">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
+      </div>
+      <div class="button-header">
+        <button
+          onclick="window.location.href = 'signup.html'"
+          class="btn-signup"
+        >
+          Sign Up
+        </button>
+        <button onclick="window.location.href = 'login.html'" class="btn-login">
+          Login
+        </button>
+      </div>
+      <div class="icon-header">
+        <a href="cart.html">
+          <img src="./assets/cart-icon.png" alt="Cart Icon" />
+        </a>
+        <a href="nontification.html">
+          <img src="./assets/bell-icon.png" alt="Notification Icon" />
+        </a>
+        <a href="profile.html">
+          <img
+            class="profile"
+            src="./assets/profile-icon.png"
+            alt="Profile Icon"
+          />
+        </a>
+      </div>
+      <div class="toggle-button">
+        <i class="fa fa-bars"></i>
+      </div>
+      <div class="dropdown-menu">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
+        <a class="logged-in" href="cart.html">Cart</a>
+        <a class="logged-in" href="nontification.html">Notification</a>
+        <a class="logged-in profile" href="profile.html">Profile</a>
+        <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
+        <a href="login.html" class="btn-login-dropdown">Login</a>
+      </div>
+    </header>
+    <script src="./scripts/header-footer.js"></script>
+    <main>
+      <div class="about-us">
+        <h2 class="title-1">About Us</h2>
+        <h4 class="text-1">
+          We aim to create this website because we want to help libraries that
+          do not have or already have a website so that monitoring work can be
+          more efficient and easier. and also we are still learning in making
+          this website, hopefully we can continue to develop in making this
+          website. We apologize for any shortcomings of the current website
+        </h4>
+      </div>
+      <div class="current-library-target">
+        <h4 class="title-1">current library target</h4>
+        <img
+          class="library-image"
+          src="assets/current-library-target.png"
+          alt="current library target"
+        />
+      </div>
+      <div class="mission">
+        <div class="mission2">
+          <h2 class="title-2">BookVerse Mission</h2>
+          <img
+            class="mission-image1"
+            src="assets/mission-image.png"
+            alt="mission image"
+          />
+          <h4 class="text-1">
+            Our mission in creating this library website, which is from the
+            Human and Computer Interaction course assignment project. Where the
+            assignment aims to discuss about understanding the context of the
+            problem and the use of interactive systems to be designed. In
+            addition, it also discusses fundamental concepts in human and
+            computer interaction and their application to produce modern and
+            usable user interfaces.
+          </h4>
         </div>
-  
-        <div class="button-header">
-          <button class="btn-signup">Sign Up</button>
-          <button class="btn-login">Login</button>
+        <img
+          class="mission-image2"
+          src="assets/mission-image.png"
+          alt="mission image"
+        />
+      </div>
+      <div class="our-team">
+        <div class="our-team-desc1">
+          <h2 class="title-1">Our Team</h2>
+          <h4 class="text-2">
+            We are from group 1 to work on the library website project that we
+            have chosen.
+          </h4>
         </div>
-  
-        <div class="toggle-button">
-          <i class="fa fa-bars"></i>
+        <div class="creators">
+          <div class="creator">
+            <img class="avatar" src="assets/avatar1.png" alt="" />
+            <a
+              style="text-decoration: none"
+              href="https://instagram.com/aryanura250"
+              target="_blank"
+              ><h5 class="name">Krisna Aryasatya Nugraha</h5></a
+            >
+            <h5 class="text-1">Creator</h5>
+          </div>
+          <div class="creator">
+            <img class="avatar" src="assets/avatar1.png" alt="" />
+            <a
+              style="text-decoration: none"
+              href="https://instagram.com/yyyosuaa"
+              target="_blank"
+              ><h5 class="name">Yosua Samuel Edlyn Sinaga</h5></a
+            >
+            <h5 class="text-1">Creator</h5>
+          </div>
+          <div class="creator">
+            <img class="avatar" src="assets/avatar1.png" alt="" />
+            <a
+              style="text-decoration: none"
+              href="https://instagram.com/lndra.a"
+              target="_blank"
+              ><h5 class="name">Gede Indra Adi Brata</h5></a
+            >
+            <h5 class="text-1">Creator</h5>
+          </div>
         </div>
-  
-        <div class="dropdown-menu">
-          <a href="index.html">Home</a>
-          <a href="about-us.html">About Us</a>
-          <a href="#">Books</a>
-          <a href="#">Articles</a>
-          <a href="faqs.html">FAQs</a>
-          <a href="" class="btn-signup-dropdown">Sign Up</a>
-          <a href="" class="btn-login-dropdown">Login</a>
+        <div class="our-team-desc2">
+          <h2 class="title-3">Our Team</h2>
+          <h4 class="text-1">
+            We are from group 1 to work on the library website project that we
+            have chosen.
+          </h4>
         </div>
-        <script src="./scripts/header-footer.js"></script>
-      </header>
-      <main>
-          <div class="about-us">
-              <h2 class="title-1">About Us</h2>
-              <h4 class="text-1">We aim to create this website because we want to help libraries that do not have or already have a website so that monitoring work can be more efficient and easier. and also we are still learning in making this website, hopefully we can continue to develop in making this website. We apologize for any shortcomings of the current website</h4>
+      </div>
+      <div class="contact">
+        <h2 class="title-2">Contact Us</h2>
+        <h5 class="text-1">
+          If you have any problems or questions, please contact our social
+          media.
+        </h5>
+        <div class="social-medias">
+          <div class="social-media">
+            <img class="icon" src="assets/ig.png" alt="" />
+            <h5 class="name">@bookverse_id</h5>
           </div>
-          <div class="current-library-target">
-              <h4 class="title-1">current library target</h5>
-              <img class="library-image" src="assets/current-library-target.png" alt="current library target">
+          <div class="social-media">
+            <img class="icon" src="assets/email.png" alt="" />
+            <h5 class="name">bookverse@gmail.com</h5>
           </div>
-          <div class="mission">
-              <div class="mission2">
-                  <h2 class="title-2">BookVerse Mission</h2>
-                  <img class="mission-image1" src="assets/mission-image.png" alt="mission image">
-                  <h4 class="text-1">Our mission in creating this library website, which is from the Human and Computer Interaction course assignment project. Where the assignment aims to discuss about understanding the context of the problem and the use of interactive systems to be designed. In addition, it also discusses fundamental concepts in human and computer interaction and their application to produce modern and usable user interfaces.</h4>
-              </div>
-              <img class="mission-image2" src="assets/mission-image.png" alt="mission image">
+          <div class="social-media">
+            <img class="icon" src="assets/in.png" alt="" />
+            <h5 class="name">bookverse</h5>
           </div>
-          <div class="our-team">
-              <div class="our-team-desc1">
-                  <h2 class="title-1">Our Team</h2>
-                  <h4 class="text-2">We are from group 1 to work on the library website project that we have chosen.</h4>
-              </div>
-              <div class="creators">
-                  <div class="creator">
-                      <img class="avatar" src="assets/avatar1.png" alt="">
-                      <a style="text-decoration: none;" href="https://instagram.com/aryanura250" target="_blank"><h5 class="name">Krisna Aryasatya Nugraha</h5></a>
-                      <h5 class="text-1">Creator</h5>
-                  </div>
-                  <div class="creator">
-                      <img class="avatar" src="assets/avatar1.png" alt="">
-                      <a style="text-decoration: none;" href="https://instagram.com/yyyosuaa" target="_blank"><h5 class="name">Yosua Samuel Edlyn Sinaga</h5></a>
-                      <h5 class="text-1">Creator</h5>
-                  </div>
-                  <div class="creator">
-                      <img class="avatar" src="assets/avatar1.png" alt="">
-                      <a style="text-decoration: none;" href="https://instagram.com/lndra.a" target="_blank"><h5 class="name">Gede Indra Adi Brata</h5></a>
-                      <h5 class="text-1">Creator</h5>
-                  </div>
-              </div>
-              <div class="our-team-desc2">
-                  <h2 class="title-3">Our Team</h2>
-                  <h4 class="text-1">We are from group 1 to work on the library website project that we have chosen.</h4>
-              </div>
-          </div>
-          <div class="contact">
-              <h2 class="title-2">Contact Us</h2>
-              <h5 class="text-1">If you have any problems or questions, please contact our social media.</h5>
-              <div class="social-medias">
-                  <div class="social-media">
-                      <img class="icon" src="assets/ig.png" alt="">
-                      <h5 class="name">@bookverse_id</h5>
-                  </div>
-                  <div class="social-media">
-                      <img class="icon" src="assets/email.png" alt="">
-                      <h5 class="name">bookverse@gmail.com</h5>
-                  </div>
-                  <div class="social-media">
-                      <img class="icon" src="assets/in.png" alt="">
-                      <h5 class="name">bookverse</h5>
-                  </div>
-              </div>
-          </div>
-      <main>
+        </div>
+      </div>
+    </main>
     <footer class="footer-container">
-        <div class="footer-container-up">
-    
-            <div class="product">
-            <h3>Product</h3>
-            <p>Rent Books</p>
-            <p>Articles</p>
-            <p>Online Library</p>
-            </div>
-            <div class="information">
-            <h3>Information</h3>
-            <a href="">About Us</a>
-            <a href="">Books</a>
-            <a href="">Articles</a>
-            </div>
-            <div class="company">
-            <h3>Company</h3>
-            <p>BookVerse</p>
-            </div>
-            <div class="subscribe">
-            <div class="subscribe-input">
-                <input class="subscribe-input-box" type="text" placeholder=" Email Address">
-                <img src="./assets/Lucide Icon-Arrow Right.png" alt="">
-            </div>
-            
-            <p>Subscribe to BookVerse and stay in the know! Rest assured, your inbox will remain spam-free.</p>
-            </div>
+      <div class="footer-container-up">
+        <div class="product">
+          <h3>Product</h3>
+          <p>Rent Books</p>
+          <p>Articles</p>
+          <p>Online Library</p>
         </div>
-    
-        <div class="footer-container-bottom">
-            <div class="logo-footer">
-            <img src="./assets/Logo-Footer.png" alt="">
-            </div>
-    
-            <div class="terms-privacy-cookies">
-            <p>Terms</p>
-            <p>Privacy</p>
-            <p>Cookies</p>
-            </div>
-    
-            <div class="social-media">
-            <img src="./assets/linkedin-footer.png" alt="">
-            <img src="./assets/facebook-footer.png" alt="">
-            <img src="./assets/github-footer.png" alt="">
-            <img src="./assets/email-footer.png" alt="">
-            <img src="./assets/instagram-footer.png" alt="">
-            </div>
-    
+        <div class="information">
+          <h3>Information</h3>
+          <a href="index.html">About Us</a>
+          <a href="books.html">Books</a>
+          <a href="articles.html">Articles</a>
         </div>
-    
-        </footer>
-
-</body>
+        <div class="company">
+          <h3>Company</h3>
+          <p>BookVerse</p>
+        </div>
+        <div class="subscribe">
+          <div class="subscribe-input">
+            <input
+              class="subscribe-input-box"
+              type="text"
+              placeholder=" Email Address"
+            />
+            <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
+          </div>
+          <p>
+            Subscribe to BookVerse and stay in the know! Rest assured, your
+            inbox will remain spam-free.
+          </p>
+        </div>
+      </div>
+      <div class="footer-container-bottom">
+        <div class="logo-footer">
+          <img src="./assets/logo-footer.png" alt="Logo Footer" />
+        </div>
+        <div class="terms-privacy-cookies">
+          <p>Terms</p>
+          <p>Privacy</p>
+          <p>Cookies</p>
+        </div>
+        <div class="social-media">
+          <img
+            src="./assets/linkedin-footer.png"
+            alt="Linkedin"
+            onclick="window.location.href='https:/www.linkedin.com/'"
+          />
+          <img
+            src="./assets/facebook-footer.png"
+            alt="Facebook"
+            onclick="window.location.href='https:/www.facebook.com/'"
+          />
+          <img
+            src="./assets/github-footer.png"
+            alt="Github"
+            onclick="window.location.href='https:/www.github.com/'"
+          />
+          <img
+            src="./assets/email-footer.png"
+            alt="Email"
+            onclick="window.location.href='https:/www.email.com/'"
+          />
+          <img
+            src="./assets/instagram-footer.png"
+            alt="Instagram"
+            onclick="window.location.href='https:/www.instagram.com/'"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
