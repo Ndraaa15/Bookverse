@@ -74,7 +74,6 @@
   .text-5 {
     font-weight: 600;
     text-align: left;
-    margin: 0px 15px;
     color: rgb(0, 0, 0);
   }
   .text-6{
@@ -139,10 +138,12 @@
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 200px;
-  }
-  
+}
+
 .setting-option{
     display: flex;
+    width: 90%;
+    margin: 0 auto;
     margin-bottom: 15px;
     flex-direction: column;
 }
