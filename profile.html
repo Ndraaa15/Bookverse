@@ -10,7 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles/faqs.css" />
+    <link rel="stylesheet" href="./styles/profile.css" />
     <link rel="stylesheet" href="./styles/header-footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,18 +47,18 @@
       </div>
       <div class="icon-header">
         <a href="cart.html">
-            <img src="./assets/cart-icon.png" alt="Cart Icon" />
-          </a>
-          <a href="nontification.html">
-            <img src="./assets/bell-icon.png" alt="Notification Icon" />
-          </a>
-          <a href="profile.html">
-            <img
-              class="profile"
-              src="./assets/profile-icon.png"
-              alt="Profile Icon"
-            />
-          </a>
+          <img src="./assets/cart-icon.png" alt="Cart Icon" />
+        </a>
+        <a href="nontification.html">
+          <img src="./assets/bell-icon.png" alt="Notification Icon" />
+        </a>
+        <a href="profile.html">
+          <img
+            class="profile"
+            src="./assets/profile-icon.png"
+            alt="Profile Icon"
+          />
+        </a>
       </div>
       <div class="toggle-button">
         <i class="fa fa-bars"></i>
@@ -78,166 +78,71 @@
     </header>
     <script src="./scripts/header-footer.js"></script>
     <main>
-      <div class="faq">
-        <h2 class="title-1">Frequent Ask Question</h2>
-        <h4 class="text-1">
-          Bookverse FAQ is a quick, user-friendly resource for understanding the
-          platform and getting answers to common questions, such as renting,
-          subscriptions, finding books, and technical issues. It's regularly
-          updated to provide current information.
-        </h4>
+      <div class="my-profile">
+        <h1 class="title-2">My Profile</h1>
+        <hr />
       </div>
-      <ul class="accordion">
-        <li>
-          <input type="radio" name="accordion" id="first" />
-          <label class="text-4" for="first"
-            >How do I create an account on the library website?</label
-          >
-          <div class="content">
-            <h4 class="text-3">
-              Click on 'Sign Up' and fill in all the information needed to
-              create a new account.
-            </h4>
-          </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="second" />
-          <label class="text-4" for="second"
-            >How do I search for books on the library website?</label
-          >
-          <div class="content">
-            <h4 class="text-3">
-              Go to navigation bar 'Books' and search book what you want.
-            </h4>
-          </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="third" />
-          <label class="text-4" for="third">How to rent book?</label>
-          <div class="content">
-            <h4 class="text-3">
-              Click on the book that you want to rent and click 'Add to cart'.
-              After that, go to cart and click check out.
-            </h4>
-          </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="fourth" />
-          <label class="text-4" for="fourth">How to update profile?</label>
-          <div class="content">
-            <h4 class="text-3">
-              Go to profile and click on 'change profile' to update your profile
-            </h4>
-          </div>
-        </li>
-        <li>
-          <input type="radio" name="accordion" id="fifth" />
-          <label class="text-4" for="fifth">How to track my loan status?</label>
-          <div class="content">
-            <h4 class="text-3">
-              Go to 'Profile' and click on 'History' to check your loan status.
-            </h4>
-          </div>
-        </li>
-      </ul>
-      <div class="search-container">
-        <img class="search-icon" src="assets/search.png" alt="" />
-        <input class="search-input" type="search" placeholder="Search..." />
-      </div>
-      <div class="prev-questions">
-        <a
-          class="prev-question"
-          style="text-decoration: none"
-          href="maintenance.html"
-          target="_blank"
-        >
-          <div class="prev-question-id">
-            <h5 class="text-6">Joni Iskandar</h5>
-            <h5 class="text-7">How to update profile?</h5>
-          </div>
-          <div class="prev-question-date">
-            <h5 class="text-8">22 August 2023</h5>
-          </div>
-        </a>
-        <a
-          class="prev-question"
-          style="text-decoration: none"
-          href="maintenance.html"
-          target="_blank"
-        >
-          <div class="prev-question-id">
-            <h5 class="text-6">Simon Santoso</h5>
-            <h5 class="text-7">How to log out from website?</h5>
-          </div>
-          <div class="prev-question-date">
-            <h5 class="text-8">23 August 2023</h5>
-          </div>
-        </a>
-        <a
-          class="prev-question"
-          style="text-decoration: none"
-          href="maintenance.html"
-          target="_blank"
-        >
-          <div class="prev-question-id">
-            <h5 class="text-6">Ridho Rahman</h5>
-            <h5 class="text-7">How to see my notification?</h5>
-          </div>
-          <div class="prev-question-date">
-            <h5 class="text-8">24 August 2023</h5>
-          </div>
-        </a>
-        <a class="text-10" style="text-decoration: none" href="maintenance.html"
-          >See more...</a
-        >
-      </div>
-
-      <div class="ask-question-container-1">
-        <div class="ask-question-container-2">
-          <h1 class="title-4">Ask Question</h1>
-          <img
-            src="assets/ask-question-img.png"
-            alt=""
-            class="ask-question-img"
-          />
+      <div class="container">
+        <div class="profile-nav">
+          <a href="profile.html">
+            <h3 class="text-2">PROFILE</h3>
+          </a>
+          <a href="history.html">
+            <h3 class="text-1">HISTORY</h3>
+          </a>
+          <a href="setting.html">
+            <h3 class="text-1">SETTING</h3>
+          </a>
+          <a href="maintenance.html">
+            <h3 class="text-3">LOG OUT</h3>
+          </a>
         </div>
-        <div class="ask-question-container-3">
-          <div class="search-container-2">
-            <h4 class="text-9">Name</h4>
-            <div class="search-box">
-              <input class="search-input-2" type="search" placeholder="Name" />
+        <div class="profile-content">
+          <div class="user">
+            <img class="user-img" src="assets/avatar2.png" alt="" />
+            <p class="text-4">Change Photo</p>
+            <h4 class="text-5">Cupcakezzzz</h4>
+          </div>
+          <div class="achievement">
+            <h4 class="text-6">Trusted Reviewer</h4>
+            <h4 class="text-6">Active User</h4>
+            <h4 class="text-6">Top Contributor</h4>
+          </div>
+          <div class="coin">
+            <h4>20 Coin</h4>
+          </div>
+          <div class="user-info">
+            <h5 class="text-12">Change Profile</h5>
+            <div class="user-info-container">
+              <h4 class="text-9">Name</h4>
+              <h4 class="text-11">Gede Indra Adi Brata</h4>
+            </div>
+            <div class="user-info-container">
+              <h4 class="text-9">Email</h4>
+              <h4 class="text-11">indrabrata666@gmail.com</h4>
+            </div>
+            <div class="user-info-container">
+              <h4 class="text-9">Faculty</h4>
+              <h4 class="text-11">Computer Science</h4>
+            </div>
+            <div class="search-container-2">
+              <h4 class="text-9">Major</h4>
+              <h4 class="text-11">Informatics Engineering</h4>
+            </div>
+            <div class="search-container-2">
+              <h4 class="text-9">Address</h4>
+              <h4 class="text-11">Jalan Borobudur Agung Timur IV, No.2</h4>
+            </div>
+            <div class="search-container-2">
+              <h4 class="text-9">Phone Number</h4>
+              <h4 class="text-11">082145278752</h4>
+            </div>
+            <div class="search-container-2">
+              <h4 class="text-9">Password</h4>
+              <h4 class="text-11">********</h4>
+              <h4 class="text-8">Change Password</h4>
             </div>
           </div>
-          <div class="search-container-2">
-            <h4 class="text-9">Email</h4>
-            <div class="search-box">
-              <input class="search-input-2" type="search" placeholder="Email" />
-            </div>
-          </div>
-          <div class="search-container-2">
-            <h4 class="text-9">Subject</h4>
-            <div class="search-box">
-              <input
-                class="search-input-2"
-                type="search"
-                placeholder="Subject"
-              />
-            </div>
-          </div>
-          <div class="search-container-2">
-            <h4 class="text-9">Description</h4>
-            <div class="search-box">
-              <textarea
-                class="textarea"
-                name=""
-                id=""
-                cols="30"
-                rows="5"
-                placeholder="Description"
-              ></textarea>
-            </div>
-          </div>
-          <button>Send</button>
         </div>
       </div>
     </main>
