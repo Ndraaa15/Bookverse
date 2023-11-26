@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./styles/header-footer.css" />
     <link rel="stylesheet" href="./styles/return-loan.css" />
   </head>
-  <body>
+  <body>  
     <header class="header-container">
       <img
         src="./assets/logo-header.png"
@@ -80,7 +80,9 @@
     <script src="./scripts/header-footer.js"></script>
     <div class="detail-container">
       <div class="detail-title">
-        <img src="./assets/left-arrow.png" alt="left-arrow">
+        <a href="javascript:history.back()">
+          <img src="./assets/left-arrow.png" alt="left-arrow">
+      </a>
         <h1>Book Detail</h1>
         <div></div>
       </div>
@@ -107,38 +109,38 @@
           <div class="detail-book-specify-wrapper">
             <div class="detail-book-specify-left">
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Pages</p>
-                <p class="specicy-value">444</p>
+                <p class="specify-subtitle">Pages</p>
+                <p class="specify-value">444</p>
               </div>
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Published Date</p>
-                <p class="specicy-value">11 Agt 2023</p>
+                <p class="specify-subtitle">Published Date</p>
+                <p class="specify-value">11 Agt 2023</p>
               </div>
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">ISBN</p>
-                <p class="specicy-value">9786238829606</p>
+                <p class="specify-subtitle">ISBN</p>
+                <p class="specify-value">9786238829606</p>
               </div>
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Languages</p>
-                <p class="specicy-value">Indonesia</p>
+                <p class="specify-subtitle">Languages</p>
+                <p class="specify-value">Indonesia</p>
               </div>
             </div>
             <div class="detail-book-specify-right">
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Pages</p>
-                <p class="specicy-value">444</p>
+                <p class="specify-subtitle">Pages</p>
+                <p class="specify-value">444</p>
               </div>
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Published Date</p>
-                <p class="specicy-value">11 Agt 2023</p>
+                <p class="specify-subtitle">Published Date</p>
+                <p class="specify-value">11 Agt 2023</p>
               </div>
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">ISBN</p>
-                <p class="specicy-value">9786238829606</p>
+                <p class="specify-subtitle">ISBN</p>
+                <p class="specify-value">9786238829606</p>
               </div>
               <div class="detail-book-speficy">
-                <p class="specicy-subtitle">Languages</p>
-                <p class="specicy-value">Indonesia</p>
+                <p class="specify-subtitle">Languages</p>
+                <p class="specify-value">Indonesia</p>
               </div>
             </div>
           </div>
@@ -155,11 +157,12 @@
     </div>
     <div id="returnConfirmationModal" class="overlay">
       <div class="modal">
-        <span class="close-btn" onclick="closeReturnConfirmationModal()">&times;</span>
-        <h2>Return Confirmation</h2>
+        <h2>Bookverse</h2>
         <p>Are you sure you want to return the book?</p>
-        <button onclick="confirmReturn()">Yes, Return</button>
-        <button onclick="closeReturnConfirmationModal()">Cancel</button>
+        <div class="modal-button">
+          <button class="modal-return" onclick="confirmReturn()">Yes, Return</button>
+          <button class="modal-cancel" onclick="closeReturnConfirmationModal()">Cancel</button>
+        </div>
       </div>
     </div>
     <script src="./scripts/return-loan.js"></script>
