@@ -17,37 +17,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header-container">
-        <img src="./assets/Logo.png" alt="Logo Bookverse" />
-  
-        <div class="list-navbar">
-          <a href="index.html">Home</a>
-          <a href="about-us.html">About Us</a>
-          <a href="#">Books</a>
-          <a href="#">Articles</a>
-          <a href="faqs.html">FAQs</a>
-        </div>
-  
-        <div class="button-header">
-          <button class="btn-signup">Sign Up</button>
-          <button class="btn-login">Login</button>
-        </div>
-  
-        <div class="toggle-button">
-          <i class="fa fa-bars"></i>
-        </div>
-  
-        <div class="dropdown-menu">
-          <a href="index.html">Home</a>
-          <a href="about-us.html">About Us</a>
-          <a href="#">Books</a>
-          <a href="#">Articles</a>
-          <a href="faqs.html">FAQs</a>
-          <a href="" class="btn-signup-dropdown">Sign Up</a>
-          <a href="" class="btn-login-dropdown">Login</a>
-        </div>
-        <script src="./scripts/header-footer.js"></script>
-      </header>
+  <header class="header-container">
+    <img
+      src="./assets/logo-header.png"
+      alt="Logo Bookverse"
+      onclick="window.location.href='index.html'"
+      class="logo-header"
+    />
+    <div class="list-navbar">
+      <a href="index.html">Home</a>
+      <a href="about-us.html">About Us</a>
+      <a href="books.html">Books</a>
+      <a href="articles.html">Articles</a>
+      <a href="faqs.html">FAQs</a>
+    </div>
+    <div class="button-header">
+      <button
+        onclick="window.location.href = 'signup.html'"
+        class="btn-signup"
+      >
+        Sign Up
+      </button>
+      <button onclick="window.location.href = 'login.html'" class="btn-login">
+        Login
+      </button>
+    </div>
+    <div class="icon-header">
+      <img src="./assets/cart-icon.png" alt="Cart Icon" />
+      <img src="./assets/bell-icon.png" alt="Notification Icon" />
+      <img
+        class="profile"
+        src="./assets/profile-icon.png"
+        alt="Profile Icon"
+      />
+    </div>
+    <div class="toggle-button">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="dropdown-menu">
+      <a href="index.html">Home</a>
+      <a href="about-us.html">About Us</a>
+      <a href="books.html">Books</a>
+      <a href="articles.html">Articles</a>
+      <a href="faqs.html">FAQs</a>
+      <a class="logged-in" href="cart.html">Cart</a>
+      <a class="logged-in" href="nontification.html">Notification</a>
+      <a class="logged-in profile" href="profile.html">Profile</a>
+      <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
+      <a href="login.html" class="btn-login-dropdown">Login</a>
+    </div>
+  </header>
+  <script src="./scripts/header-footer.js"></script>
       <main>
 
 <div class="cart">
@@ -57,7 +77,7 @@
     <div class="line-1"></div>
     <div class="select-all">Select All</div>
     <div class="frame-1174">
-      <img class="tuesdays-with-morrie-2" src="tuesdays-with-morrie-20.png" />
+      <img class="tuesdays-with-morrie-2" src="assets/Cart 1.png" />
       <div class="tuesdays-with-morie">Tuesdays With Morie</div>
       <div class="author-m-itch-albom">Author : MItch Albom</div>
       <div class="genre-biography">Genre : Biography</div>
@@ -85,7 +105,7 @@
       <div class="_13">1</div>
     </div>
     <div class="frame-1175">
-      <img class="tuesdays-with-morrie-2" src="tuesdays-with-morrie-21.png" />
+      <img class="tuesdays-with-morrie-2" src="assets/Cart 2.png" />
       <div class="the-odd-1-s-out-the-first-sequel">
         The Odd 1S Out: The First Sequel
       </div>
@@ -223,10 +243,10 @@
         />
       </svg>
   
-      <img class="trash" src="trash0.png" />
+      <img class="trash" src="assets/Sampah.png" />
     </div>
     <div class="frame-1176">
-      <img class="tuesdays-with-morrie-2" src="tuesdays-with-morrie-22.png" />
+      <img class="tuesdays-with-morrie-2" src="assets/Cart 3.png" />
       <div class="how-innovation-works">How Innovation Works</div>
       <div class="author-matt-ridley">Author : Matt Ridley</div>
       <div class="genre-business">Genre : Business</div>
@@ -362,7 +382,7 @@
         />
       </svg>
   
-      <img class="trash2" src="trash1.png" />
+      <img class="trash2" src="assets/Sampah.png" />
     </div>
     <svg
       class="arrow-1"
@@ -508,7 +528,7 @@
       />
     </svg>
   
-    <img class="trash3" src="trash2.png" />
+    <img class="trash3" src="assets/Sampah.png" />
     <div class="button-contained">
       <div class="button">Checkout</div>
       <svg
@@ -539,56 +559,76 @@
   </div>
   <main>
     <footer class="footer-container">
-        <div class="footer-container-up">
-    
-            <div class="product">
-            <h3>Product</h3>
-            <p>Rent Books</p>
-            <p>Articles</p>
-            <p>Online Library</p>
-            </div>
-            <div class="information">
-            <h3>Information</h3>
-            <a href="">About Us</a>
-            <a href="">Books</a>
-            <a href="">Articles</a>
-            </div>
-            <div class="company">
-            <h3>Company</h3>
-            <p>BookVerse</p>
-            </div>
-            <div class="subscribe">
-            <div class="subscribe-input">
-                <input class="subscribe-input-box" type="text" placeholder=" Email Address">
-                <img src="./assets/Lucide Icon-Arrow Right.png" alt="">
-            </div>
-            
-            <p>Subscribe to BookVerse and stay in the know! Rest assured, your inbox will remain spam-free.</p>
-            </div>
+      <div class="footer-container-up">
+        <div class="product">
+          <h3>Product</h3>
+          <p>Rent Books</p>
+          <p>Articles</p>
+          <p>Online Library</p>
         </div>
-    
-        <div class="footer-container-bottom">
-            <div class="logo-footer">
-            <img src="./assets/Logo-Footer.png" alt="">
-            </div>
-    
-            <div class="terms-privacy-cookies">
-            <p>Terms</p>
-            <p>Privacy</p>
-            <p>Cookies</p>
-            </div>
-    
-            <div class="social-media">
-            <img src="./assets/linkedin-footer.png" alt="">
-            <img src="./assets/facebook-footer.png" alt="">
-            <img src="./assets/github-footer.png" alt="">
-            <img src="./assets/email-footer.png" alt="">
-            <img src="./assets/instagram-footer.png" alt="">
-            </div>
-    
+        <div class="information">
+          <h3>Information</h3>
+          <a href="index.html">About Us</a>
+          <a href="books.html">Books</a>
+          <a href="articles.html">Articles</a>
         </div>
-    
-        </footer>
+        <div class="company">
+          <h3>Company</h3>
+          <p>BookVerse</p>
+        </div>
+        <div class="subscribe">
+          <div class="subscribe-input">
+            <input
+              class="subscribe-input-box"
+              type="text"
+              placeholder=" Email Address"
+            />
+            <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
+          </div>
+          <p>
+            Subscribe to BookVerse and stay in the know! Rest assured, your
+            inbox will remain spam-free.
+          </p>
+        </div>
+      </div>
+      <div class="footer-container-bottom">
+        <div class="logo-footer">
+          <img src="./assets/logo-footer.png" alt="Logo Footer" />
+        </div>
+        <div class="terms-privacy-cookies">
+          <p>Terms</p>
+          <p>Privacy</p>
+          <p>Cookies</p>
+        </div>
+        <div class="social-media">
+          <img
+            src="./assets/linkedin-footer.png"
+            alt="Linkedin"
+            onclick="window.location.href='https:/www.linkedin.com/'"
+          />
+          <img
+            src="./assets/facebook-footer.png"
+            alt="Facebook"
+            onclick="window.location.href='https:/www.facebook.com/'"
+          />
+          <img
+            src="./assets/github-footer.png"
+            alt="Github"
+            onclick="window.location.href='https:/www.github.com/'"
+          />
+          <img
+            src="./assets/email-footer.png"
+            alt="Email"
+            onclick="window.location.href='https:/www.email.com/'"
+          />
+          <img
+            src="./assets/instagram-footer.png"
+            alt="Instagram"
+            onclick="window.location.href='https:/www.instagram.com/'"
+          />
+        </div>
+      </div>
+    </footer>
 
 </body>
 </html>

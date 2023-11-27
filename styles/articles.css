@@ -1,1135 +1,430 @@
-.articles,
-.articles * {
-  box-sizing: border-box;
+html {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
 }
-.articles {
-  background: #ffffff;
-  width: 1440px;
-  height: 2522px;
-  position: relative;
-  overflow: hidden;
+
+* {
+  font-family: "Poppins", sans-serif;
 }
-.navigation {
-  background: #2851e3;
-  padding: 15px 120px 15px 120px;
+
+.rectangle {
+  width: 100%;
+  height: 830px;
+  position: absolute;
+  z-index: -1;
+}
+
+.container-section-1 {
+  width: 100vw;
+  padding-top: 6%;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  width: 1440px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  box-shadow: inset 0px -1px 1px 0px rgba(0, 0, 0, 0.1);
-}
-._1 {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
   align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  height: 50px;
-  position: relative;
 }
-.wepik-cute-purple-publisher-logo-20231015062459-nl-77-1-1 {
-  flex-shrink: 0;
-  width: 45px;
-  height: 34px;
-  position: relative;
-}
-.group-3594 {
-  flex-shrink: 0;
-  width: 121.17px;
-  height: 35px;
-  position: static;
-}
-.book-verse {
-  color: #ffffff;
-  text-align: left;
-  font: 800 20px "Poppins-ExtraBold", sans-serif;
-  position: absolute;
-  left: 50px;
-  top: 7.5px;
-  width: 113px;
-  height: 35px;
-}
-.ellipse-31 {
-  background: #ffffff;
-  border-radius: 50%;
-  width: 8.17px;
-  height: 8.17px;
-  position: absolute;
-  left: 163px;
-  top: 14px;
-}
-.nav {
+
+.container-section-1 .text {
   display: flex;
-  flex-direction: row;
-  gap: 30px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 433px;
-  position: relative;
+  flex-direction: column;
+  padding: 0 10%;
+  gap: 20px;
 }
-.item-link {
-  flex-shrink: 0;
-  width: 58px;
-  height: 18px;
-  position: relative;
+
+.container-section-1 .text h1 {
+  font-size: 80px;
+  color: #212121;
 }
-.home {
-  color: #dbdbdb;
-  text-align: center;
-  font: 700 14px "Poppins-Bold", sans-serif;
-  position: absolute;
-  right: -3.7%;
-  left: 0%;
-  width: 103.7%;
-  bottom: -11.11%;
-  top: -5.56%;
-  height: 116.67%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.item-link2 {
-  flex-shrink: 0;
-  width: 67px;
-  height: 18px;
-  position: relative;
-}
-.home2 {
-  color: #dbdbdb;
-  text-align: center;
-  font: 500 14px "Poppins-Medium", sans-serif;
-  position: absolute;
-  right: -3.7%;
-  left: 0%;
-  width: 103.7%;
-  bottom: -11.11%;
-  top: -5.56%;
-  height: 116.67%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.item-link3 {
-  flex-shrink: 0;
-  width: 65px;
-  height: 18px;
-  position: relative;
-}
-.home3 {
-  color: #dbdbdb;
-  text-align: center;
-  font: 500 14px "Poppins-Medium", sans-serif;
-  position: absolute;
-  right: 15.52%;
-  left: 20.69%;
-  width: 63.79%;
-  bottom: -11.11%;
-  top: -5.56%;
-  height: 116.67%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.frame-6 {
+
+.container-section-1 .button {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   gap: 20px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
 }
-.icon-feather-icon {
-  flex-shrink: 0;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  overflow: visible;
-}
-.icon-lucide-icon {
-  flex-shrink: 0;
-  width: 27px;
-  height: 27px;
-  position: relative;
-  overflow: visible;
-}
-.avatar {
-  background: var(--system-grey-100, #f5f5f5);
-  border-radius: 30px;
-  flex-shrink: 0;
-  width: 50px;
-  height: 50px;
-  position: relative;
-  overflow: hidden;
-}
-.icon-feather-icon2 {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  overflow: visible;
-}
-.frame-512243 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 124px;
-  top: 284px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.building-a-reading-culture-in-the-digital-age {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.tuesdays-with-morrie-4 {
-  width: 240.9px;
-  height: 220px;
-  position: absolute;
-  left: 23px;
-  top: 9px;
-}
-.in-the-digital-age-information-is-abundant-but-often-superficial-this-article-discusses-strategies-to-foster-a-deep-reading-habit-amidst-digitization {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 297px;
-  width: 233px;
-}
-.more {
-  color: var(--neutral-80, #616161);
-  text-align: left;
-  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 207px;
-  top: 424px;
-}
-.button {
-  border-radius: 4px;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 239px;
-  top: 416px;
-}
-.phosphor-icons-caret-circle-right {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512244 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 428px;
-  top: 284px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.the-role-of-libraries-in-supporting-information-literacy {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.in-a-world-filled-with-information-libraries-stand-as-centers-for-information-literacy-education-this-description-highlights-how-libraries-guide-the-public-in-discerning-credible-information {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 297px;
-  width: 233px;
-}
-.more2 {
-  color: var(--neutral-80, #616161);
-  text-align: left;
-  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 207px;
-  top: 425px;
-}
-.button2 {
-  border-radius: 4px;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 239px;
-  top: 417px;
-}
-.phosphor-icons-caret-circle-right2 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512245 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 731px;
-  top: 284px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.getting-to-know-various-types-of-books-and-the-best-reading-choices {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.this-article-provides-a-guide-on-the-different-genres-of-books-and-recommends-enriching-reads-to-enhance-the-reading-experience {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 302px;
-  width: 233px;
-}
-.more3 {
-  color: var(--neutral-80, #616161);
-  text-align: left;
-  font: var(--paragraph-16-px-regular, 400 16px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 204px;
-  top: 425px;
-}
-.button3 {
-  border-radius: 4px;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 236px;
-  top: 417px;
-}
-.phosphor-icons-caret-circle-right3 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512246 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 1035px;
-  top: 284px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.the-importance-of-digital-resources-in-modern-libraries {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.modern-libraries-now-emphasize-digital-assets-like-e-books-and-online-journals-ensuring-relevance-and-broadening-access-in-today-s-digital-era {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 297px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right4 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512247 {
-  background: var(--neutral-10, #ffffff);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 124px;
-  top: 810px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.modern-libraries-emphasize-digital-assets-like-e-books-and-online-journals-ensuring-relevance-and-broadening-access-in-the-digital-era {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 297px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right5 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512248 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 428px;
-  top: 810px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.optimizing-library-facilities-for-learning {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.utilizing-library-resources-and-facilities-such-as-reading-rooms-and-database-access-to-support-effective-learning-processes {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 297px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right6 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512249 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 731px;
-  top: 810px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.child-literacy-why-it-matters-and-how-to-support-it {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.instilling-reading-habits-in-children-is-key-for-cognitive-and-emotional-development-this-article-highlights-the-importance-of-and-ways-to-foster-early-literacy {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 302px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right7 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512250 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 1035px;
-  top: 810px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.the-role-of-libraries-in-shaping-national-character {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.libraries-as-repositories-of-knowledge-and-culture-play-a-crucial-role-in-molding-national-character-and-identity-through-literature-and-history {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 297px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right8 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512251 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 124px;
-  top: 1336px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.technology-and-innovation-in-contemporary-library-services {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.how-cutting-edge-technologies-like-ai-and-virtual-reality-are-transforming-the-way-libraries-present-information-and-interact-with-visitors {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 297px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right9 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512252 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 428px;
-  top: 1336px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.reading-as-a-window-to-the-world-expanding-horizons-through-books {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.books-broaden-horizons-offering-new-perspectives-and-in-depth-knowledge-about-the-world-making-reading-a-journey-of-exploration {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 306px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right10 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512253 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 731px;
-  top: 1336px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.systematic-guide-to-searching-information-in-libraries {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.practical-steps-to-navigate-library-collections-utilize-catalogs-and-find-relevant-information-sources {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 302px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right11 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.frame-512254 {
-  background: var(--neutral-20, #f5f5f5);
-  border-radius: 20px;
-  width: 283px;
-  height: 457px;
-  position: absolute;
-  left: 1035px;
-  top: 1336px;
-  box-shadow: var(--shadow-3-box-shadow, 0px 6px 12px 0px rgba(0, 0, 0, 0.1));
-  overflow: hidden;
-}
-.rare-collections-and-the-uniqueness-behind-the-bookshelves {
-  color: #000000;
-  text-align: left;
-  font: var(
-    --paragraph-14-px-semi-bold,
-    600 14px "Poppins-SemiBold",
-    sans-serif
-  );
-  position: absolute;
-  left: 23px;
-  top: 243px;
-  width: 240px;
-}
-.highlighting-the-presence-and-value-of-rare-collections-in-libraries-and-the-unique-stories-and-history-behind-some-of-the-most-treasured-books {
-  color: #000000;
-  text-align: left;
-  font: var(--paragraph-12-px-regular, 400 12px "Poppins-Regular", sans-serif);
-  position: absolute;
-  left: 23px;
-  top: 306px;
-  width: 233px;
-}
-.phosphor-icons-caret-circle-right12 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.footer {
-  background: var(--primary-10, #2851e3);
-  padding: 100px 120px 100px 120px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  height: 604px;
-  position: absolute;
-  left: 0px;
-  top: 1918px;
-}
-.frame-1157 {
-  display: flex;
-  flex-direction: column;
-  gap: 47px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 1200px;
-  position: relative;
-}
-.frame-1156 {
-  display: flex;
-  flex-direction: row;
-  gap: 61px;
-  align-items: flex-end;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.frame-1155 {
-  padding: 49px 0px 49px 0px;
-  display: flex;
-  flex-direction: row;
-  gap: 138px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.frame-1145 {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.product {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 700 16px/28px "Poppins-Bold", sans-serif;
-  position: relative;
-}
-.frame-1141 {
-  display: flex;
-  flex-direction: column;
-  gap: 13px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.employee-database {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 400 16px "Poppins-Regular", sans-serif;
-  opacity: 0.699999988079071;
-  position: relative;
-}
-.payroll {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 400 16px "Poppins-Regular", sans-serif;
-  opacity: 0.699999988079071;
-  position: relative;
-}
-.time-tracking {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 400 16px "Inter-Regular", sans-serif;
-  opacity: 0.699999988079071;
-  position: relative;
-}
-.frame-1146 {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.information {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 700 16px/28px "Poppins-Bold", sans-serif;
-  position: relative;
-}
-.frame-1143 {
-  display: flex;
-  flex-direction: column;
-  gap: 13px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.faq {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 400 16px "Poppins-Regular", sans-serif;
-  opacity: 0.699999988079071;
-  position: relative;
-}
-.blog {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 400 16px "Poppins-Regular", sans-serif;
-  opacity: 0.699999988079071;
-  position: relative;
-}
-.support {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 400 16px "Poppins-Regular", sans-serif;
-  opacity: 0.699999988079071;
-  position: relative;
-}
-.frame-1147 {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.company {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 700 16px/28px "Poppins-Bold", sans-serif;
-  position: relative;
-  width: 159px;
-}
-.frame-1144 {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 159px;
-  height: 115px;
-  position: relative;
-}
-.about-us {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 400 16px "Poppins-Regular", sans-serif;
-  opacity: 0.699999988079071;
-  position: relative;
-  align-self: stretch;
-}
-.frame-1154 {
-  background: var(--light-primary-darker, #2851e3);
-  padding: 30px 42px 30px 42px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.frame-1153 {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.learn-more {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 700 16px/28px "Poppins-Bold", sans-serif;
-  position: relative;
-  width: 149px;
-}
-.frame-1149 {
-  background: var(--white, #ffffff);
-  border-radius: 6px;
-  border-style: solid;
-  border-color: var(--system-grey-350, #d6d6d6);
-  border-width: 1px;
-  padding: 0px 0px 0px 15px;
-  display: flex;
-  flex-direction: row;
-  gap: 56px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 248px;
-  position: relative;
-}
-.label {
-  color: var(--system-grey-800, #424242);
-  text-align: left;
-  font: 400 14px "Poppins-Regular", sans-serif;
-  opacity: 0.6000000238418579;
-  position: relative;
-  flex: 1;
-}
-.frame-1148 {
-  background: var(--light-primary-origin, #3563e9);
-  border-radius: 0px 6px 6px 0px;
-  padding: 13px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-.icon-lucide-icon2 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  transform: translate(0px, 0px);
-  overflow: visible;
-}
-.hello-we-are-flair {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 400 12px/20.4px "Poppins-Regular", sans-serif;
-  opacity: 0.699999988079071;
-  position: relative;
-  width: 254px;
-  height: 82px;
-}
-.divider {
-  background: var(--white, #ffffff);
-  border-style: solid;
-  border-color: var(--white, #ffffff);
-  border-width: 1px;
-  opacity: 0.05999999865889549;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 1px;
-  position: relative;
-}
-.frame-1152 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.logo {
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-._12 {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 171.17px;
-  height: 50px;
-  position: relative;
-}
-.frame-1150 {
-  display: flex;
-  flex-direction: row;
-  gap: 36px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.pricing {
-  color: var(--white, #ffffff);
-  text-align: left;
-  font: 500 14px "Poppins-Medium", sans-serif;
-  position: relative;
-}
-.frame-1151 {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.group-3592 {
-  flex-shrink: 0;
-  width: 35px;
-  height: 35px;
-  position: relative;
-  overflow: visible;
-}
-.group-3591 {
-  flex-shrink: 0;
-  width: 35px;
-  height: 35px;
-  position: relative;
-  overflow: visible;
-}
-.group-3589 {
-  flex-shrink: 0;
-  width: 35px;
-  height: 35px;
-  position: relative;
-  overflow: visible;
-}
-.group-3593 {
-  flex-shrink: 0;
-  width: 35px;
-  height: 35px;
-  position: relative;
-  overflow: visible;
-}
-.group-35942 {
-  flex-shrink: 0;
-  width: 35px;
-  height: 35px;
-  position: relative;
-  overflow: visible;
-}
-.button-contained {
-  background: var(--light-primary-origin, #3563e9);
-  padding: 8px 22px 8px 22px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 644px;
-  top: 1857px;
-}
-.button4 {
-  color: var(--white, #ffffff);
-  text-align: center;
-  font: 500 16px "Inter-Medium", sans-serif;
-  position: relative;
-}
-.icon-feather-icon3 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-.search {
-  background: var(--light-primary-a-8, #eff3fd);
+
+.container-section-1 .btn-login-section1 {
+  background-color: #2851e3;
+  color: #fff;
+  border: none;
   border-radius: 5px;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 28px;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.container-section-1 .btn-explore-section1 {
+  background-color: #fff;
+  color: #2851e3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 15% 0;
+}
+
+.section-2 .title-section-2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #212121;
+  text-align: center;
+}
+
+.section-2 .card-container {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 0 5px;
+  gap: 150px;
+}
+
+.section-2 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ebeeff;
+  padding: 50px 55px;
+  width: 230px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.section-2 .card .content-card-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.section-2 .card .book {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.section-2 .card .content-card-text {
+  padding-top: 30px;
+}
+
+.section-2 .card .more {
+  margin-top: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: flex-start;
-  width: 1199px;
+  margin-right: -20px;
+}
+
+.section-2 .card .more a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.section-3 {
+  margin: 15% 0;
+}
+
+.section-3 .background-section-3 {
+  object-fit: cover;
+  width: 100%;
   position: absolute;
-  left: 120px;
-  top: 204px;
+  z-index: -1;
 }
-.icon-feather-icon4 {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
+
+.section-3 .section-3-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20% 15%;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.section-3 .section-3-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #ebeeff;
+}
+
+.section-3 .section-3-text h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.section-3 .section-3-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-3 .section-3-image img {
+  padding: 15px 15px;
+}
+
+.section-3 .section-3-image .background-book {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
   position: relative;
-  overflow: visible;
 }
-.search2 {
-  color: var(--system-grey-600, #757575);
-  text-align: left;
-  font: 500 16px "Inter-Medium", sans-serif;
+
+.section-3 .section-3-image .background-book .book {
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  display: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.section-3 .section-3-image .background-book .book.active {
+  display: block;
+}
+
+.section-3 .section-3-image .arrow-btn {
+  cursor: pointer;
+}
+
+@media (width <= 1460px) {
+  .section-1 .text {
+    padding-left: 13%;
+    padding-right: 0px;
+  }
+}
+
+@media (width <= 1240px) {
+  .section-1 .text {
+    padding-top: 13%;
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+
+  .image-study {
+    display: none;
+  }
+
+  .section-2 {
+    margin-top: 40%;
+  }
+
+  .section-3 .section-3-container {
+    padding: 15% 15%;
+  }
+
+  .section-3 .section-3-image {
+    display: none;
+  }
+
+  .section-3 {
+    margin-top: 15%;
+    margin-bottom: 50%;
+  }
+
+  .section-3 .section-3-text {
+    padding: 10% 0;
+  }
+
+  .rectangle {
+    object-fit: cover;
+  }
+
+  .container-section-1 .text h1 {
+    font-size: 60px;
+  }
+
+  .container-section-1 .text {
+    padding-left: 6%;
+  }
+}
+
+@media (width <= 1080px) {
+  .section-2 {
+    margin-top: 60%;
+  }
+
+  .section-3 .background-section-3 {
+    object-fit: cover;
+  }
+
+  .section-3 .section-3-text {
+    padding: 5% 0;
+  }
+}
+
+@media (width <= 786px) {
+  .section-3 .section-3-text {
+    padding: 20% 0;
+  }
+
+  .section-3 .background-section-3 {
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@media (width <= 430px) {
+  .section-2 {
+    margin: 80% 0;
+  }
+}
+
+/* change */
+
+.part-1 h1 {
+  color: #212121e3;
+
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+.part-1 hr {
+  margin-bottom: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.part-2 {
+  margin-top: 80px;
+  margin-left: 2%;
+}
+
+.container-card {
+  background-color: rgba(255, 255, 255, 0.83);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.189);
+  border-radius: 10px;
+
+  width: 20%;
+  height: 560px;
+
+  display: inline-block;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.container-card img {
+  width: 240px;
+
+  border-radius: 10px;
+
+  display: block;
+
+  margin: auto;
+  margin-top: 20px;
+}
+
+.container-card h1 {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+
+  font-size: 20px;
+}
+
+.container-card p {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+
+  font-size: 15px;
+
+}
+
+.container-card a {
+  float: right;
+  margin-right: 20px;
+  margin-top: 50px;
+
+  font-size: 15px;
+  text-decoration: none;
+  color: #212121;
+
+}
+
+
+
+/* search */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 100%;
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
-.articels {
-  color: #000000;
-  text-align: left;
-  font: var(--h-3-bold, 700 34px "Poppins-Bold", sans-serif);
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #2851e3;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #2851e3;
+}
+
+.searchTerm:focus{
+  color: #2851e3;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #2851e3;
+  background: #2851e3;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 85%;
   position: absolute;
-  left: 120px;
-  top: 112px;
-  width: 305px;
-  height: 31px;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.line-4 {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px 0 0 0;
-  width: 1194px;
-  height: 0px;
-  position: absolute;
-  left: 123px;
-  top: 172px;
-  transform-origin: 0 0;
-  transform: rotate(-0.096deg) scale(1, 1);
+/* end */
+
+/* more */
+.container-more {
+  background-color: #2851e3;
+  height: 25px;
+  width: 100px;
+
+  margin: auto;
+  border-radius: 5px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  text-align: center;
+  padding: 10px;
 }
+
+.container-more a {
+  text-decoration: none;
+  color: whitesmoke;
+
+  margin-top: 100px;
+  
+}
+/* end */

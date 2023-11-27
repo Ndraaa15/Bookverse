@@ -943,3 +943,62 @@
   align-items: center;
   justify-content: center;
 }
+/* Lanjutan Media Query untuk Ponsel */
+@media (max-width: 576px) {
+  /* Penyesuaian untuk elemen yang tersisa */
+  .cart .arrow-1, .continue-explore, .frame-1157, .frame-1156, .frame-1155, .frame-1145, .frame-1146, .frame-1147, .frame-1141, .frame-1143, .frame-1144 {
+    /* Sesuaikan layout dan ukuran elemen */
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Sesuaikan lebar */
+    font-size: 12px; /* Kurangi ukuran font */
+  }
+
+  .cart .button, .icon-feather-icon7, .text {
+    /* Sesuaikan ukuran tombol, ikon, dan teks */
+    font-size: 14px;
+  }
+
+  .cart .group-3592, .group-3591, .group-3589, .group-3593, .group-35942 {
+    /* Sesuaikan ukuran ikon dan elemen grup */
+    transform: scale(0.8);
+  }
+
+  /* Penyesuaian tambahan sesuai kebutuhan */
+}
+
+/* Media Query untuk Tablet */
+@media (min-width: 577px) and (max-width: 780px) {
+  /* Penyesuaian serupa untuk tablet */
+  .cart .arrow-1, .continue-explore, .frame-1157, .frame-1156, .frame-1155, .frame-1145, .frame-1146, .frame-1147, .frame-1141, .frame-1143, .frame-1144 {
+    font-size: 14px;
+  }
+
+  .cart .button, .icon-feather-icon7, .text {
+    font-size: 16px;
+  }
+
+  .cart .group-3592, .group-3591, .group-3589, .group-3593, .group-35942 {
+    transform: scale(0.9);
+  }
+
+  /* Penyesuaian tambahan sesuai kebutuhan */
+}
+
+/* Media Query untuk Tablet Besar dan Laptop Kecil */
+@media (min-width: 781px) and (max-width: 972px) {
+  /* Penyesuaian serupa untuk perangkat yang lebih besar */
+  .cart .arrow-1, .continue-explore, .frame-1157, .frame-1156, .frame-1155, .frame-1145, .frame-1146, .frame-1147, .frame-1141, .frame-1143, .frame-1144 {
+    font-size: 16px;
+  }
+
+  .cart .button, .icon-feather-icon7, .text {
+    font-size: 18px;
+  }
+
+  .cart .group-3592, .group-3591, .group-3589, .group-3593, .group-35942 {
+    transform: scale(1);
+  }
+
+  /* Penyesuaian tambahan sesuai kebutuhan */
+}
