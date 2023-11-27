@@ -60,6 +60,7 @@ main {
   padding: 27px 0px;
   margin: 0;
   color: rgba(168, 37, 37, 1);
+  cursor: pointer;
 }
 
 .text-4 {

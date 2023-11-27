@@ -7,48 +7,32 @@
   padding: 10% 3%;
 }
 main{
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section-1 {
+.cart-status{
+  color: rgba(40, 81, 227, 1);
+  font-weight: 600;
+  font-size: 400%;
+}
+
+.finished-cart-container{
+  width: 90%;
   display: flex;
-  align-items: center;
-  text-align: center;
+  margin: 0px auto;
   justify-content: center;
-}
-.business-success-celebration {
-  width: 80%;
+  align-items: center;
 }
 
-.container .section-1 h3 {
-  color: var(--primary-10, #2851e3);
-  font-size: 100px;
+.finished-cart-container img{
 }
 
-/* Media Query untuk Ponsel Kecil */
-@media (max-width: 576px) {
-  .container .section-1 h3 {
-    font-size: 30px;
-  }
 
-  .section-1 {
-    flex-direction: column;
-  }
-}
 
-/* Media Query untuk Ponsel Besar hingga Tablet Kecil */
-@media (min-width: 577px) and (max-width: 780px) {
-  .container .section-1 h3 {
-    font-size: 50px;
-  }
-}
-
-/* Media Query untuk Tablet Besar hingga Desktop Kecil */
-@media (min-width: 781px) and (max-width: 972px) {
-  .container .section-1 h3 {
-    font-size: 70px;
-  }
+@media (max-width: 972px) {
+  
+  
 }
