@@ -1,3 +1,8 @@
+*{
+  font-family: 'popins', sans-serif;
+}
+
+
 .detail-articles,
 .detail-articles * {
   box-sizing: border-box;

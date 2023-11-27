@@ -1,3 +1,8 @@
+*{
+  font-family: 'popins', sans-serif;
+}
+
+
 .cart,
 .cart * {
   box-sizing: border-box;
