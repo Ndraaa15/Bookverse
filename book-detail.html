@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./styles/header-footer.css" />
     <link rel="stylesheet" href="./styles/book-detail.css" />
   </head>
-  <body>  
+  <body>
     <header class="header-container">
       <img
         src="./assets/logo-header.png"
@@ -50,7 +50,7 @@
         <a href="cart.html">
           <img src="./assets/cart-icon.png" alt="Cart Icon" />
         </a>
-        <a href="nontification.html">
+        <a href="notification.html">
           <img src="./assets/bell-icon.png" alt="Notification Icon" />
         </a>
         <a href="profile.html">
@@ -71,7 +71,7 @@
         <a href="articles.html">Articles</a>
         <a href="faqs.html">FAQs</a>
         <a class="logged-in" href="cart.html">Cart</a>
-        <a class="logged-in" href="nontification.html">Notification</a>
+        <a class="logged-in" href="notification.html">Notification</a>
         <a class="logged-in profile" href="profile.html">Profile</a>
         <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
         <a href="login.html" class="btn-login-dropdown">Login</a>
@@ -80,99 +80,129 @@
     <script src="./scripts/header-footer.js"></script>
     <div class="detail-container">
       <div class="detail-title">
-        <img src="./assets/left-arrow.png" alt="left-arrow" onclick="goBack()">
+        <img
+          src="./assets/left-arrow.png"
+          alt="left-arrow"
+          onclick="goBack()"
+        />
         <h1>Book Detail</h1>
         <div></div>
       </div>
       <script>
         function goBack() {
-            window.history.back();
+          window.history.back();
         }
-    </script>
+      </script>
       <div class="detail-body">
-        <img class="detail-image" src="./assets/book-image-2.png" alt="Return Loan Book">
+        <img
+          class="detail-image"
+          src="./assets/book-image-2.png"
+          alt="Return Loan Book"
+        />
         <div class="detail-book">
           <div class="detail-book-header">
             <div class="detail-book-text">
               <h1>Tere Liye</h1>
               <div class="detail-star">
-                <img src="./assets/star-icon.png" alt="">
+                <img src="./assets/star-icon.png" alt="" />
                 <p>4.5</p>
               </div>
             </div>
-              <h2>Yang telah lama pergi</h2>
+            <h2>Yang telah lama pergi</h2>
           </div>
-        <div class="detail-book-description">
-          <h3>Description</h3>
-          <p class="additional-content">KAMU sudah gila!” Itulah kalimat yang terakhir kali Al Mas'ud ingat sebelum día pingsan beberapa saat lalu. Sekarang, matanya terbuka, mengerjap-ngerjap. Terang? Seberkas cahaya matahari menembus celah kecil di dinding. Sudah siang? Berapa lama dia pingsan? Beringsut hendak duduk. Mengeluh pelan, tubuhnya terasa sakit. Ada memar di lengan, juga lebam di paha, punggung. Mas'ud menoleh ke kiri, ke kanan, gerakannya terhenti oleh sekat. Dia berada di dalam ruangan kecil, seperti kerangkeng. Lembap, bau amis tercium. Lantai tempat dia duduk terasa bergoyang</p>
-        </div>
-        <p class="see-more" onclick="toggleSeeMore()">See more</p> 
-        <script src="./scripts/see-more.js"></script>
-        <div class="detail-book-specify">
-          <h3>Detail</h3>
-          <div class="detail-book-specify-wrapper">
-            <div class="detail-book-specify-left">
-              <div class="detail-book-speficy">
-                <p class="specify-subtitle">Pages</p>
-                <p class="specify-value">444</p>
+          <div class="detail-book-description">
+            <h3>Description</h3>
+            <p class="additional-content">
+              KAMU sudah gila!” Itulah kalimat yang terakhir kali Al Mas'ud
+              ingat sebelum día pingsan beberapa saat lalu. Sekarang, matanya
+              terbuka, mengerjap-ngerjap. Terang? Seberkas cahaya matahari
+              menembus celah kecil di dinding. Sudah siang? Berapa lama dia
+              pingsan? Beringsut hendak duduk. Mengeluh pelan, tubuhnya terasa
+              sakit. Ada memar di lengan, juga lebam di paha, punggung. Mas'ud
+              menoleh ke kiri, ke kanan, gerakannya terhenti oleh sekat. Dia
+              berada di dalam ruangan kecil, seperti kerangkeng. Lembap, bau
+              amis tercium. Lantai tempat dia duduk terasa bergoyang
+            </p>
+          </div>
+          <p class="see-more" onclick="toggleSeeMore()">See more</p>
+          <script src="./scripts/see-more.js"></script>
+          <div class="detail-book-specify">
+            <h3>Detail</h3>
+            <div class="detail-book-specify-wrapper">
+              <div class="detail-book-specify-left">
+                <div class="detail-book-speficy">
+                  <p class="specify-subtitle">Pages</p>
+                  <p class="specify-value">444</p>
+                </div>
+                <div class="detail-book-speficy">
+                  <p class="specify-subtitle">Published Date</p>
+                  <p class="specify-value">11 Agt 2023</p>
+                </div>
+                <div class="detail-book-speficy">
+                  <p class="specify-subtitle">ISBN</p>
+                  <p class="specify-value">9786238829606</p>
+                </div>
+                <div class="detail-book-speficy">
+                  <p class="specify-subtitle">Languages</p>
+                  <p class="specify-value">Indonesia</p>
+                </div>
               </div>
-              <div class="detail-book-speficy">
-                <p class="specify-subtitle">Published Date</p>
-                <p class="specify-value">11 Agt 2023</p>
-              </div>
-              <div class="detail-book-speficy">
-                <p class="specify-subtitle">ISBN</p>
-                <p class="specify-value">9786238829606</p>
-              </div>
-              <div class="detail-book-speficy">
-                <p class="specify-subtitle">Languages</p>
-                <p class="specify-value">Indonesia</p>
+              <div class="detail-book-specify-right">
+                <div class="detail-book-speficy">
+                  <p class="specify-subtitle">Pages</p>
+                  <p class="specify-value">444</p>
+                </div>
+                <div class="detail-book-speficy">
+                  <p class="specify-subtitle">Published Date</p>
+                  <p class="specify-value">11 Agt 2023</p>
+                </div>
+                <div class="detail-book-speficy">
+                  <p class="specify-subtitle">ISBN</p>
+                  <p class="specify-value">9786238829606</p>
+                </div>
+                <div class="detail-book-speficy">
+                  <p class="specify-subtitle">Languages</p>
+                  <p class="specify-value">Indonesia</p>
+                </div>
               </div>
             </div>
-            <div class="detail-book-specify-right">
-              <div class="detail-book-speficy">
-                <p class="specify-subtitle">Pages</p>
-                <p class="specify-value">444</p>
-              </div>
-              <div class="detail-book-speficy">
-                <p class="specify-subtitle">Published Date</p>
-                <p class="specify-value">11 Agt 2023</p>
-              </div>
-              <div class="detail-book-speficy">
-                <p class="specify-subtitle">ISBN</p>
-                <p class="specify-value">9786238829606</p>
-              </div>
-              <div class="detail-book-speficy">
-                <p class="specify-subtitle">Languages</p>
-                <p class="specify-value">Indonesia</p>
-              </div>
+          </div>
+          <div class="detail-book-footer">
+            <div class="detail-book-cart">
+              <h3>Stock</h3>
+              <p>5 Books</p>
+            </div>
+            <div class="detail-book-button">
+              <button class="reservation">Reservation</button>
+              <button class="add-cart" onclick="openReturnConfirmationModal()">
+                Cart
+              </button>
             </div>
           </div>
-        </div>
-        <div class="detail-book-footer">
-          <div class="detail-book-cart">
-            <h3>Stock</h3>
-            <p>5 Books</p>
-          </div>
-          <div class="detail-book-button">
-            <button class="reservation">Reservation</button>
-            <button class="add-cart" onclick="openReturnConfirmationModal()">Cart</button>
-          </div>
-          </div>
-        </div>
         </div>
       </div>
     </div>
     <div id="returnConfirmationModal" class="overlay">
       <div class="modal">
         <div class="icon-modal">
-          <img src="./assets/info-icon.png" alt="Info Icon">
-          <img src="./assets/close-icon.png" alt="Close Icon" onclick="closeReturnConfirmationModal()" class="close-icon">
+          <img src="./assets/info-icon.png" alt="Info Icon" />
+          <img
+            src="./assets/close-icon.png"
+            alt="Close Icon"
+            onclick="closeReturnConfirmationModal()"
+            class="close-icon"
+          />
         </div>
         <h2>Bookverse</h2>
         <p>Are you sure add this book into cart</p>
         <div class="modal-button">
-          <button class="modal-return" id="confirmAdd" onclick="confirmAddToCart()">Add to Cart</button>
+          <button
+            class="modal-return"
+            id="confirmAdd"
+            onclick="confirmAddToCart()"
+          >
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
@@ -181,7 +211,11 @@
       <div class="book-recomendation">
         <div class="book-card">
           <div class="book-img-container">
-            <img class="book-img" src="./assets/book-image-1.png" alt="Book Cover">
+            <img
+              class="book-img"
+              src="./assets/book-image-1.png"
+              alt="Book Cover"
+            />
           </div>
           <div class="book-details-container">
             <div class="book-title">Book Title</div>
@@ -190,18 +224,26 @@
           </div>
           <div class="book-footer">
             <div class="book-rating-container">
-              <img src="./assets/star-icon.png" alt="Star Icon">
+              <img src="./assets/star-icon.png" alt="Star Icon" />
               <div class="book-rating">4.5</div>
             </div>
             <div class="book-more-container">
               <a href="#" class="book-more">More</a>
-              <img src="./assets/more-icon.png" alt="More Icon" style="width: 1.5rem;">
+              <img
+                src="./assets/more-icon.png"
+                alt="More Icon"
+                style="width: 1.5rem"
+              />
             </div>
           </div>
         </div>
         <div class="book-card">
           <div class="book-img-container">
-            <img class="book-img" src="./assets/book-image-1.png" alt="Book Cover">
+            <img
+              class="book-img"
+              src="./assets/book-image-1.png"
+              alt="Book Cover"
+            />
           </div>
           <div class="book-details-container">
             <div class="book-title">Book Title</div>
@@ -210,18 +252,26 @@
           </div>
           <div class="book-footer">
             <div class="book-rating-container">
-              <img src="./assets/star-icon.png" alt="Star Icon">
+              <img src="./assets/star-icon.png" alt="Star Icon" />
               <div class="book-rating">4.5</div>
             </div>
             <div class="book-more-container">
               <a href="#" class="book-more">More</a>
-              <img src="./assets/more-icon.png" alt="More Icon" style="width: 1.5rem;">
+              <img
+                src="./assets/more-icon.png"
+                alt="More Icon"
+                style="width: 1.5rem"
+              />
             </div>
           </div>
         </div>
         <div class="book-card">
           <div class="book-img-container">
-            <img class="book-img" src="./assets/book-image-1.png" alt="Book Cover">
+            <img
+              class="book-img"
+              src="./assets/book-image-1.png"
+              alt="Book Cover"
+            />
           </div>
           <div class="book-details-container">
             <div class="book-title">Book Title</div>
@@ -230,18 +280,26 @@
           </div>
           <div class="book-footer">
             <div class="book-rating-container">
-              <img src="./assets/star-icon.png" alt="Star Icon">
+              <img src="./assets/star-icon.png" alt="Star Icon" />
               <div class="book-rating">4.5</div>
             </div>
             <div class="book-more-container">
               <a href="#" class="book-more">More</a>
-              <img src="./assets/more-icon.png" alt="More Icon" style="width: 1.5rem;">
+              <img
+                src="./assets/more-icon.png"
+                alt="More Icon"
+                style="width: 1.5rem"
+              />
             </div>
           </div>
         </div>
         <div class="book-card">
           <div class="book-img-container">
-            <img class="book-img" src="./assets/book-image-1.png" alt="Book Cover">
+            <img
+              class="book-img"
+              src="./assets/book-image-1.png"
+              alt="Book Cover"
+            />
           </div>
           <div class="book-details-container">
             <div class="book-title">Book Title</div>
@@ -250,16 +308,19 @@
           </div>
           <div class="book-footer">
             <div class="book-rating-container">
-              <img src="./assets/star-icon.png" alt="Star Icon">
+              <img src="./assets/star-icon.png" alt="Star Icon" />
               <div class="book-rating">4.5</div>
             </div>
             <div class="book-more-container">
               <a href="#" class="book-more">More</a>
-              <img src="./assets/more-icon.png" alt="More Icon" style="width: 1.5rem;">
+              <img
+                src="./assets/more-icon.png"
+                alt="More Icon"
+                style="width: 1.5rem"
+              />
             </div>
           </div>
         </div>
-
       </div>
     </div>
     <script src="./scripts/add-cart.js"></script>

@@ -343,7 +343,6 @@ html {
   margin-top: 15px;
 
   font-size: 15px;
-
 }
 
 .container-card a {
@@ -354,10 +353,7 @@ html {
   font-size: 15px;
   text-decoration: none;
   color: #212121;
-
 }
-
-
 
 /* search */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -379,7 +375,7 @@ html {
   color: #2851e3;
 }
 
-.searchTerm:focus{
+.searchTerm:focus {
   color: #2851e3;
 }
 
@@ -395,7 +391,7 @@ html {
   font-size: 20px;
 }
 
-.wrap{
+.wrap {
   width: 85%;
   position: absolute;
   top: 17%;
@@ -425,6 +421,5 @@ html {
   color: whitesmoke;
 
   margin-top: 100px;
-  
 }
 /* end */

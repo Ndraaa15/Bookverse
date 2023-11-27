@@ -6,6 +6,12 @@
   align-content: center;
   padding: 10% 3%;
 }
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .section-1 {
   display: flex;
@@ -45,8 +51,4 @@
   .container .section-1 h3 {
     font-size: 70px;
   }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

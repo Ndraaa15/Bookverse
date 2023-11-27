@@ -9,6 +9,12 @@
   position: relative;
   overflow: hidden;
 }
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navigation {
   background: #2851e3;
   padding: 15px 120px 15px 120px;

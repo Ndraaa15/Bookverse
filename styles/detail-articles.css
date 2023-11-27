@@ -2,6 +2,13 @@
 .detail-articles * {
   box-sizing: border-box;
 }
+
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .detail-articles {
   background: #ffffff;
   width: 1440px;

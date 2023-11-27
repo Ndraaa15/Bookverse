@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookVerse</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -10,554 +11,561 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles/cart.css">
-    <link rel="stylesheet" href="./styles/header-footer.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header class="header-container">
-    <img
-      src="./assets/logo-header.png"
-      alt="Logo Bookverse"
-      onclick="window.location.href='index.html'"
-      class="logo-header"
+    <link rel="stylesheet" href="./styles/cart.css" />
+    <link rel="stylesheet" href="./styles/header-footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
     />
-    <div class="list-navbar">
-      <a href="index.html">Home</a>
-      <a href="about-us.html">About Us</a>
-      <a href="books.html">Books</a>
-      <a href="articles.html">Articles</a>
-      <a href="faqs.html">FAQs</a>
-    </div>
-    <div class="button-header">
-      <button
-        onclick="window.location.href = 'signup.html'"
-        class="btn-signup"
-      >
-        Sign Up
-      </button>
-      <button onclick="window.location.href = 'login.html'" class="btn-login">
-        Login
-      </button>
-    </div>
-    <div class="icon-header">
-      <img src="./assets/cart-icon.png" alt="Cart Icon" />
-      <img src="./assets/bell-icon.png" alt="Notification Icon" />
+  </head>
+  <body>
+    <header class="header-container">
       <img
-        class="profile"
-        src="./assets/profile-icon.png"
-        alt="Profile Icon"
+        src="./assets/logo-header.png"
+        alt="Logo Bookverse"
+        onclick="window.location.href='index.html'"
+        class="logo-header"
       />
-    </div>
-    <div class="toggle-button">
-      <i class="fa fa-bars"></i>
-    </div>
-    <div class="dropdown-menu">
-      <a href="index.html">Home</a>
-      <a href="about-us.html">About Us</a>
-      <a href="books.html">Books</a>
-      <a href="articles.html">Articles</a>
-      <a href="faqs.html">FAQs</a>
-      <a class="logged-in" href="cart.html">Cart</a>
-      <a class="logged-in" href="nontification.html">Notification</a>
-      <a class="logged-in profile" href="profile.html">Profile</a>
-      <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
-      <a href="login.html" class="btn-login-dropdown">Login</a>
-    </div>
-  </header>
-  <script src="./scripts/header-footer.js"></script>
-      <main>
-
-<div class="cart">
-    
-    <div class="my-cart">MY CART</div>
-    <div class="_3-items">3 ITEMS</div>
-    <div class="line-1"></div>
-    <div class="select-all">Select All</div>
-    <div class="frame-1174">
-      <img class="tuesdays-with-morrie-2" src="assets/Cart 1.png" />
-      <div class="tuesdays-with-morie">Tuesdays With Morie</div>
-      <div class="author-m-itch-albom">Author : MItch Albom</div>
-      <div class="genre-biography">Genre : Biography</div>
-      <div class="quantity">Quantity</div>
-      <div class="long-loan">Long Loan</div>
-      <svg
-        class="icon-feather-icon3"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-          stroke="#212121"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <div class="rectangle-734"></div>
-      <div class="rectangle-735"></div>
-      <div class="_12">1</div>
-      <div class="_13">1</div>
-    </div>
-    <div class="frame-1175">
-      <img class="tuesdays-with-morrie-2" src="assets/Cart 2.png" />
-      <div class="the-odd-1-s-out-the-first-sequel">
-        The Odd 1S Out: The First Sequel
+      <div class="list-navbar">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
       </div>
-      <div class="author-james-rallison">Author : James Rallison</div>
-      <div class="genre-humor">Genre : Humor</div>
-      <div class="quantity">Quantity</div>
-      <div class="long-loan">Long Loan</div>
-      <svg
-        class="icon-feather-icon4"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-          stroke="#212121"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <div class="rectangle-7342"></div>
-      <div class="rectangle-735"></div>
-      <div class="_14">1</div>
-      <div class="_13">1</div>
-      <svg
-        class="icon-lucide-icon2"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 12H16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <svg
-        class="icon-lucide-icon3"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M12 8V16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 12H16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <svg
-        class="icon-lucide-icon4"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 12H16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <svg
-        class="icon-lucide-icon5"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M12 8V16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 12H16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <img class="trash" src="assets/Sampah.png" />
-    </div>
-    <div class="frame-1176">
-      <img class="tuesdays-with-morrie-2" src="assets/Cart 3.png" />
-      <div class="how-innovation-works">How Innovation Works</div>
-      <div class="author-matt-ridley">Author : Matt Ridley</div>
-      <div class="genre-business">Genre : Business</div>
-      <div class="quantity">Quantity</div>
-      <div class="long-loan">Long Loan</div>
-      <svg
-        class="icon-feather-icon5"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-          stroke="#212121"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <div class="rectangle-7343"></div>
-      <div class="rectangle-735"></div>
-      <div class="_14">1</div>
-      <div class="_15">1</div>
-      <svg
-        class="icon-lucide-icon6"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 12H16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <svg
-        class="icon-lucide-icon7"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M12 8V16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 12H16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <svg
-        class="icon-lucide-icon8"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 12H16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <svg
-        class="icon-lucide-icon9"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M12 8V16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 12H16"
-          stroke="#212121"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-  
-      <img class="trash2" src="assets/Sampah.png" />
-    </div>
-    <svg
-      class="arrow-1"
-      width="51"
-      height="24"
-      viewBox="0 0 51 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M0.93934 10.9393C0.353553 11.5251 0.353553 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.93934 10.9393ZM2 13.5H51V10.5H2V13.5Z"
-        fill="#2851E3"
-      />
-    </svg>
-  
-    <div class="continue-explore">Continue explore</div>
-   
-    <div class="_10">10</div>
-    <div class="coins">Coins</div>
-    <svg
-      class="icon-feather-icon6"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-        stroke="#212121"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  
-    <svg
-      class="icon-lucide-icon16"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M12 8V16"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M8 12H16"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  
-    <svg
-      class="icon-lucide-icon17"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M8 12H16"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  
-    <svg
-      class="icon-lucide-icon18"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M12 8V16"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M8 12H16"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  
-    <svg
-      class="icon-lucide-icon19"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M8 12H16"
-        stroke="#212121"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  
-    <img class="trash3" src="assets/Sampah.png" />
-    <div class="button-contained">
-      <div class="button">Checkout</div>
-      <svg
-        class="icon-feather-icon7"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M13 17L18 12L13 7"
-          stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M6 17L11 12L6 7"
-          stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-    </div>
-    <div class="text"></div>
-  </div>
-  <main>
+      <div class="button-header">
+        <button
+          onclick="window.location.href = 'signup.html'"
+          class="btn-signup"
+        >
+          Sign Up
+        </button>
+        <button onclick="window.location.href = 'login.html'" class="btn-login">
+          Login
+        </button>
+      </div>
+      <div class="icon-header">
+        <a href="cart.html">
+          <img src="./assets/cart-icon.png" alt="Cart Icon" />
+        </a>
+        <a href="notification.html">
+          <img src="./assets/bell-icon.png" alt="Notification Icon" />
+        </a>
+        <a href="profile.html">
+          <img
+            class="profile"
+            src="./assets/profile-icon.png"
+            alt="Profile Icon"
+          />
+        </a>
+      </div>
+      <div class="toggle-button">
+        <i class="fa fa-bars"></i>
+      </div>
+      <div class="dropdown-menu">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
+        <a class="logged-in" href="cart.html">Cart</a>
+        <a class="logged-in" href="notification.html">Notification</a>
+        <a class="logged-in profile" href="profile.html">Profile</a>
+        <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
+        <a href="login.html" class="btn-login-dropdown">Login</a>
+      </div>
+    </header>
+    <script src="./scripts/header-footer.js"></script>
+    <main>
+      <div class="cart">
+        <div class="my-cart">MY CART</div>
+        <div class="_3-items">3 ITEMS</div>
+        <div class="line-1"></div>
+        <div class="select-all">Select All</div>
+        <div class="frame-1174">
+          <img class="tuesdays-with-morrie-2" src="assets/Cart 1.png" />
+          <div class="tuesdays-with-morie">Tuesdays With Morie</div>
+          <div class="author-m-itch-albom">Author : MItch Albom</div>
+          <div class="genre-biography">Genre : Biography</div>
+          <div class="quantity">Quantity</div>
+          <div class="long-loan">Long Loan</div>
+          <svg
+            class="icon-feather-icon3"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+              stroke="#212121"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <div class="rectangle-734"></div>
+          <div class="rectangle-735"></div>
+          <div class="_12">1</div>
+          <div class="_13">1</div>
+        </div>
+        <div class="frame-1175">
+          <img class="tuesdays-with-morrie-2" src="assets/Cart 2.png" />
+          <div class="the-odd-1-s-out-the-first-sequel">
+            The Odd 1S Out: The First Sequel
+          </div>
+          <div class="author-james-rallison">Author : James Rallison</div>
+          <div class="genre-humor">Genre : Humor</div>
+          <div class="quantity">Quantity</div>
+          <div class="long-loan">Long Loan</div>
+          <svg
+            class="icon-feather-icon4"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+              stroke="#212121"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <div class="rectangle-7342"></div>
+          <div class="rectangle-735"></div>
+          <div class="_14">1</div>
+          <div class="_13">1</div>
+          <svg
+            class="icon-lucide-icon2"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 12H16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="icon-lucide-icon3"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12 8V16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 12H16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="icon-lucide-icon4"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 12H16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="icon-lucide-icon5"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12 8V16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 12H16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <img class="trash" src="assets/Sampah.png" />
+        </div>
+        <div class="frame-1176">
+          <img class="tuesdays-with-morrie-2" src="assets/Cart 3.png" />
+          <div class="how-innovation-works">How Innovation Works</div>
+          <div class="author-matt-ridley">Author : Matt Ridley</div>
+          <div class="genre-business">Genre : Business</div>
+          <div class="quantity">Quantity</div>
+          <div class="long-loan">Long Loan</div>
+          <svg
+            class="icon-feather-icon5"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+              stroke="#212121"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <div class="rectangle-7343"></div>
+          <div class="rectangle-735"></div>
+          <div class="_14">1</div>
+          <div class="_15">1</div>
+          <svg
+            class="icon-lucide-icon6"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 12H16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="icon-lucide-icon7"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12 8V16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 12H16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="icon-lucide-icon8"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 12H16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <svg
+            class="icon-lucide-icon9"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M12 8V16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 12H16"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <img class="trash2" src="assets/Sampah.png" />
+        </div>
+        <svg
+          class="arrow-1"
+          width="51"
+          height="24"
+          viewBox="0 0 51 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.93934 10.9393C0.353553 11.5251 0.353553 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.93934 10.9393ZM2 13.5H51V10.5H2V13.5Z"
+            fill="#2851E3"
+          />
+        </svg>
+
+        <div class="continue-explore">Continue explore</div>
+
+        <div class="_10">10</div>
+        <div class="coins">Coins</div>
+        <svg
+          class="icon-feather-icon6"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+            stroke="#212121"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <svg
+          class="icon-lucide-icon16"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12 8V16"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8 12H16"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <svg
+          class="icon-lucide-icon17"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8 12H16"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <svg
+          class="icon-lucide-icon18"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12 8V16"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8 12H16"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <svg
+          class="icon-lucide-icon19"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8 12H16"
+            stroke="#212121"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <img class="trash3" src="assets/Sampah.png" />
+        <div class="button-contained">
+          <div class="button">Checkout</div>
+          <svg
+            class="icon-feather-icon7"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 17L18 12L13 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6 17L11 12L6 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="text"></div>
+      </div>
+    </main>
     <footer class="footer-container">
       <div class="footer-container-up">
         <div class="product">
@@ -629,6 +637,5 @@
         </div>
       </div>
     </footer>
-
-</body>
+  </body>
 </html>

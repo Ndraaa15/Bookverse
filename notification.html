@@ -1,458 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notification</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/header-footer.css" />
+    <link rel="stylesheet" href="/styles/notification.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Homepage</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles/header-footer.css" />
-  <link rel="stylesheet" href="/styles/notification.css" />
-</head>
-
-<body>
-  <header class="header-container">
-    <img src="./assets/logo-header.png" alt="Logo Bookverse" onclick="window.location.href='index.html'"
-      class="logo-header" />
-    <div class="list-navbar">
-      <a href="index.html">Home</a>
-      <a href="about-us.html">About Us</a>
-      <a href="books.html">Books</a>
-      <a href="articles.html">Articles</a>
-      <a href="faqs.html">FAQs</a>
-    </div>
-    <div class="button-header">
-      <button onclick="window.location.href = 'signup.html'" class="btn-signup">
-        Sign Up
-      </button>
-      <button onclick="window.location.href = 'login.html'" class="btn-login">
-        Login
-      </button>
-    </div>
-    <div class="icon-header">
-      <img src="./assets/cart-icon.png" alt="Cart Icon" />
-      <img src="./assets/bell-icon.png" alt="Notification Icon" />
-      <img class="profile" src="./assets/profile-icon.png" alt="Profile Icon" />
-    </div>
-    <div class="toggle-button">
-      <i class="fa fa-bars"></i>
-    </div>
-    <div class="dropdown-menu">
-      <a href="index.html">Home</a>
-      <a href="about-us.html">About Us</a>
-      <a href="books.html">Books</a>
-      <a href="articles.html">Articles</a>
-      <a href="faqs.html">FAQs</a>
-      <a class="logged-in" href="cart.html">Cart</a>
-      <a class="logged-in" href="nontification.html">Notification</a>
-      <a class="logged-in profile" href="profile.html">Profile</a>
-      <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
-      <a href="login.html" class="btn-login-dropdown">Login</a>
-    </div>
-  </header>
-  <script src="./scripts/header-footer.js"></script>
-<div class="notification">
-
-  <div class="notification2">Notification</div>
-  <div class="loan-status-3-items">Loan status (3 Items)</div>
-  <div class="line-1"></div>
-  <div class="coming-soon">Coming Soon</div>
-  <div class="line-2"></div>
-  <div class="articles">Articles</div>
-  <div class="line-3"></div>
-  <div class="frame-1194">
-    <div class="mugglenet">MUGGLENET</div>
-    <img class="tuesdays-with-morrie-4" src="assets/book-image-8.png" />
-    <div class="unofficial-harry-potter-reference-library-the-unofficial">
-      Unofficial Harry Potter Reference Library : The Unofficial
-    </div>
-    <div class="fantasy-action">Fantasy, Action</div>
-    <div class="coming-soon2">Coming soon</div>
-  </div>
-  <div class="frame-512240">
-    <div class="james-clear">James Clear</div>
-    <img class="tuesdays-with-morrie-4" src="assets/book 2.png" />
-    <div class="atomic-habits">Atomic Habits</div>
-    <div class="self-improvement">Self Improvement</div>
-    <div class="coming-soon2">Coming soon</div>
-  </div>
-  <div class="frame-512241">
-    <div class="addin-jauharudin">ADDIN JAUHARUDIN</div>
-    <img class="tuesdays-with-morrie-4" src="assets/book 3.png" />
-    <div class="beware-worn-down-by-time">Beware Worn Down By Time</div>
-    <div class="literature">Literature</div>
-    <div class="coming-soon2">Coming soon</div>
-  </div>
-  <div class="frame-512242">
-    <div class="edgar-allan-poe">EDGAR ALLAN POE</div>
-    <img class="tuesdays-with-morrie-4" src="assets/book 4.png" />
-    <div class="english-classics-the-tell-tale-heart-and-other-stories">
-      English Classics: The Tell Tale Heart And Other Stories
-    </div>
-    <div class="mystery">Mystery</div>
-    <div class="coming-soon2">Coming soon</div>
-  </div>
-  <div class="frame-512243">
-    <div class="building-a-reading-culture-in-the-digital-age">
-      Building a Reading Culture in the Digital Age
-    </div>
-    <img class="tuesdays-with-morrie-42" src="assets/pic-1.png" />
-    <div
-      class="in-the-digital-age-information-is-abundant-but-often-superficial-this-article-discusses-strategies-to-foster-a-deep-reading-habit-amidst-digitization"
-    >
-      In the digital age, information is abundant but often superficial. This
-      article discusses strategies to foster a deep reading habit amidst
-      digitization.
-    </div>
-    <div class="more">More</div>
-    <div class="button">
-      <svg
-        class="phosphor-icons-caret-circle-right"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g clip-path="url(#clip0_659_1707)">
-          <path
-            d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
-            stroke="#616161"
-            stroke-miterlimit="10"
-          />
-          <path
-            d="M10.875 8.625L14.625 12L10.875 15.375"
-            stroke="#616161"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </g>
-        <defs>
-          <clipPath id="clip0_659_1707">
-            <rect width="24" height="24" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  </div>
-  <div class="frame-512244">
-    <div class="the-role-of-libraries-in-supporting-information-literacy">
-      The Role of Libraries in Supporting Information Literacy
-    </div>
-    <img class="tuesdays-with-morrie-42" src="assets/pic-2.png" />
-    <div
-      class="in-a-world-filled-with-information-libraries-stand-as-centers-for-information-literacy-education-this-description-highlights-how-libraries-guide-the-public-in-discerning-credible-information"
-    >
-      In a world filled with information, libraries stand as centers for
-      information literacy education. This description highlights how libraries
-      guide the public in discerning credible information.
-    </div>
-    <div class="more2">More</div>
-    <div class="button2">
-      <svg
-        class="phosphor-icons-caret-circle-right2"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g clip-path="url(#clip0_659_2502)">
-          <path
-            d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
-            stroke="#616161"
-            stroke-miterlimit="10"
-          />
-          <path
-            d="M10.875 8.625L14.625 12L10.875 15.375"
-            stroke="#616161"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </g>
-        <defs>
-          <clipPath id="clip0_659_2502">
-            <rect width="24" height="24" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  </div>
-  <div class="frame-512245">
-    <div
-      class="getting-to-know-various-types-of-books-and-the-best-reading-choices"
-    >
-    Exploring Different Book Types and Top Reading Picks
-    </div>
-    <img class="tuesdays-with-morrie-42" src="assets/pic-3.png" />
-    <div
-      class="this-article-provides-a-guide-on-the-different-genres-of-books-and-recommends-enriching-reads-to-enhance-the-reading-experience"
-    >
-    This article offers a comprehensive guide on various book genres and recommends five enriching reads to
-    significantly enhance the reading experience.
-    </div>
-    <div class="more3">More</div>
-    <div class="button3">
-      <svg
-        class="phosphor-icons-caret-circle-right3"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g clip-path="url(#clip0_659_714)">
-          <path
-            d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
-            stroke="#616161"
-            stroke-miterlimit="10"
-          />
-          <path
-            d="M10.875 8.625L14.625 12L10.875 15.375"
-            stroke="#616161"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </g>
-        <defs>
-          <clipPath id="clip0_659_714">
-            <rect width="24" height="24" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-  </div>
-  <div class="frame-512246">
-    <div class="the-importance-of-digital-resources-in-modern-libraries">
-      The Importance of Digital Resources in Modern Libraries
-    </div>
-    <img class="tuesdays-with-morrie-42" src="assets/pic-4.png" />
-    <div
-      class="modern-libraries-now-emphasize-digital-assets-like-e-books-and-online-journals-ensuring-relevance-and-broadening-access-in-today-s-digital-era"
-    >
-      Modern libraries now emphasize digital assets like e-books and online
-      journals, ensuring relevance and broadening access in today&#039;s digital
-      era.
-    </div>
-    <div class="button3">
-      <svg
-        class="phosphor-icons-caret-circle-right4"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g clip-path="url(#clip0_659_992)">
-          <path
-            d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
-            stroke="#616161"
-            stroke-miterlimit="10"
-          />
-          <path
-            d="M10.875 8.625L14.625 12L10.875 15.375"
-            stroke="#616161"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </g>
-        <defs>
-          <clipPath id="clip0_659_992">
-            <rect width="24" height="24" fill="white" />
-          </clipPath>
-        </defs>
-      </svg>
-    </div>
-    <div class="more3">More</div>
-  </div>
-  <div class="frame-1174">
-    <img class="tuesdays-with-morrie-2" src="assets/Cart 1.png" />
-    <div class="tuesdays-with-morie">Tuesdays With Morie</div>
-    <div class="author-m-itch-albom">Author : MItch Albom</div>
-    <div class="genre-biography">Genre : Biography</div>
-    <div class="_7-days-left">7 days left</div>
-  </div>
-  <div class="frame-1175">
-    <img class="tuesdays-with-morrie-2" src="assets/Cart 2.png" />
-    <div class="the-odd-1-s-out-the-first-sequel">
-      The Odd 1S Out: The First Sequel
-    </div>
-    <div class="author-james-rallison">Author : James Rallison</div>
-    <div class="genre-humor">Genre : Humor</div>
-    <div class="_5-days-left">5 days left</div>
-  </div>
-  <div class="frame-1176">
-    <img class="tuesdays-with-morrie-2" src="assets/Cart 3.png" />
-    <div class="how-innovation-works">How Innovation Works</div>
-    <div class="author-matt-ridley">Author : Matt Ridley</div>
-    <div class="genre-business">Genre : Business</div>
-    <div class="_3-days-left">3 days left</div>
-  </div>
-  <div class="button-contained">
-    <div class="button4">See More</div>
-    <svg
-      class="icon-feather-icon3"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M13 17L18 12L13 7"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+  <body>
+    <header class="header-container">
+      <img
+        src="./assets/logo-header.png"
+        alt="Logo Bookverse"
+        onclick="window.location.href='index.html'"
+        class="logo-header"
       />
-      <path
-        d="M6 17L11 12L6 7"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  </div>
-  <div class="button-contained2">
-    <div class="button4">See More</div>
-    <svg
-      class="icon-feather-icon4"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M13 17L18 12L13 7"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M6 17L11 12L6 7"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  </div>
-  <div class="button-contained3">
-    <div class="button4">See More</div>
-    <svg
-      class="icon-feather-icon5"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M13 17L18 12L13 7"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M6 17L11 12L6 7"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  </div>
-  <div class="button-contained3">
-    <div class="button4">See More</div>
-    <svg
-      class="icon-feather-icon6"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M13 17L18 12L13 7"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M6 17L11 12L6 7"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  </div>
-</div>
-<script src="./scripts/landing-page.js"></script>
-  <section class="section-4">
-    <div class="title-section-4"></div>
-    <div></div>
-  </section>
-  <footer class="footer-container">
-    <div class="footer-container-up">
-      <div class="product">
-        <h3>Product</h3>
-        <p>Rent Books</p>
-        <p>Articles</p>
-        <p>Online Library</p>
-      </div>
-      <div class="information">
-        <h3>Information</h3>
-        <a href="index.html">About Us</a>
+      <div class="list-navbar">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
         <a href="books.html">Books</a>
         <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
       </div>
-      <div class="company">
-        <h3>Company</h3>
-        <p>BookVerse</p>
+      <div class="button-header">
+        <button
+          onclick="window.location.href = 'signup.html'"
+          class="btn-signup"
+        >
+          Sign Up
+        </button>
+        <button onclick="window.location.href = 'login.html'" class="btn-login">
+          Login
+        </button>
       </div>
-      <div class="subscribe">
-        <div class="subscribe-input">
-          <input class="subscribe-input-box" type="text" placeholder=" Email Address" />
-          <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
+      <div class="icon-header">
+        <a href="cart.html">
+          <img src="./assets/cart-icon.png" alt="Cart Icon" />
+        </a>
+        <a href="notification.html">
+          <img src="./assets/bell-icon.png" alt="Notification Icon" />
+        </a>
+        <a href="profile.html">
+          <img
+            class="profile"
+            src="./assets/profile-icon.png"
+            alt="Profile Icon"
+          />
+        </a>
+      </div>
+      <div class="toggle-button">
+        <i class="fa fa-bars"></i>
+      </div>
+      <div class="dropdown-menu">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
+        <a class="logged-in" href="cart.html">Cart</a>
+        <a class="logged-in" href="notification.html">Notification</a>
+        <a class="logged-in profile" href="profile.html">Profile</a>
+        <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
+        <a href="login.html" class="btn-login-dropdown">Login</a>
+      </div>
+    </header>
+    <script src="./scripts/header-footer.js"></script>
+    <script src="./scripts/header-footer.js"></script>
+    <main>
+      <div class="notification">
+        <div class="notification2">Notification</div>
+        <div class="loan-status-3-items">Loan status (3 Items)</div>
+        <div class="line-1"></div>
+        <div class="coming-soon">Coming Soon</div>
+        <div class="line-2"></div>
+        <div class="articles">Articles</div>
+        <div class="line-3"></div>
+        <div class="frame-1194">
+          <div class="mugglenet">MUGGLENET</div>
+          <img class="tuesdays-with-morrie-4" src="assets/book-image-8.png" />
+          <div class="unofficial-harry-potter-reference-library-the-unofficial">
+            Unofficial Harry Potter Reference Library : The Unofficial
+          </div>
+          <div class="fantasy-action">Fantasy, Action</div>
+          <div class="coming-soon2">Coming soon</div>
         </div>
-        <p>
-          Subscribe to BookVerse and stay in the know! Rest assured, your
-          inbox will remain spam-free.
-        </p>
+        <div class="frame-512240">
+          <div class="james-clear">James Clear</div>
+          <img class="tuesdays-with-morrie-4" src="assets/book 2.png" />
+          <div class="atomic-habits">Atomic Habits</div>
+          <div class="self-improvement">Self Improvement</div>
+          <div class="coming-soon2">Coming soon</div>
+        </div>
+        <div class="frame-512241">
+          <div class="addin-jauharudin">ADDIN JAUHARUDIN</div>
+          <img class="tuesdays-with-morrie-4" src="assets/book 3.png" />
+          <div class="beware-worn-down-by-time">Beware Worn Down By Time</div>
+          <div class="literature">Literature</div>
+          <div class="coming-soon2">Coming soon</div>
+        </div>
+        <div class="frame-512242">
+          <div class="edgar-allan-poe">EDGAR ALLAN POE</div>
+          <img class="tuesdays-with-morrie-4" src="assets/book 4.png" />
+          <div class="english-classics-the-tell-tale-heart-and-other-stories">
+            English Classics: The Tell Tale Heart And Other Stories
+          </div>
+          <div class="mystery">Mystery</div>
+          <div class="coming-soon2">Coming soon</div>
+        </div>
+        <div class="frame-512243">
+          <div class="building-a-reading-culture-in-the-digital-age">
+            Building a Reading Culture in the Digital Age
+          </div>
+          <img class="tuesdays-with-morrie-42" src="assets/pic-1.png" />
+          <div
+            class="in-the-digital-age-information-is-abundant-but-often-superficial-this-article-discusses-strategies-to-foster-a-deep-reading-habit-amidst-digitization"
+          >
+            In the digital age, information is abundant but often superficial.
+            This article discusses strategies to foster a deep reading habit
+            amidst digitization.
+          </div>
+          <div class="more">More</div>
+          <div class="button">
+            <svg
+              class="phosphor-icons-caret-circle-right"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_659_1707)">
+                <path
+                  d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                  stroke="#616161"
+                  stroke-miterlimit="10"
+                />
+                <path
+                  d="M10.875 8.625L14.625 12L10.875 15.375"
+                  stroke="#616161"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_659_1707">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="frame-512244">
+          <div class="the-role-of-libraries-in-supporting-information-literacy">
+            The Role of Libraries in Supporting Information Literacy
+          </div>
+          <img class="tuesdays-with-morrie-42" src="assets/pic-2.png" />
+          <div
+            class="in-a-world-filled-with-information-libraries-stand-as-centers-for-information-literacy-education-this-description-highlights-how-libraries-guide-the-public-in-discerning-credible-information"
+          >
+            In a world filled with information, libraries stand as centers for
+            information literacy education. This description highlights how
+            libraries guide the public in discerning credible information.
+          </div>
+          <div class="more2">More</div>
+          <div class="button2">
+            <svg
+              class="phosphor-icons-caret-circle-right2"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_659_2502)">
+                <path
+                  d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                  stroke="#616161"
+                  stroke-miterlimit="10"
+                />
+                <path
+                  d="M10.875 8.625L14.625 12L10.875 15.375"
+                  stroke="#616161"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_659_2502">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="frame-512245">
+          <div
+            class="getting-to-know-various-types-of-books-and-the-best-reading-choices"
+          >
+            Exploring Different Book Types and Top Reading Picks
+          </div>
+          <img class="tuesdays-with-morrie-42" src="assets/pic-3.png" />
+          <div
+            class="this-article-provides-a-guide-on-the-different-genres-of-books-and-recommends-enriching-reads-to-enhance-the-reading-experience"
+          >
+            This article offers a comprehensive guide on various book genres and
+            recommends five enriching reads to significantly enhance the reading
+            experience.
+          </div>
+          <div class="more3">More</div>
+          <div class="button3">
+            <svg
+              class="phosphor-icons-caret-circle-right3"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_659_714)">
+                <path
+                  d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                  stroke="#616161"
+                  stroke-miterlimit="10"
+                />
+                <path
+                  d="M10.875 8.625L14.625 12L10.875 15.375"
+                  stroke="#616161"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_659_714">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="frame-512246">
+          <div class="the-importance-of-digital-resources-in-modern-libraries">
+            The Importance of Digital Resources in Modern Libraries
+          </div>
+          <img class="tuesdays-with-morrie-42" src="assets/pic-4.png" />
+          <div
+            class="modern-libraries-now-emphasize-digital-assets-like-e-books-and-online-journals-ensuring-relevance-and-broadening-access-in-today-s-digital-era"
+          >
+            Modern libraries now emphasize digital assets like e-books and
+            online journals, ensuring relevance and broadening access in
+            today&#039;s digital era.
+          </div>
+          <div class="button3">
+            <svg
+              class="phosphor-icons-caret-circle-right4"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_659_992)">
+                <path
+                  d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                  stroke="#616161"
+                  stroke-miterlimit="10"
+                />
+                <path
+                  d="M10.875 8.625L14.625 12L10.875 15.375"
+                  stroke="#616161"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_659_992">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="more3">More</div>
+        </div>
+        <div class="frame-1174">
+          <img class="tuesdays-with-morrie-2" src="assets/Cart 1.png" />
+          <div class="tuesdays-with-morie">Tuesdays With Morie</div>
+          <div class="author-m-itch-albom">Author : MItch Albom</div>
+          <div class="genre-biography">Genre : Biography</div>
+          <div class="_7-days-left">7 days left</div>
+        </div>
+        <div class="frame-1175">
+          <img class="tuesdays-with-morrie-2" src="assets/Cart 2.png" />
+          <div class="the-odd-1-s-out-the-first-sequel">
+            The Odd 1S Out: The First Sequel
+          </div>
+          <div class="author-james-rallison">Author : James Rallison</div>
+          <div class="genre-humor">Genre : Humor</div>
+          <div class="_5-days-left">5 days left</div>
+        </div>
+        <div class="frame-1176">
+          <img class="tuesdays-with-morrie-2" src="assets/Cart 3.png" />
+          <div class="how-innovation-works">How Innovation Works</div>
+          <div class="author-matt-ridley">Author : Matt Ridley</div>
+          <div class="genre-business">Genre : Business</div>
+          <div class="_3-days-left">3 days left</div>
+        </div>
+        <div class="button-contained">
+          <div class="button4">See More</div>
+          <svg
+            class="icon-feather-icon3"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 17L18 12L13 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6 17L11 12L6 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="button-contained2">
+          <div class="button4">See More</div>
+          <svg
+            class="icon-feather-icon4"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 17L18 12L13 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6 17L11 12L6 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="button-contained3">
+          <div class="button4">See More</div>
+          <svg
+            class="icon-feather-icon5"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 17L18 12L13 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6 17L11 12L6 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="button-contained3">
+          <div class="button4">See More</div>
+          <svg
+            class="icon-feather-icon6"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 17L18 12L13 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6 17L11 12L6 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
       </div>
-    </div>
-    <div class="footer-container-bottom">
-      <div class="logo-footer">
-        <img src="./assets/logo-footer.png" alt="Logo Footer" />
+      <script src="./scripts/landing-page.js"></script>
+      <section class="section-4">
+        <div class="title-section-4"></div>
+        <div></div>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="footer-container-up">
+        <div class="product">
+          <h3>Product</h3>
+          <p>Rent Books</p>
+          <p>Articles</p>
+          <p>Online Library</p>
+        </div>
+        <div class="information">
+          <h3>Information</h3>
+          <a href="index.html">About Us</a>
+          <a href="books.html">Books</a>
+          <a href="articles.html">Articles</a>
+        </div>
+        <div class="company">
+          <h3>Company</h3>
+          <p>BookVerse</p>
+        </div>
+        <div class="subscribe">
+          <div class="subscribe-input">
+            <input
+              class="subscribe-input-box"
+              type="text"
+              placeholder=" Email Address"
+            />
+            <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
+          </div>
+          <p>
+            Subscribe to BookVerse and stay in the know! Rest assured, your
+            inbox will remain spam-free.
+          </p>
+        </div>
       </div>
-      <div class="terms-privacy-cookies">
-        <p>Terms</p>
-        <p>Privacy</p>
-        <p>Cookies</p>
+      <div class="footer-container-bottom">
+        <div class="logo-footer">
+          <img src="./assets/logo-footer.png" alt="Logo Footer" />
+        </div>
+        <div class="terms-privacy-cookies">
+          <p>Terms</p>
+          <p>Privacy</p>
+          <p>Cookies</p>
+        </div>
+        <div class="social-media">
+          <img
+            src="./assets/linkedin-footer.png"
+            alt="Linkedin"
+            onclick="window.location.href='https:/www.linkedin.com/'"
+          />
+          <img
+            src="./assets/facebook-footer.png"
+            alt="Facebook"
+            onclick="window.location.href='https:/www.facebook.com/'"
+          />
+          <img
+            src="./assets/github-footer.png"
+            alt="Github"
+            onclick="window.location.href='https:/www.github.com/'"
+          />
+          <img
+            src="./assets/email-footer.png"
+            alt="Email"
+            onclick="window.location.href='https:/www.email.com/'"
+          />
+          <img
+            src="./assets/instagram-footer.png"
+            alt="Instagram"
+            onclick="window.location.href='https:/www.instagram.com/'"
+          />
+        </div>
       </div>
-      <div class="social-media">
-        <img src="./assets/linkedin-footer.png" alt="Linkedin"
-          onclick="window.location.href='https:/www.linkedin.com/'" />
-        <img src="./assets/facebook-footer.png" alt="Facebook"
-          onclick="window.location.href='https:/www.facebook.com/'" />
-        <img src="./assets/github-footer.png" alt="Github" onclick="window.location.href='https:/www.github.com/'" />
-        <img src="./assets/email-footer.png" alt="Email" onclick="window.location.href='https:/www.email.com/'" />
-        <img src="./assets/instagram-footer.png" alt="Instagram"
-          onclick="window.location.href='https:/www.instagram.com/'" />
-      </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

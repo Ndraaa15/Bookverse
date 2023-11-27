@@ -1,313 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articles</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/header-footer.css" />
+    <link rel="stylesheet" href="/styles/articles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Homepage</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles/header-footer.css" />
-  <link rel="stylesheet" href="/styles/articles.css" />
-</head>
-
-<body>
-  <header class="header-container">
-    <img src="./assets/logo-header.png" alt="Logo Bookverse" onclick="window.location.href='index.html'"
-      class="logo-header" />
-    <div class="list-navbar">
-      <a href="index.html">Home</a>
-      <a href="about-us.html">About Us</a>
-      <a href="books.html">Books</a>
-      <a href="articles.html">Articles</a>
-      <a href="faqs.html">FAQs</a>
-    </div>
-    <div class="button-header">
-      <button onclick="window.location.href = 'signup.html'" class="btn-signup">
-        Sign Up
-      </button>
-      <button onclick="window.location.href = 'login.html'" class="btn-login">
-        Login
-      </button>
-    </div>
-    <div class="icon-header">
-      <img src="./assets/cart-icon.png" alt="Cart Icon" />
-      <img src="./assets/bell-icon.png" alt="Notification Icon" />
-      <img class="profile" src="./assets/profile-icon.png" alt="Profile Icon" />
-    </div>
-    <div class="toggle-button">
-      <i class="fa fa-bars"></i>
-    </div>
-    <div class="dropdown-menu">
-      <a href="index.html">Home</a>
-      <a href="about-us.html">About Us</a>
-      <a href="books.html">Books</a>
-      <a href="articles.html">Articles</a>
-      <a href="faqs.html">FAQs</a>
-      <a class="logged-in" href="cart.html">Cart</a>
-      <a class="logged-in" href="nontification.html">Notification</a>
-      <a class="logged-in profile" href="profile.html">Profile</a>
-      <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
-      <a href="login.html" class="btn-login-dropdown">Login</a>
-    </div>
-  </header>
-  <script src="./scripts/header-footer.js"></script>
-
-  <!-- start -->
-
-  <div class="part-1">
-    <h1>Articles</h1>
-    <hr />
-
-    <div class="wrap">
-      <div class="search">
-        <input type="text" class="searchTerm" placeholder="What are you looking for?" />
-        <button type="submit" class="searchButton">
-          <i class="fa fa-search"></i>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <div class="part-2">
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-1.png" alt="" />
-      </div>
-      <div>
-        <h1>Building a Reading Culture in The Digital Age</h1>
-        <p>
-          In the digital age, information is abundant but often superficial. This article discusses strategies to foster
-          a deep reading habit amidst digitization.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-2.png" alt="" />
-      </div>
-      <div>
-        <h1>The Role of Libraries in Supporting Information Literacy</h1>
-        <p>
-          In a world filled with information, libraries stand as centers for information literacy education. This
-          description highlights how libraries guide the public in discerning credible information.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-3.png" alt="" />
-      </div>
-      <div>
-        <h1>Exploring Different Book Types and Top Reading Picks</h1>
-        <p>
-          This article offers a comprehensive guide on various book genres and recommends five enriching reads to
-          significantly enhance the reading experience.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-4.png" alt="" />
-      </div>
-      <div>
-        <h1>The Importance of Digital Resources in Modern Libraries</h1>
-        <p>
-          Modern libraries now emphasize digital assets like e-books and online journals, ensuring relevance and
-          broadening access in today's digital era.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="part-2">
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-5.png" alt="" />
-      </div>
-      <div>
-        <h1>The Significance of Digital Tools in Contemporary Libraries</h1>
-        <p>
-          Contemporary libraries focus on digital resources such as electronic books and digital periodicals,
-          maintaining their importance and expanding their reach in today's digital age.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-6.png" alt="" />
-      </div>
-      <div>
-        <h1>Optimizing Library Facilities for Learning</h1>
-        <p>
-          Maximizing the use of library resources and facilities, including reading rooms, database access, and digital
-          tools, to support efficient and effective learning processes.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-7.png" alt="" />
-      </div>
-      <div>
-        <h1>Child Literacy: Why It Matters and How to Support It</h1>
-        <p>
-          Instilling reading habits in children is key for cognitive and emotional development. This article highlights
-          the importance of and ways to foster early literacy.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-8.png" alt="" />
-      </div>
-      <div>
-        <h1>The Role of Libraries in Shaping National Character</h1>
-        <p>
-          Libraries, as repositories of knowledge and culture, play a crucial role in molding national character and
-          identity through literature and history.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="part-2">
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-9.png" alt="" />
-      </div>
-      <div>
-        <h1>Technology and Innovation in Contemporary Library Services</h1>
-        <p>
-          How cutting-edge technologies, including AI, virtual reality, and interactive displays, are revolutionizing
-          the way libraries present information and engage with visitors.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-10.png" alt="" />
-      </div>
-      <div>
-        <h1>Reading as a Window to the World: Expanding Horizons Through Books</h1>
-        <p>
-          Books broaden horizons, offering new perspectives and in-depth knowledge about the world, making reading a
-          journey of exploration.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-11.png" alt="" />
-      </div>
-      <div>
-        <h1>Systematic Guide to Searching Information in Libraries</h1>
-        <p>
-          Practical steps to effectively navigate library collections, utilize online and physical catalogs, and
-          efficiently find relevant, reliable information sources.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-
-    <div class="container-card">
-      <div class="card">
-        <img src="/assets/pic-2.png" alt="" />
-      </div>
-      <div>
-        <h1>Unique Finds in Rare Book Collections</h1>
-        <p>
-          Highlighting the presence and value of rare collections in libraries, and the unique stories and history
-          behind some of the most treasured books.
-        </p>
-        <a href="">More</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-more">
-    <a href="">See More</a>
-  </div>
-
-  <!-- end -->
-
-  <script src="./scripts/landing-page.js"></script>
-  <section class="section-4">
-    <div class="title-section-4"></div>
-    <div></div>
-  </section>
-  <footer class="footer-container">
-    <div class="footer-container-up">
-      <div class="product">
-        <h3>Product</h3>
-        <p>Rent Books</p>
-        <p>Articles</p>
-        <p>Online Library</p>
-      </div>
-      <div class="information">
-        <h3>Information</h3>
-        <a href="index.html">About Us</a>
+  <body>
+    <header class="header-container">
+      <img
+        src="./assets/logo-header.png"
+        alt="Logo Bookverse"
+        onclick="window.location.href='index.html'"
+        class="logo-header"
+      />
+      <div class="list-navbar">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
         <a href="books.html">Books</a>
         <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
       </div>
-      <div class="company">
-        <h3>Company</h3>
-        <p>BookVerse</p>
+      <div class="button-header">
+        <button
+          onclick="window.location.href = 'signup.html'"
+          class="btn-signup"
+        >
+          Sign Up
+        </button>
+        <button onclick="window.location.href = 'login.html'" class="btn-login">
+          Login
+        </button>
       </div>
-      <div class="subscribe">
-        <div class="subscribe-input">
-          <input class="subscribe-input-box" type="text" placeholder=" Email Address" />
-          <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
-        </div>
-        <p>
-          Subscribe to BookVerse and stay in the know! Rest assured, your
-          inbox will remain spam-free.
-        </p>
+      <div class="icon-header">
+        <a href="cart.html">
+          <img src="./assets/cart-icon.png" alt="Cart Icon" />
+        </a>
+        <a href="notification.html">
+          <img src="./assets/bell-icon.png" alt="Notification Icon" />
+        </a>
+        <a href="profile.html">
+          <img
+            class="profile"
+            src="./assets/profile-icon.png"
+            alt="Profile Icon"
+          />
+        </a>
       </div>
-    </div>
-    <div class="footer-container-bottom">
-      <div class="logo-footer">
-        <img src="./assets/logo-footer.png" alt="Logo Footer" />
+      <div class="toggle-button">
+        <i class="fa fa-bars"></i>
       </div>
-      <div class="terms-privacy-cookies">
-        <p>Terms</p>
-        <p>Privacy</p>
-        <p>Cookies</p>
+      <div class="dropdown-menu">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="books.html">Books</a>
+        <a href="articles.html">Articles</a>
+        <a href="faqs.html">FAQs</a>
+        <a class="logged-in" href="cart.html">Cart</a>
+        <a class="logged-in" href="notification.html">Notification</a>
+        <a class="logged-in profile" href="profile.html">Profile</a>
+        <a href="signup.html" class="btn-signup-dropdown">Sign Up</a>
+        <a href="login.html" class="btn-login-dropdown">Login</a>
       </div>
-      <div class="social-media">
-        <img src="./assets/linkedin-footer.png" alt="Linkedin"
-          onclick="window.location.href='https:/www.linkedin.com/'" />
-        <img src="./assets/facebook-footer.png" alt="Facebook"
-          onclick="window.location.href='https:/www.facebook.com/'" />
-        <img src="./assets/github-footer.png" alt="Github" onclick="window.location.href='https:/www.github.com/'" />
-        <img src="./assets/email-footer.png" alt="Email" onclick="window.location.href='https:/www.email.com/'" />
-        <img src="./assets/instagram-footer.png" alt="Instagram"
-          onclick="window.location.href='https:/www.instagram.com/'" />
-      </div>
-    </div>
-  </footer>
-</body>
+    </header>
+    <script src="./scripts/header-footer.js"></script>
+    <!-- start -->
 
+    <div class="part-1">
+      <h1>Articles</h1>
+      <hr />
+
+      <div class="wrap">
+        <div class="search">
+          <input
+            type="text"
+            class="searchTerm"
+            placeholder="What are you looking for?"
+          />
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="part-2">
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-1.png" alt="" />
+        </div>
+        <div>
+          <h1>Building a Reading Culture in The Digital Age</h1>
+          <p>
+            In the digital age, information is abundant but often superficial.
+            This article discusses strategies to foster a deep reading habit.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-2.png" alt="" />
+        </div>
+        <div>
+          <h1>The Role of Libraries in Supporting Information Literacy</h1>
+          <p>
+            In a world filled with information, libraries stand as centers for
+            information literacy education.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-3.png" alt="" />
+        </div>
+        <div>
+          <h1>Exploring Different Book Types and Top Reading Picks</h1>
+          <p>
+            This article offers a comprehensive guide on various book genres and
+            recommends five enriching reads.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-4.png" alt="" />
+        </div>
+        <div>
+          <h1>The Importance of Digital Resources in Modern Libraries</h1>
+          <p>
+            Modern libraries now emphasize digital assets like e-books and
+            online journals.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="part-2">
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-5.png" alt="" />
+        </div>
+        <div>
+          <h1>The Significance of Digital Tools in Contemporary Libraries</h1>
+          <p>
+            Contemporary libraries focus on digital resources such as electronic
+            books and digital periodicals.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-6.png" alt="" />
+        </div>
+        <div>
+          <h1>Optimizing Library Facilities for Learning</h1>
+          <p>
+            Maximizing the use of library resources and facilities, including
+            reading rooms and digital tools to support efficient learning
+            processes.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-7.png" alt="" />
+        </div>
+        <div>
+          <h1>Child Literacy: Why It Matters and How to Support It</h1>
+          <p>
+            Instilling reading habits in children is key for cognitive and
+            emotional development.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-8.png" alt="" />
+        </div>
+        <div>
+          <h1>The Role of Libraries in Shaping National Character</h1>
+          <p>
+            Libraries, as repositories of knowledge and culture, play a crucial
+            role in molding national character and identity through literature
+            and history.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="part-2">
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-9.png" alt="" />
+        </div>
+        <div>
+          <h1>Technology and Innovation in Contemporary Library Services</h1>
+          <p>
+            How cutting-edge technologies, including AI, virtual reality, and
+            interactive displays.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-10.png" alt="" />
+        </div>
+        <div>
+          <h1>
+            Reading as a Window to the World: Expanding Horizons Through Books
+          </h1>
+          <p>
+            Books broaden horizons, offering new perspectives and in-depth
+            knowledge about the world.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-11.png" alt="" />
+        </div>
+        <div>
+          <h1>Systematic Guide to Searching Information in Libraries</h1>
+          <p>
+            Practical steps to effectively navigate library collections, utilize
+            online and physical catalogs.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="card">
+          <img src="/assets/pic-2.png" alt="" />
+        </div>
+        <div>
+          <h1>Unique Finds in Rare Book Collections</h1>
+          <p>
+            Highlighting the presence and value of rare collections in
+            libraries, and the unique stories and history behind some of the
+            most treasured books.
+          </p>
+          <a href="detail-articles.html">More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-more">
+      <a href="">See More</a>
+    </div>
+
+    <!-- end -->
+
+    <script src="./scripts/landing-page.js"></script>
+    <section class="section-4">
+      <div class="title-section-4"></div>
+      <div></div>
+    </section>
+    <footer class="footer-container">
+      <div class="footer-container-up">
+        <div class="product">
+          <h3>Product</h3>
+          <p>Rent Books</p>
+          <p>Articles</p>
+          <p>Online Library</p>
+        </div>
+        <div class="information">
+          <h3>Information</h3>
+          <a href="index.html">About Us</a>
+          <a href="books.html">Books</a>
+          <a href="articles.html">Articles</a>
+        </div>
+        <div class="company">
+          <h3>Company</h3>
+          <p>BookVerse</p>
+        </div>
+        <div class="subscribe">
+          <div class="subscribe-input">
+            <input
+              class="subscribe-input-box"
+              type="text"
+              placeholder=" Email Address"
+            />
+            <img src="./assets/Lucide Icon-Arrow Right.png" alt="" />
+          </div>
+          <p>
+            Subscribe to BookVerse and stay in the know! Rest assured, your
+            inbox will remain spam-free.
+          </p>
+        </div>
+      </div>
+      <div class="footer-container-bottom">
+        <div class="logo-footer">
+          <img src="./assets/logo-footer.png" alt="Logo Footer" />
+        </div>
+        <div class="terms-privacy-cookies">
+          <p>Terms</p>
+          <p>Privacy</p>
+          <p>Cookies</p>
+        </div>
+        <div class="social-media">
+          <img
+            src="./assets/linkedin-footer.png"
+            alt="Linkedin"
+            onclick="window.location.href='https:/www.linkedin.com/'"
+          />
+          <img
+            src="./assets/facebook-footer.png"
+            alt="Facebook"
+            onclick="window.location.href='https:/www.facebook.com/'"
+          />
+          <img
+            src="./assets/github-footer.png"
+            alt="Github"
+            onclick="window.location.href='https:/www.github.com/'"
+          />
+          <img
+            src="./assets/email-footer.png"
+            alt="Email"
+            onclick="window.location.href='https:/www.email.com/'"
+          />
+          <img
+            src="./assets/instagram-footer.png"
+            alt="Instagram"
+            onclick="window.location.href='https:/www.instagram.com/'"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
