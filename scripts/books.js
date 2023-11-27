@@ -102,8 +102,10 @@ const container = document.getElementById('bookContainer');
 function createBookCard(book) {
   const card = document.createElement('div');
   card.classList.add('book-card');
+  card.onclick = () => {
+    window.location.href = `../book-detail.html`;
+  }
 
-  // Image Container
   const imgContainer = document.createElement('div');
   imgContainer.classList.add('book-img-container');
 
@@ -114,7 +116,6 @@ function createBookCard(book) {
 
   imgContainer.appendChild(img);
 
-  // Details Container
   const detailsContainer = document.createElement('div');
   detailsContainer.classList.add('book-details-container');
 
@@ -134,7 +135,6 @@ function createBookCard(book) {
   detailsContainer.appendChild(writer);
   detailsContainer.appendChild(genre);
 
-  // Footer Container
   const footerContainer = document.createElement('div');
   footerContainer.classList.add('book-footer');
   footerContainer.style.display = 'flex';
@@ -182,12 +182,10 @@ function createBookCard(book) {
   footerContainer.appendChild(ratingContainer);
   footerContainer.appendChild(moreContainer);
 
-  // Append to Card
   card.appendChild(imgContainer);
   card.appendChild(detailsContainer);
   card.appendChild(footerContainer);
 
-  // Append to Container
   container.appendChild(card);
 }
 
